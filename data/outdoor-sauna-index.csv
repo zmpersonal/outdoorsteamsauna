@@ -1,76 +1,76 @@
 rank,city,state,load_score,class,jan_normal_low_f,freeze_months,annual_precip_in,annual_snow_in,electricity_cents_kwh,estimated_9kw_session_cost,climate_source,station
-1,Anchorage,AK,65.0,High planning load,5.9,5,27.7,75.0,24,4.04,Starter geographic estimate,
-2,Boston,MA,23.4,Mild planning load,39.1,0,16.0,24.0,30,4.32,Starter geographic estimate,
-3,Hartford,CT,22.6,Mild planning load,40.0,0,16.0,20.5,30,4.3,Starter geographic estimate,
-4,Providence,RI,21.9,Mild planning load,39.9,0,16.0,21.0,29,4.15,Starter geographic estimate,
-5,Honolulu,HI,21.7,Mild planning load,70.0,0,11.8,0,42,5.86,Starter geographic estimate,
-6,Portland,ME,21.2,Mild planning load,37.1,0,16.0,31.0,25,3.63,Starter geographic estimate,
-7,Fargo,ND,20.9,Mild planning load,29.1,1,16.0,49.0,12,1.81,Starter geographic estimate,
-8,Manchester,NH,20.3,Mild planning load,38.1,0,16.0,27.5,25,3.61,Starter geographic estimate,
-9,Burlington,VT,19.9,Mild planning load,35.8,0,16.0,35.5,22,3.22,Starter geographic estimate,
-10,Sacramento,CA,19.5,Mild planning load,49.0,0,18.6,2.0,31,4.32,Starter geographic estimate,
-11,San Francisco,CA,19.4,Mild planning load,50.2,0,18.4,0,31,4.32,Starter geographic estimate,
-12,Buffalo,NY,19.3,Mild planning load,38.3,0,16.0,27.0,24,3.47,Starter geographic estimate,
-13,Los Angeles,CA,19.2,Mild planning load,56.0,0,16.8,0,31,4.32,Starter geographic estimate,
-14,San Diego,CA,19.1,Mild planning load,58.0,0,16.3,0,31,4.32,Starter geographic estimate,
-15,Minneapolis,MN,18.4,Mild planning load,32.0,0,16.0,38.5,16,2.39,Starter geographic estimate,
-16,New York,NY,16.4,Mild planning load,41.6,0,16.0,15.0,24,3.41,Starter geographic estimate,
-17,Seattle,WA,15.8,Mild planning load,35.0,0,38.0,31.5,12,1.76,Starter geographic estimate,
-18,Grand Rapids,MI,15.4,Mild planning load,38.2,0,16.0,27.5,19,2.75,Starter geographic estimate,
-19,Billings,MT,14.8,Mild planning load,33.8,0,18.6,43.0,13,1.92,Starter geographic estimate,
-20,Madison,WI,14.8,Mild planning load,38.0,0,16.0,28.0,18,2.6,Starter geographic estimate,
-21,Milwaukee,WI,14.8,Mild planning load,38.0,0,16.0,27.5,18,2.6,Starter geographic estimate,
-22,Detroit,MI,14.6,Mild planning load,39.1,0,16.0,24.0,19,2.73,Starter geographic estimate,
-23,Portland,OR,14.6,Mild planning load,38.2,0,38.0,25.0,14,2.02,Starter geographic estimate,
-24,Sioux Falls,SD,14.1,Mild planning load,34.2,0,16.0,30.5,13,1.92,Starter geographic estimate,
-25,Spokane,WA,13.6,Mild planning load,34.9,0,22.3,32.0,12,1.76,Starter geographic estimate,
-26,Newark,NJ,13.2,Mild planning load,41.6,0,16.0,15.0,20,2.84,Starter geographic estimate,
-27,Chicago,IL,12.4,Mild planning load,39.8,0,16.0,21.5,17,2.44,Starter geographic estimate,
-28,Pittsburgh,PA,12.0,Mild planning load,42.1,0,16.0,13.5,19,2.69,Starter geographic estimate,
-29,Des Moines,IA,11.4,Mild planning load,37.3,0,16.0,19.5,13,1.89,Starter geographic estimate,
-30,Philadelphia,PA,11.4,Mild planning load,42.8,0,16.0,10.5,19,2.68,Starter geographic estimate,
-31,Cleveland,OH,11.1,Mild planning load,40.4,0,16.0,19.5,16,2.29,Starter geographic estimate,
-32,Omaha,NE,10.2,Mild planning load,37.8,0,16.0,18.0,12,1.74,Starter geographic estimate,
-33,Cheyenne,WY,10.0,Mild planning load,38.0,0,16.0,17.5,12,1.74,Starter geographic estimate,
-34,Wilmington,DE,9.5,Mild planning load,43.2,0,16.0,9.5,17,2.39,Starter geographic estimate,
-35,Columbus,OH,9.0,Mild planning load,42.8,0,16.0,11.0,16,2.26,Starter geographic estimate,
-36,Baltimore,MD,8.8,Mild planning load,43.9,0,16.0,7.0,17,2.39,Starter geographic estimate,
-37,Washington,DC,8.4,Mild planning load,44.4,0,16.0,5.0,17,2.38,Starter geographic estimate,
-38,Boise,ID,8.0,Mild planning load,41.1,0,20.6,18.5,12,1.71,Starter geographic estimate,
-39,Denver,CO,7.9,Mild planning load,43.2,0,16.0,9.5,15,2.11,Starter geographic estimate,
-40,Indianapolis,IN,7.9,Mild planning load,43.1,0,16.0,9.5,15,2.11,Starter geographic estimate,
-41,Salt Lake City,UT,7.4,Mild planning load,41.6,0,19.6,9.0,12,1.7,Starter geographic estimate,
-42,Miami,FL,7.2,Mild planning load,64.8,0,22.4,0,15,2.09,Starter geographic estimate,
-43,Tampa,FL,7.0,Mild planning load,61.4,0,20.9,0,15,2.09,Starter geographic estimate,
-44,Orlando,FL,6.9,Mild planning load,60.5,0,20.5,0,15,2.09,Starter geographic estimate,
-45,Jacksonville,FL,6.8,Mild planning load,57.7,0,19.3,0,15,2.09,Starter geographic estimate,
-46,Austin,TX,6.8,Mild planning load,57.8,0,19.3,0,15,2.09,Starter geographic estimate,
-47,Houston,TX,6.8,Mild planning load,58.6,0,19.7,0,15,2.09,Starter geographic estimate,
-48,San Antonio,TX,6.8,Mild planning load,59.1,0,19.9,0,15,2.09,Starter geographic estimate,
-49,El Paso,TX,6.8,Mild planning load,55.5,0,19.4,0,15,2.09,Starter geographic estimate,
-50,Reno,NV,6.7,Mild planning load,47.5,0,19.0,5.0,15,2.09,Starter geographic estimate,
-51,Colorado Springs,CO,6.6,Mild planning load,44.6,0,16.0,4.5,15,2.1,Starter geographic estimate,
-52,Albuquerque,NM,6.5,Mild planning load,50.4,0,17.3,0,15,2.09,Starter geographic estimate,
-53,Las Vegas,NV,6.5,Mild planning load,52.7,0,17.6,0,15,2.09,Starter geographic estimate,
-54,Charleston,SC,6.5,Mild planning load,53.9,0,17.5,0,15,2.09,Starter geographic estimate,
-55,Dallas,TX,6.5,Mild planning load,53.9,0,17.5,0,15,2.09,Starter geographic estimate,
-56,Birmingham,AL,6.4,Mild planning load,52.8,0,17.0,0,15,2.09,Starter geographic estimate,
-57,Phoenix,AZ,6.4,Mild planning load,52.9,0,16.6,0,15,2.09,Starter geographic estimate,
-58,Tucson,AZ,6.3,Mild planning load,54.8,0,16.1,0,15,2.09,Starter geographic estimate,
-59,Richmond,VA,6.3,Mild planning load,46.6,0,16.0,0,15,2.09,Starter geographic estimate,
-60,Virginia Beach,VA,6.3,Mild planning load,47.6,0,16.0,0,15,2.09,Starter geographic estimate,
-61,Charleston,WV,6.3,Mild planning load,45.3,0,16.0,2.0,15,2.09,Starter geographic estimate,
-62,Jackson,MS,5.8,Mild planning load,54.7,0,17.9,0,14,1.95,Starter geographic estimate,
-63,Atlanta,GA,5.6,Mild planning load,52.4,0,16.9,0,14,1.95,Starter geographic estimate,
-64,Wichita,KS,5.5,Mild planning load,46.3,0,16.0,0,14,1.95,Starter geographic estimate,
-65,Kansas City,MO,5.5,Mild planning load,44.1,0,16.0,6.0,13,1.82,Starter geographic estimate,
-66,Charlotte,NC,5.5,Mild planning load,50.1,0,16.0,0,14,1.95,Starter geographic estimate,
-67,Raleigh,NC,5.5,Mild planning load,49.3,0,16.0,0,14,1.95,Starter geographic estimate,
-68,St. Louis,MO,4.8,Mild planning load,44.9,0,16.0,3.5,13,1.81,Starter geographic estimate,
-69,Little Rock,AR,4.7,Mild planning load,50.9,0,16.2,0,13,1.81,Starter geographic estimate,
-70,Louisville,KY,4.7,Mild planning load,45.5,0,16.0,1.5,13,1.81,Starter geographic estimate,
-71,Oklahoma City,OK,4.7,Mild planning load,49.8,0,16.0,0,13,1.81,Starter geographic estimate,
-72,Tulsa,OK,4.7,Mild planning load,48.7,0,16.0,0,13,1.81,Starter geographic estimate,
-73,Nashville,TN,4.7,Mild planning load,48.7,0,16.0,0,13,1.81,Starter geographic estimate,
-74,Memphis,TN,4.7,Mild planning load,50.3,0,16.0,0,13,1.81,Starter geographic estimate,
-75,New Orleans,LA,4.4,Mild planning load,58.3,0,19.6,0,12,1.67,Starter geographic estimate,
+1,Anchorage,AK,70.7,High planning load,8.2,7,14.2,0,28.23,4.7,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00026409 — ANCHORAGE MERRILL FLD (1.4 mi from city reference point)
+2,Fargo,ND,64.3,High planning load,0.2,6,23.9,51.4,13.61,2.35,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014914 — FARGO HECTOR INTL AP (3.2 mi from city reference point)
+3,Manchester,NH,63.6,High planning load,13.0,5,42.5,52.8,27.33,4.46,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00275211 — MASSABESIC LAKE (3.4 mi from city reference point)
+4,Portland,ME,63.2,High planning load,15.6,5,48.1,68.7,28.63,4.61,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014764 — PORTLAND JETPORT (2.5 mi from city reference point)
+5,Madison,WI,58.8,High planning load,11.1,5,40.2,0,19.74,3.25,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00470273 — UW ARBORETUM - MADISON (2.5 mi from city reference point)
+6,Minneapolis,MN,58.4,High planning load,8.1,5,34.4,0,16.95,2.83,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00214884 — LOWER ST ANTHONY FALLS (1.1 mi from city reference point)
+7,Burlington,VT,57.9,High planning load,12.9,4,37.5,87.5,24.89,4.06,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014742 — BURLINGTON INTL AP (3.1 mi from city reference point)
+8,Sioux Falls,SD,57.2,High planning load,7.4,5,28.3,0,15.73,2.63,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00397666 — SIOUX FALLS WFO AP (2.6 mi from city reference point)
+9,Buffalo,NY,57.0,High planning load,19.0,4,40.7,95.4,29.93,4.75,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014733 — BUFFALO (7.9 mi from city reference point)
+10,Grand Rapids,MI,55.4,High planning load,17.0,5,39.6,74.9,22.01,3.52,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00202375 — E GRAND RAPIDS (3.3 mi from city reference point)
+11,Providence,RI,54.9,Moderate planning load,22.1,4,47.5,36.6,29.46,4.61,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014765 — PROVIDENCE (6.8 mi from city reference point)
+12,Hartford,CT,54.1,Moderate planning load,20.3,4,42.8,0,27.37,4.32,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014752 — HARTFORD BRAINARD FLD (2.0 mi from city reference point)
+13,Boston,MA,53.0,Moderate planning load,23.1,4,43.6,49.2,28.82,4.49,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014739 — BOSTON (2.6 mi from city reference point)
+14,Des Moines,IA,51.5,Moderate planning load,13.8,5,36.5,36.5,14.14,2.3,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014933 — DES MOINES INTL AP (4.2 mi from city reference point)
+15,Chicago,IL,50.9,Moderate planning load,19.4,4,34.4,0,23.85,3.78,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014819 — CHICAGO MIDWAY AP (9.2 mi from city reference point)
+16,Milwaukee,WI,49.6,Moderate planning load,17.2,4,34.6,48.7,19.74,3.16,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014839 — MILWAUKEE MITCHELL AP (5.9 mi from city reference point)
+17,Omaha,NE,49.1,Moderate planning load,15.2,5,31.9,27.1,13.59,2.19,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014942 — OMAHA EPPLEY AIRFIELD (4.1 mi from city reference point)
+18,Pittsburgh,PA,48.7,Moderate planning load,20.5,4,38.3,0,21.55,3.4,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00362574 — EMSWORTH L/D OHIO RVR (6.8 mi from city reference point)
+19,Billings,MT,48.4,Moderate planning load,14.4,5,15.4,35.0,14.67,2.38,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00240802 — BILLINGS WTP (1.1 mi from city reference point)
+20,Detroit,MI,48.4,Moderate planning load,19.8,4,29.9,0,22.01,3.48,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00014822 — DETROIT CITY AP (5.7 mi from city reference point)
+21,Indianapolis,IN,48.2,Moderate planning load,18.9,4,44.6,0,18.15,2.88,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00124272 — INDIANAPOLIS SE SIDE (6.1 mi from city reference point)
+22,Cheyenne,WY,48.1,Moderate planning load,18.4,6,15.4,62.9,14.8,2.35,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00024018 — CHEYENNE (1.1 mi from city reference point)
+23,Columbus,OH,47.6,Moderate planning load,20.9,4,44.7,0,19.52,3.07,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00331785 — COLUMBUS WCMH (4.7 mi from city reference point)
+24,Colorado Springs,CO,46.0,Moderate planning load,18.5,5,15.9,32.5,16.16,2.57,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00093037 — COLORADO SPRINGS MUNI AP (7.2 mi from city reference point)
+25,Newark,NJ,44.8,Moderate planning load,24.9,3,50.4,28.2,23.27,3.59,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00283704 — HARRISON (1.1 mi from city reference point)
+26,New York,NY,44.2,Moderate planning load,27.9,2,49.5,29.8,29.93,4.55,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00094728 — NY CITY CNTRL PARK (5.2 mi from city reference point)
+27,Cleveland,OH,43.7,Moderate planning load,23.5,4,33.3,0,19.52,3.03,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00004853 — CLEVELAND BURKE LAKEFRONT AP (2.1 mi from city reference point)
+28,Denver,CO,43.6,Moderate planning load,21.3,5,15.8,40.7,16.16,2.54,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00052223 — DENVER WATER DEPT (1.2 mi from city reference point)
+29,Washington,DC,43.3,Moderate planning load,27.8,3,45.6,9.7,25.4,3.87,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00186350 — NATL ARBORETUM DC (3.8 mi from city reference point)
+30,Wilmington,DE,42.6,Moderate planning load,23.8,3,50.3,12.0,19.38,3.01,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00079605 — WILMINGTON PORTER RSCH (2.4 mi from city reference point)
+31,Spokane,WA,39.7,Moderate planning load,24.7,5,16.4,45.4,14.95,2.31,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00024157 — SPOKANE INTL AP (5.3 mi from city reference point)
+32,Wichita,KS,38.3,Moderate planning load,22.2,3,34.4,0,15.13,2.36,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00148847 — WICHITA WX (6.1 mi from city reference point)
+33,Charleston,WV,38.0,Moderate planning load,26.1,3,46.2,31.5,16.8,2.58,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013866 — CHARLESTON - YEAGER AP (2.9 mi from city reference point)
+34,Philadelphia,PA,37.8,Moderate planning load,27.8,2,50.7,16.1,21.55,3.28,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00366886 — PHILA FRANKLIN INST (0.6 mi from city reference point)
+35,Kansas City,MO,37.7,Moderate planning load,22.2,3,38.1,11.0,13.68,2.14,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013988 — KANSAS CITY DWTN AP (2.0 mi from city reference point)
+36,Louisville,KY,36.9,Moderate planning load,25.9,3,48.0,4.3,14.98,2.3,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00154955 — LOUISVILLE MCALPINE (2.6 mi from city reference point)
+37,St. Louis,MO,36.4,Moderate planning load,24.6,3,43.9,0,13.68,2.11,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00237452 — ST LOUIS SCI CTR (3.8 mi from city reference point)
+38,Nashville,TN,35.9,Moderate planning load,27.5,3,53.2,0,14.47,2.21,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00408238 — SHELBY BOTTOMS NATURE CTR (3.1 mi from city reference point)
+39,Baltimore,MD,35.0,Moderate planning load,30.0,2,43.7,0,21.77,3.28,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00093784 — MARYLAND SCI CTR (0.6 mi from city reference point)
+40,Boise,ID,33.1,Mild planning load,25.5,4,11.5,17.6,12.35,1.9,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00024131 — BOISE AIR TERMINAL (4.2 mi from city reference point)
+41,Reno,NV,33.0,Mild planning load,26.1,4,7.4,20.9,13.6,2.09,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023185 — RENO AP (2.7 mi from city reference point)
+42,Richmond,VA,33.0,Mild planning load,28.8,2,45.5,8.8,17.61,2.67,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013740 — RICHMOND INTL AP (6.7 mi from city reference point)
+43,Oklahoma City,OK,33.0,Mild planning load,27.0,3,36.4,6.7,13.38,2.04,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013967 — OKLAHOMA CY WILL ROGERS WORLD (7.2 mi from city reference point)
+44,Tulsa,OK,32.8,Mild planning load,28.0,3,41.0,8.7,13.38,2.03,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013968 — TULSA INTL AP (7.1 mi from city reference point)
+45,Albuquerque,NM,30.2,Mild planning load,26.4,3,8.8,7.9,14.12,2.16,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023050 — ALBUQUERQUE INTL AP (3.3 mi from city reference point)
+46,Salt Lake City,UT,29.5,Mild planning load,27.6,3,17.7,49.0,12.96,1.97,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00427606 — SALT LAKE TRIAD CTR (0.8 mi from city reference point)
+47,Virginia Beach,VA,27.6,Mild planning load,31.6,1,46.6,3.4,17.61,2.63,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013769 — OCEANA NAS (3.7 mi from city reference point)
+48,Little Rock,AR,26.1,Mild planning load,30.9,1,50.4,3.8,14.36,2.15,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013963 — LITTLE ROCK AP ADAMS FLD (3.5 mi from city reference point)
+49,Raleigh,NC,26.0,Mild planning load,31.6,1,49.4,4.5,15.09,2.25,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00317079 — RALEIGH STATE UNIV (3.4 mi from city reference point)
+50,Charlotte,NC,25.0,Mild planning load,31.8,1,43.6,3.5,15.09,2.25,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013881 — CHARLOTTE DOUGLAS AP (6.5 mi from city reference point)
+51,Sacramento,CA,24.7,Mild planning load,41.1,0,19.2,0,33.25,4.73,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023271 — SACRAMENTO 5 ESE (4.2 mi from city reference point)
+52,Honolulu,HI,22.9,Mild planning load,66.0,0,20.6,0,52.0,7.25,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00519397 — WAIKIKI 717.2 (3.8 mi from city reference point)
+53,Birmingham,AL,22.3,Mild planning load,34.9,0,56.6,1.4,16.77,2.46,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013876 — BIRMINGHAM AP (4.5 mi from city reference point)
+54,San Francisco,CA,21.9,Mild planning load,46.6,0,22.9,0,33.25,4.64,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023272 — SAN FRANCISCO DWTN (0.4 mi from city reference point)
+55,Atlanta,GA,21.6,Mild planning load,33.5,0,48.1,0,15.84,2.34,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00003888 — ATLANTA FULTON CO AP (8.0 mi from city reference point)
+56,Memphis,TN,21.6,Mild planning load,33.3,0,54.9,2.7,14.47,2.14,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013893 — MEMPHIS INTL AP (7.4 mi from city reference point)
+57,Los Angeles,CA,20.6,Mild planning load,48.9,0,14.2,0,33.25,4.64,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00093134 — LOS ANGELES DOWNTOWN/USC (3.4 mi from city reference point)
+58,San Diego,CA,20.0,Mild planning load,50.3,0,9.8,0,33.25,4.64,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023188 — SAN DIEGO INTL AP (1.6 mi from city reference point)
+59,Jackson,MS,18.8,Mild planning load,37.5,0,51.3,0,16.16,2.34,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013927 — JACKSON HAWKINS FLD (3.5 mi from city reference point)
+60,Portland,OR,18.0,Mild planning load,37.3,0,44.1,3.6,16.27,2.36,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00356749 — PORTLAND KGW-TV (0.5 mi from city reference point)
+61,Dallas,TX,16.8,Mild planning load,37.9,0,38.3,1.7,16.44,2.38,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013960 — DALLAS FAA AP (4.5 mi from city reference point)
+62,Seattle,WA,16.3,Mild planning load,36.8,0,36.5,0,14.95,2.18,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00024234 — SEATTLE BOEING FLD (4.5 mi from city reference point)
+63,El Paso,TX,15.6,Mild planning load,34.5,0,8.8,2.8,16.44,2.42,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023044 — EL PASO INTL AP (7.5 mi from city reference point)
+64,San Antonio,TX,14.2,Mild planning load,40.2,0,34.0,0.1,16.44,2.35,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00417947 — SAN ANTONIO INCARNATE WORD (3.6 mi from city reference point)
+65,Houston,TX,13.5,Mild planning load,44.3,0,54.1,0,16.44,2.3,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00414326 — HOUSTON-PORT (5.5 mi from city reference point)
+66,Austin,TX,13.1,Mild planning load,41.8,0,36.2,0.2,16.44,2.33,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013958 — AUSTIN-CAMP MABRY (3.7 mi from city reference point)
+67,New Orleans,LA,12.7,Mild planning load,45.0,0,65.9,0,14.15,1.97,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00168941 — TERRYTOWN 3S (3.5 mi from city reference point)
+68,Charleston,SC,12.5,Mild planning load,43.6,0,44.3,0,16.18,2.27,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00013782 — DWTN CHARLESTON (0.5 mi from city reference point)
+69,Miami,FL,12.3,Mild planning load,61.2,0,57.2,0,15.17,2.12,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00092811 — MIAMI BEACH (4.8 mi from city reference point)
+70,Orlando,FL,11.5,Mild planning load,51.8,0,51.5,0,15.17,2.12,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00012841 — ORLANDO EXECUTIVE AP (2.7 mi from city reference point)
+71,Tampa,FL,11.2,Mild planning load,52.8,0,49.5,0,15.17,2.12,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00012842 — TAMPA INTL AP (5.0 mi from city reference point)
+72,Jacksonville,FL,10.9,Mild planning load,47.2,0,47.6,0,15.17,2.12,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00093837 — JACKSONVILLE NAS (6.7 mi from city reference point)
+73,Las Vegas,NV,8.3,Mild planning load,39.4,0,4.0,0,13.6,1.95,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00053123 — LAS VEGAS AIR TERMINAL (4.2 mi from city reference point)
+74,Tucson,AZ,8.2,Mild planning load,42.3,0,11.6,0,15.23,2.15,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USC00028815 — TUCSON WFO (1.2 mi from city reference point)
+75,Phoenix,AZ,5.2,Mild planning load,46.0,0,7.2,0,15.23,2.12,NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 (direct by-station archive),USW00023183 — PHOENIX AP (4.1 mi from city reference point)
