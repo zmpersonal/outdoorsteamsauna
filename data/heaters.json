@@ -1,0 +1,26 @@
+[
+  {
+    "brand": "Harvia",
+    "model": "Cilindro PC70",
+    "kw": 6.8,
+    "min_ft3": 212,
+    "max_ft3": 353,
+    "source": "https://www.harvia.com/en/products/HPC700400/cilindro-pc70-68-kw-steel"
+  },
+  {
+    "brand": "Harvia",
+    "model": "Cilindro PC90",
+    "kw": 9.0,
+    "min_ft3": 283,
+    "max_ft3": 494,
+    "source": "https://www.harvia.com/en-US/products/HPC900400/cilindro-pc90-90-kw-steel"
+  },
+  {
+    "brand": "Harvia",
+    "model": "Cilindro PC110EE",
+    "kw": 11.0,
+    "min_ft3": 318,
+    "max_ft3": 636,
+    "source": "https://www.harvia.com/en/products/HPC1104EE/cilindro-pc110ee-108-kw-steel"
+  }
+]
