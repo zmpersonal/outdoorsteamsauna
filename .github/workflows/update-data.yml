@@ -1,0 +1,56 @@
+name: Update outdoor sauna climate index and deploy
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 10 * * 1'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: outdoor-sauna-data
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Verify EIA secret
+        run: test -n "$EIA_API_KEY" || (echo "::error::Missing repository secret EIA_API_KEY" && exit 1)
+      - name: Refresh NOAA climate and EIA electricity data
+        run: python scripts/update_data.py
+      - name: Show refresh status
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open('data/cities.json'))
+          print(json.dumps(x['meta'],indent=2))
+          print('Top city:', x['cities'][0]['city'], x['cities'][0]['metrics'])
+          PY
+      - name: Commit refreshed data and generated pages
+        run: |
+          git config user.name "outdoor-sauna-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet || git commit -m "Refresh outdoor sauna climate index"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: '.'
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
