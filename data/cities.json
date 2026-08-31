@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-24",
+    "generated": "2026-08-31",
     "live_noaa_cities": 75,
     "live_eia_states": 52,
     "starter": false,
@@ -121,18 +121,18 @@
         "annual_prcp_in": 14.2,
         "annual_snow_in": 0,
         "freeze_months": 7,
-        "rate_cents": 28.23,
+        "rate_cents": 28.21,
         "session_cost_9kw": 4.7,
         "annual_cost_3x_week": 733
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00026409 \u2014 ANCHORAGE MERRILL FLD (1.4 mi from city reference point)",
       "recent": {
-        "avg_f": 59.7,
-        "delta_f": 1.2,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 59.0,
+        "delta_f": 0.5,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 1
     },
@@ -242,153 +242,26 @@
         }
       ],
       "metrics": {
-        "score": 64.3,
+        "score": 64.7,
         "label": "High planning load",
         "jan_tmin_f": 0.2,
         "annual_prcp_in": 23.9,
         "annual_snow_in": 51.4,
         "freeze_months": 6,
-        "rate_cents": 13.61,
-        "session_cost_9kw": 2.35,
-        "annual_cost_3x_week": 367
+        "rate_cents": 14.12,
+        "session_cost_9kw": 2.44,
+        "annual_cost_3x_week": 381
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014914 \u2014 FARGO HECTOR INTL AP (3.2 mi from city reference point)",
       "recent": {
-        "avg_f": 72.8,
-        "delta_f": 4.0,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 71.6,
+        "delta_f": 2.8,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 2
-    },
-    {
-      "city": "Manchester",
-      "state": "NH",
-      "state_name": "New Hampshire",
-      "lat": 42.99,
-      "lon": -71.46,
-      "slug": "manchester-nh",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 13.0,
-          "tmax_f": 31.7,
-          "tavg_f": 22.3,
-          "prcp_in": 2.67,
-          "snow_in": 15.9
-        },
-        {
-          "month": 2,
-          "tmin_f": 15.0,
-          "tmax_f": 34.8,
-          "tavg_f": 24.9,
-          "prcp_in": 2.7,
-          "snow_in": 17.6
-        },
-        {
-          "month": 3,
-          "tmin_f": 23.6,
-          "tmax_f": 42.9,
-          "tavg_f": 33.2,
-          "prcp_in": 3.19,
-          "snow_in": 6.7
-        },
-        {
-          "month": 4,
-          "tmin_f": 34.9,
-          "tmax_f": 56.1,
-          "tavg_f": 45.5,
-          "prcp_in": 3.49,
-          "snow_in": 0.9
-        },
-        {
-          "month": 5,
-          "tmin_f": 45.9,
-          "tmax_f": 67.1,
-          "tavg_f": 56.5,
-          "prcp_in": 3.37,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 55.6,
-          "tmax_f": 76.0,
-          "tavg_f": 65.8,
-          "prcp_in": 4.27,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 60.9,
-          "tmax_f": 81.1,
-          "tavg_f": 71.0,
-          "prcp_in": 3.65,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 59.1,
-          "tmax_f": 79.8,
-          "tavg_f": 69.4,
-          "prcp_in": 3.68,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 51.7,
-          "tmax_f": 72.9,
-          "tavg_f": 62.3,
-          "prcp_in": 3.87,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 39.5,
-          "tmax_f": 59.7,
-          "tavg_f": 49.6,
-          "prcp_in": 4.36,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 30.4,
-          "tmax_f": 48.3,
-          "tavg_f": 39.4,
-          "prcp_in": 3.49,
-          "snow_in": 1.1
-        },
-        {
-          "month": 12,
-          "tmin_f": 20.8,
-          "tmax_f": 37.5,
-          "tavg_f": 29.1,
-          "prcp_in": 3.77,
-          "snow_in": 10.6
-        }
-      ],
-      "metrics": {
-        "score": 63.6,
-        "label": "High planning load",
-        "jan_tmin_f": 13.0,
-        "annual_prcp_in": 42.5,
-        "annual_snow_in": 52.8,
-        "freeze_months": 5,
-        "rate_cents": 27.33,
-        "session_cost_9kw": 4.46,
-        "annual_cost_3x_week": 696
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00275211 \u2014 MASSABESIC LAKE (3.4 mi from city reference point)",
-      "recent": {
-        "avg_f": 71.4,
-        "delta_f": 2.0,
-        "days": 32,
-        "through": "2026-08-22"
-      },
-      "rank": 3
     },
     {
       "city": "Portland",
@@ -496,153 +369,153 @@
         }
       ],
       "metrics": {
-        "score": 63.2,
+        "score": 63.9,
         "label": "High planning load",
         "jan_tmin_f": 15.6,
         "annual_prcp_in": 48.1,
         "annual_snow_in": 68.7,
         "freeze_months": 5,
-        "rate_cents": 28.63,
-        "session_cost_9kw": 4.61,
-        "annual_cost_3x_week": 719
+        "rate_cents": 29.59,
+        "session_cost_9kw": 4.77,
+        "annual_cost_3x_week": 744
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014764 \u2014 PORTLAND JETPORT (2.5 mi from city reference point)",
       "recent": {
-        "avg_f": 70.0,
-        "delta_f": 0.8,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 70.6,
+        "delta_f": 1.4,
+        "days": 32,
+        "through": "2026-08-29"
       },
-      "rank": 4
+      "rank": 3
     },
     {
-      "city": "Madison",
-      "state": "WI",
-      "state_name": "Wisconsin",
-      "lat": 43.07,
-      "lon": -89.4,
-      "slug": "madison-wi",
+      "city": "Manchester",
+      "state": "NH",
+      "state_name": "New Hampshire",
+      "lat": 42.99,
+      "lon": -71.46,
+      "slug": "manchester-nh",
       "monthly": [
         {
           "month": 1,
-          "tmin_f": 11.1,
-          "tmax_f": 27.7,
-          "tavg_f": 19.4,
-          "prcp_in": 1.67,
-          "snow_in": 0.0
+          "tmin_f": 13.0,
+          "tmax_f": 31.7,
+          "tavg_f": 22.3,
+          "prcp_in": 2.67,
+          "snow_in": 15.9
         },
         {
           "month": 2,
-          "tmin_f": 14.0,
-          "tmax_f": 31.5,
-          "tavg_f": 22.8,
-          "prcp_in": 1.71,
-          "snow_in": 0.0
+          "tmin_f": 15.0,
+          "tmax_f": 34.8,
+          "tavg_f": 24.9,
+          "prcp_in": 2.7,
+          "snow_in": 17.6
         },
         {
           "month": 3,
-          "tmin_f": 24.7,
-          "tmax_f": 44.0,
-          "tavg_f": 34.4,
-          "prcp_in": 2.34,
-          "snow_in": 0.0
+          "tmin_f": 23.6,
+          "tmax_f": 42.9,
+          "tavg_f": 33.2,
+          "prcp_in": 3.19,
+          "snow_in": 6.7
         },
         {
           "month": 4,
-          "tmin_f": 35.7,
-          "tmax_f": 57.4,
-          "tavg_f": 46.5,
-          "prcp_in": 4.22,
-          "snow_in": 0.0
+          "tmin_f": 34.9,
+          "tmax_f": 56.1,
+          "tavg_f": 45.5,
+          "prcp_in": 3.49,
+          "snow_in": 0.9
         },
         {
           "month": 5,
-          "tmin_f": 47.4,
-          "tmax_f": 69.2,
-          "tavg_f": 58.3,
-          "prcp_in": 4.55,
+          "tmin_f": 45.9,
+          "tmax_f": 67.1,
+          "tavg_f": 56.5,
+          "prcp_in": 3.37,
           "snow_in": 0.0
         },
         {
           "month": 6,
-          "tmin_f": 57.1,
-          "tmax_f": 78.4,
-          "tavg_f": 67.7,
-          "prcp_in": 5.74,
+          "tmin_f": 55.6,
+          "tmax_f": 76.0,
+          "tavg_f": 65.8,
+          "prcp_in": 4.27,
           "snow_in": 0.0
         },
         {
           "month": 7,
-          "tmin_f": 61.4,
-          "tmax_f": 82.2,
-          "tavg_f": 71.8,
-          "prcp_in": 4.7,
+          "tmin_f": 60.9,
+          "tmax_f": 81.1,
+          "tavg_f": 71.0,
+          "prcp_in": 3.65,
           "snow_in": 0.0
         },
         {
           "month": 8,
-          "tmin_f": 59.4,
-          "tmax_f": 80.6,
-          "tavg_f": 70.0,
-          "prcp_in": 4.08,
+          "tmin_f": 59.1,
+          "tmax_f": 79.8,
+          "tavg_f": 69.4,
+          "prcp_in": 3.68,
           "snow_in": 0.0
         },
         {
           "month": 9,
-          "tmin_f": 50.7,
-          "tmax_f": 73.9,
+          "tmin_f": 51.7,
+          "tmax_f": 72.9,
           "tavg_f": 62.3,
-          "prcp_in": 3.92,
+          "prcp_in": 3.87,
           "snow_in": 0.0
         },
         {
           "month": 10,
-          "tmin_f": 39.4,
-          "tmax_f": 61.1,
-          "tavg_f": 50.2,
-          "prcp_in": 2.99,
+          "tmin_f": 39.5,
+          "tmax_f": 59.7,
+          "tavg_f": 49.6,
+          "prcp_in": 4.36,
           "snow_in": 0.0
         },
         {
           "month": 11,
-          "tmin_f": 28.5,
-          "tmax_f": 46.1,
-          "tavg_f": 37.3,
-          "prcp_in": 2.34,
-          "snow_in": 0.0
+          "tmin_f": 30.4,
+          "tmax_f": 48.3,
+          "tavg_f": 39.4,
+          "prcp_in": 3.49,
+          "snow_in": 1.1
         },
         {
           "month": 12,
-          "tmin_f": 17.8,
-          "tmax_f": 33.0,
-          "tavg_f": 25.4,
-          "prcp_in": 1.92,
-          "snow_in": 0.0
+          "tmin_f": 20.8,
+          "tmax_f": 37.5,
+          "tavg_f": 29.1,
+          "prcp_in": 3.77,
+          "snow_in": 10.6
         }
       ],
       "metrics": {
-        "score": 58.8,
+        "score": 63.3,
         "label": "High planning load",
-        "jan_tmin_f": 11.1,
-        "annual_prcp_in": 40.2,
-        "annual_snow_in": 0,
+        "jan_tmin_f": 13.0,
+        "annual_prcp_in": 42.5,
+        "annual_snow_in": 52.8,
         "freeze_months": 5,
-        "rate_cents": 19.74,
-        "session_cost_9kw": 3.25,
-        "annual_cost_3x_week": 507
+        "rate_cents": 27.01,
+        "session_cost_9kw": 4.4,
+        "annual_cost_3x_week": 686
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00470273 \u2014 UW ARBORETUM - MADISON (2.5 mi from city reference point)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00275211 \u2014 MASSABESIC LAKE (3.4 mi from city reference point)",
       "recent": {
-        "avg_f": 70.7,
-        "delta_f": 0.7,
-        "days": 28,
-        "through": "2026-08-22"
+        "avg_f": 71.3,
+        "delta_f": 1.9,
+        "days": 33,
+        "through": "2026-08-29"
       },
-      "rank": 5
+      "rank": 4
     },
     {
       "city": "Minneapolis",
@@ -750,24 +623,151 @@
         }
       ],
       "metrics": {
-        "score": 58.4,
+        "score": 58.8,
         "label": "High planning load",
         "jan_tmin_f": 8.1,
         "annual_prcp_in": 34.4,
         "annual_snow_in": 0,
         "freeze_months": 5,
-        "rate_cents": 16.95,
-        "session_cost_9kw": 2.83,
-        "annual_cost_3x_week": 441
+        "rate_cents": 17.52,
+        "session_cost_9kw": 2.92,
+        "annual_cost_3x_week": 456
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00214884 \u2014 LOWER ST ANTHONY FALLS (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 73.9,
-        "delta_f": 2.9,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 73.0,
+        "delta_f": 2.0,
+        "days": 30,
+        "through": "2026-08-29"
+      },
+      "rank": 5
+    },
+    {
+      "city": "Madison",
+      "state": "WI",
+      "state_name": "Wisconsin",
+      "lat": 43.07,
+      "lon": -89.4,
+      "slug": "madison-wi",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 11.1,
+          "tmax_f": 27.7,
+          "tavg_f": 19.4,
+          "prcp_in": 1.67,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 14.0,
+          "tmax_f": 31.5,
+          "tavg_f": 22.8,
+          "prcp_in": 1.71,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 24.7,
+          "tmax_f": 44.0,
+          "tavg_f": 34.4,
+          "prcp_in": 2.34,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 35.7,
+          "tmax_f": 57.4,
+          "tavg_f": 46.5,
+          "prcp_in": 4.22,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 47.4,
+          "tmax_f": 69.2,
+          "tavg_f": 58.3,
+          "prcp_in": 4.55,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 57.1,
+          "tmax_f": 78.4,
+          "tavg_f": 67.7,
+          "prcp_in": 5.74,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 61.4,
+          "tmax_f": 82.2,
+          "tavg_f": 71.8,
+          "prcp_in": 4.7,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 59.4,
+          "tmax_f": 80.6,
+          "tavg_f": 70.0,
+          "prcp_in": 4.08,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 50.7,
+          "tmax_f": 73.9,
+          "tavg_f": 62.3,
+          "prcp_in": 3.92,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 39.4,
+          "tmax_f": 61.1,
+          "tavg_f": 50.2,
+          "prcp_in": 2.99,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 28.5,
+          "tmax_f": 46.1,
+          "tavg_f": 37.3,
+          "prcp_in": 2.34,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 17.8,
+          "tmax_f": 33.0,
+          "tavg_f": 25.4,
+          "prcp_in": 1.92,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 58.7,
+        "label": "High planning load",
+        "jan_tmin_f": 11.1,
+        "annual_prcp_in": 40.2,
+        "annual_snow_in": 0,
+        "freeze_months": 5,
+        "rate_cents": 19.56,
+        "session_cost_9kw": 3.22,
+        "annual_cost_3x_week": 502
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00470273 \u2014 UW ARBORETUM - MADISON (2.5 mi from city reference point)",
+      "recent": {
+        "avg_f": 69.5,
+        "delta_f": -0.5,
+        "days": 28,
+        "through": "2026-08-29"
       },
       "rank": 6
     },
@@ -877,24 +877,24 @@
         }
       ],
       "metrics": {
-        "score": 57.9,
+        "score": 57.5,
         "label": "High planning load",
         "jan_tmin_f": 12.9,
         "annual_prcp_in": 37.5,
         "annual_snow_in": 87.5,
         "freeze_months": 4,
-        "rate_cents": 24.89,
-        "session_cost_9kw": 4.06,
-        "annual_cost_3x_week": 633
+        "rate_cents": 24.44,
+        "session_cost_9kw": 3.99,
+        "annual_cost_3x_week": 622
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014742 \u2014 BURLINGTON INTL AP (3.1 mi from city reference point)",
       "recent": {
-        "avg_f": 71.7,
-        "delta_f": 1.0,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 71.1,
+        "delta_f": 0.4,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 7
     },
@@ -1004,24 +1004,24 @@
         }
       ],
       "metrics": {
-        "score": 57.2,
+        "score": 56.9,
         "label": "High planning load",
         "jan_tmin_f": 7.4,
         "annual_prcp_in": 28.3,
         "annual_snow_in": 0,
         "freeze_months": 5,
-        "rate_cents": 15.73,
-        "session_cost_9kw": 2.63,
-        "annual_cost_3x_week": 410
+        "rate_cents": 15.36,
+        "session_cost_9kw": 2.57,
+        "annual_cost_3x_week": 401
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00397666 \u2014 SIOUX FALLS WFO AP (2.6 mi from city reference point)",
       "recent": {
-        "avg_f": 74.5,
-        "delta_f": 3.0,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 73.4,
+        "delta_f": 1.9,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 8
     },
@@ -1131,24 +1131,24 @@
         }
       ],
       "metrics": {
-        "score": 57.0,
+        "score": 56.7,
         "label": "High planning load",
         "jan_tmin_f": 19.0,
         "annual_prcp_in": 40.7,
         "annual_snow_in": 95.4,
         "freeze_months": 4,
-        "rate_cents": 29.93,
-        "session_cost_9kw": 4.75,
-        "annual_cost_3x_week": 741
+        "rate_cents": 29.49,
+        "session_cost_9kw": 4.68,
+        "annual_cost_3x_week": 730
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014733 \u2014 BUFFALO (7.9 mi from city reference point)",
       "recent": {
-        "avg_f": 71.6,
-        "delta_f": 1.2,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 71.2,
+        "delta_f": 0.8,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 9
     },
@@ -1258,24 +1258,24 @@
         }
       ],
       "metrics": {
-        "score": 55.4,
+        "score": 56.2,
         "label": "High planning load",
         "jan_tmin_f": 17.0,
         "annual_prcp_in": 39.6,
         "annual_snow_in": 74.9,
         "freeze_months": 5,
-        "rate_cents": 22.01,
-        "session_cost_9kw": 3.52,
-        "annual_cost_3x_week": 549
+        "rate_cents": 22.99,
+        "session_cost_9kw": 3.68,
+        "annual_cost_3x_week": 574
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00202375 \u2014 E GRAND RAPIDS (3.3 mi from city reference point)",
       "recent": {
-        "avg_f": 70.5,
-        "delta_f": 1.1,
-        "days": 32,
-        "through": "2026-08-22"
+        "avg_f": 70.1,
+        "delta_f": 0.7,
+        "days": 33,
+        "through": "2026-08-29"
       },
       "rank": 10
     },
@@ -1385,153 +1385,26 @@
         }
       ],
       "metrics": {
-        "score": 54.9,
+        "score": 54.7,
         "label": "Moderate planning load",
         "jan_tmin_f": 22.1,
         "annual_prcp_in": 47.5,
         "annual_snow_in": 36.6,
         "freeze_months": 4,
-        "rate_cents": 29.46,
-        "session_cost_9kw": 4.61,
-        "annual_cost_3x_week": 719
+        "rate_cents": 29.23,
+        "session_cost_9kw": 4.57,
+        "annual_cost_3x_week": 713
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014765 \u2014 PROVIDENCE (6.8 mi from city reference point)",
       "recent": {
         "avg_f": 74.0,
         "delta_f": 1.0,
         "days": 31,
-        "through": "2026-08-22"
+        "through": "2026-08-29"
       },
       "rank": 11
-    },
-    {
-      "city": "Hartford",
-      "state": "CT",
-      "state_name": "Connecticut",
-      "lat": 41.76,
-      "lon": -72.67,
-      "slug": "hartford-ct",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 20.3,
-          "tmax_f": 36.8,
-          "tavg_f": 28.6,
-          "prcp_in": 2.94,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 22.1,
-          "tmax_f": 39.5,
-          "tavg_f": 30.8,
-          "prcp_in": 2.57,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 29.6,
-          "tmax_f": 47.6,
-          "tavg_f": 38.6,
-          "prcp_in": 3.51,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 40.0,
-          "tmax_f": 60.1,
-          "tavg_f": 50.0,
-          "prcp_in": 3.79,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 50.1,
-          "tmax_f": 70.9,
-          "tavg_f": 60.5,
-          "prcp_in": 3.43,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 59.8,
-          "tmax_f": 79.6,
-          "tavg_f": 69.7,
-          "prcp_in": 3.88,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 65.7,
-          "tmax_f": 84.6,
-          "tavg_f": 75.2,
-          "prcp_in": 3.87,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 64.2,
-          "tmax_f": 83.0,
-          "tavg_f": 73.6,
-          "prcp_in": 3.48,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 56.0,
-          "tmax_f": 75.6,
-          "tavg_f": 65.8,
-          "prcp_in": 3.97,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 44.3,
-          "tmax_f": 63.7,
-          "tavg_f": 54.0,
-          "prcp_in": 4.2,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 34.6,
-          "tmax_f": 52.1,
-          "tavg_f": 43.3,
-          "prcp_in": 3.44,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 25.9,
-          "tmax_f": 41.7,
-          "tavg_f": 33.8,
-          "prcp_in": 3.75,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 54.1,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 20.3,
-        "annual_prcp_in": 42.8,
-        "annual_snow_in": 0,
-        "freeze_months": 4,
-        "rate_cents": 27.37,
-        "session_cost_9kw": 4.32,
-        "annual_cost_3x_week": 674
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00014752 \u2014 HARTFORD BRAINARD FLD (2.0 mi from city reference point)",
-      "recent": {
-        "avg_f": 74.1,
-        "delta_f": 0.5,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 12
     },
     {
       "city": "Boston",
@@ -1639,26 +1512,26 @@
         }
       ],
       "metrics": {
-        "score": 53.0,
+        "score": 53.6,
         "label": "Moderate planning load",
         "jan_tmin_f": 23.1,
         "annual_prcp_in": 43.6,
         "annual_snow_in": 49.2,
         "freeze_months": 4,
-        "rate_cents": 28.82,
-        "session_cost_9kw": 4.49,
-        "annual_cost_3x_week": 700
+        "rate_cents": 29.61,
+        "session_cost_9kw": 4.61,
+        "annual_cost_3x_week": 719
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014739 \u2014 BOSTON (2.6 mi from city reference point)",
       "recent": {
-        "avg_f": 74.7,
-        "delta_f": 2.0,
+        "avg_f": 75.0,
+        "delta_f": 2.3,
         "days": 31,
-        "through": "2026-08-22"
+        "through": "2026-08-29"
       },
-      "rank": 13
+      "rank": 12
     },
     {
       "city": "Des Moines",
@@ -1766,153 +1639,153 @@
         }
       ],
       "metrics": {
-        "score": 51.5,
+        "score": 52.9,
         "label": "Moderate planning load",
         "jan_tmin_f": 13.8,
         "annual_prcp_in": 36.5,
         "annual_snow_in": 36.5,
         "freeze_months": 5,
-        "rate_cents": 14.14,
-        "session_cost_9kw": 2.3,
-        "annual_cost_3x_week": 359
+        "rate_cents": 15.93,
+        "session_cost_9kw": 2.59,
+        "annual_cost_3x_week": 404
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014933 \u2014 DES MOINES INTL AP (4.2 mi from city reference point)",
       "recent": {
-        "avg_f": 75.9,
-        "delta_f": 2.0,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 75.0,
+        "delta_f": 1.1,
+        "days": 32,
+        "through": "2026-08-29"
       },
-      "rank": 14
+      "rank": 13
     },
     {
-      "city": "Chicago",
-      "state": "IL",
-      "state_name": "Illinois",
-      "lat": 41.88,
-      "lon": -87.63,
-      "slug": "chicago-il",
+      "city": "Hartford",
+      "state": "CT",
+      "state_name": "Connecticut",
+      "lat": 41.76,
+      "lon": -72.67,
+      "slug": "hartford-ct",
       "monthly": [
         {
           "month": 1,
-          "tmin_f": 19.4,
-          "tmax_f": 32.7,
-          "tavg_f": 26.0,
-          "prcp_in": 1.48,
+          "tmin_f": 20.3,
+          "tmax_f": 36.8,
+          "tavg_f": 28.6,
+          "prcp_in": 2.94,
           "snow_in": 0.0
         },
         {
           "month": 2,
-          "tmin_f": 22.6,
-          "tmax_f": 36.8,
-          "tavg_f": 29.7,
-          "prcp_in": 1.46,
+          "tmin_f": 22.1,
+          "tmax_f": 39.5,
+          "tavg_f": 30.8,
+          "prcp_in": 2.57,
           "snow_in": 0.0
         },
         {
           "month": 3,
-          "tmin_f": 31.7,
+          "tmin_f": 29.6,
           "tmax_f": 47.6,
-          "tavg_f": 39.6,
-          "prcp_in": 1.88,
+          "tavg_f": 38.6,
+          "prcp_in": 3.51,
           "snow_in": 0.0
         },
         {
           "month": 4,
-          "tmin_f": 41.4,
-          "tmax_f": 59.9,
-          "tavg_f": 50.6,
-          "prcp_in": 3.57,
+          "tmin_f": 40.0,
+          "tmax_f": 60.1,
+          "tavg_f": 50.0,
+          "prcp_in": 3.79,
           "snow_in": 0.0
         },
         {
           "month": 5,
-          "tmin_f": 52.0,
-          "tmax_f": 71.1,
-          "tavg_f": 61.5,
-          "prcp_in": 4.09,
+          "tmin_f": 50.1,
+          "tmax_f": 70.9,
+          "tavg_f": 60.5,
+          "prcp_in": 3.43,
           "snow_in": 0.0
         },
         {
           "month": 6,
-          "tmin_f": 62.3,
-          "tmax_f": 80.9,
-          "tavg_f": 71.6,
-          "prcp_in": 4.01,
+          "tmin_f": 59.8,
+          "tmax_f": 79.6,
+          "tavg_f": 69.7,
+          "prcp_in": 3.88,
           "snow_in": 0.0
         },
         {
           "month": 7,
-          "tmin_f": 67.7,
-          "tmax_f": 85.0,
-          "tavg_f": 76.3,
-          "prcp_in": 3.55,
+          "tmin_f": 65.7,
+          "tmax_f": 84.6,
+          "tavg_f": 75.2,
+          "prcp_in": 3.87,
           "snow_in": 0.0
         },
         {
           "month": 8,
-          "tmin_f": 66.4,
-          "tmax_f": 82.7,
-          "tavg_f": 74.5,
-          "prcp_in": 3.99,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 58.8,
-          "tmax_f": 76.3,
-          "tavg_f": 67.5,
-          "prcp_in": 2.77,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 46.5,
-          "tmax_f": 63.4,
-          "tavg_f": 54.9,
+          "tmin_f": 64.2,
+          "tmax_f": 83.0,
+          "tavg_f": 73.6,
           "prcp_in": 3.48,
           "snow_in": 0.0
         },
         {
+          "month": 9,
+          "tmin_f": 56.0,
+          "tmax_f": 75.6,
+          "tavg_f": 65.8,
+          "prcp_in": 3.97,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 44.3,
+          "tmax_f": 63.7,
+          "tavg_f": 54.0,
+          "prcp_in": 4.2,
+          "snow_in": 0.0
+        },
+        {
           "month": 11,
-          "tmin_f": 35.0,
-          "tmax_f": 49.1,
-          "tavg_f": 42.0,
-          "prcp_in": 2.35,
+          "tmin_f": 34.6,
+          "tmax_f": 52.1,
+          "tavg_f": 43.3,
+          "prcp_in": 3.44,
           "snow_in": 0.0
         },
         {
           "month": 12,
-          "tmin_f": 25.0,
-          "tmax_f": 37.6,
-          "tavg_f": 31.3,
-          "prcp_in": 1.79,
+          "tmin_f": 25.9,
+          "tmax_f": 41.7,
+          "tavg_f": 33.8,
+          "prcp_in": 3.75,
           "snow_in": 0.0
         }
       ],
       "metrics": {
-        "score": 50.9,
+        "score": 51.7,
         "label": "Moderate planning load",
-        "jan_tmin_f": 19.4,
-        "annual_prcp_in": 34.4,
+        "jan_tmin_f": 20.3,
+        "annual_prcp_in": 42.8,
         "annual_snow_in": 0,
         "freeze_months": 4,
-        "rate_cents": 23.85,
-        "session_cost_9kw": 3.78,
-        "annual_cost_3x_week": 590
+        "rate_cents": 24.32,
+        "session_cost_9kw": 3.83,
+        "annual_cost_3x_week": 597
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00014819 \u2014 CHICAGO MIDWAY AP (9.2 mi from city reference point)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00014752 \u2014 HARTFORD BRAINARD FLD (2.0 mi from city reference point)",
       "recent": {
-        "avg_f": 74.5,
-        "delta_f": -0.0,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 74.2,
+        "delta_f": 0.6,
+        "days": 32,
+        "through": "2026-08-29"
       },
-      "rank": 15
+      "rank": 14
     },
     {
       "city": "Milwaukee",
@@ -2020,24 +1893,151 @@
         }
       ],
       "metrics": {
-        "score": 49.6,
+        "score": 49.4,
         "label": "Moderate planning load",
         "jan_tmin_f": 17.2,
         "annual_prcp_in": 34.6,
         "annual_snow_in": 48.7,
         "freeze_months": 4,
-        "rate_cents": 19.74,
-        "session_cost_9kw": 3.16,
-        "annual_cost_3x_week": 493
+        "rate_cents": 19.56,
+        "session_cost_9kw": 3.13,
+        "annual_cost_3x_week": 488
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014839 \u2014 MILWAUKEE MITCHELL AP (5.9 mi from city reference point)",
       "recent": {
-        "avg_f": 72.1,
-        "delta_f": -0.2,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 71.3,
+        "delta_f": -1.0,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 15
+    },
+    {
+      "city": "Detroit",
+      "state": "MI",
+      "state_name": "Michigan",
+      "lat": 42.33,
+      "lon": -83.05,
+      "slug": "detroit-mi",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 19.8,
+          "tmax_f": 32.4,
+          "tavg_f": 26.1,
+          "prcp_in": 1.45,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 21.0,
+          "tmax_f": 35.0,
+          "tavg_f": 28.0,
+          "prcp_in": 1.41,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 28.4,
+          "tmax_f": 44.9,
+          "tavg_f": 36.6,
+          "prcp_in": 2.02,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 38.6,
+          "tmax_f": 57.6,
+          "tavg_f": 48.1,
+          "prcp_in": 2.82,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 49.8,
+          "tmax_f": 69.5,
+          "tavg_f": 59.7,
+          "prcp_in": 3.49,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 60.2,
+          "tmax_f": 79.2,
+          "tavg_f": 69.7,
+          "prcp_in": 3.1,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 64.9,
+          "tmax_f": 83.5,
+          "tavg_f": 74.2,
+          "prcp_in": 3.22,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 63.7,
+          "tmax_f": 81.4,
+          "tavg_f": 72.5,
+          "prcp_in": 3.1,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 55.8,
+          "tmax_f": 74.3,
+          "tavg_f": 65.1,
+          "prcp_in": 3.09,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 44.7,
+          "tmax_f": 61.4,
+          "tavg_f": 53.0,
+          "prcp_in": 2.3,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 34.4,
+          "tmax_f": 48.2,
+          "tavg_f": 41.3,
+          "prcp_in": 2.16,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 25.8,
+          "tmax_f": 37.2,
+          "tavg_f": 31.5,
+          "prcp_in": 1.73,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 49.2,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 19.8,
+        "annual_prcp_in": 29.9,
+        "annual_snow_in": 0,
+        "freeze_months": 4,
+        "rate_cents": 22.99,
+        "session_cost_9kw": 3.63,
+        "annual_cost_3x_week": 566
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00014822 \u2014 DETROIT CITY AP (5.7 mi from city reference point)",
+      "recent": {
+        "avg_f": 73.9,
+        "delta_f": 1.4,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 16
     },
@@ -2147,24 +2147,24 @@
         }
       ],
       "metrics": {
-        "score": 49.1,
+        "score": 48.9,
         "label": "Moderate planning load",
         "jan_tmin_f": 15.2,
         "annual_prcp_in": 31.9,
         "annual_snow_in": 27.1,
         "freeze_months": 5,
-        "rate_cents": 13.59,
-        "session_cost_9kw": 2.19,
-        "annual_cost_3x_week": 342
+        "rate_cents": 13.25,
+        "session_cost_9kw": 2.14,
+        "annual_cost_3x_week": 334
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014942 \u2014 OMAHA EPPLEY AIRFIELD (4.1 mi from city reference point)",
       "recent": {
-        "avg_f": 77.8,
-        "delta_f": 2.1,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 76.4,
+        "delta_f": 0.7,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 17
     },
@@ -2274,24 +2274,24 @@
         }
       ],
       "metrics": {
-        "score": 48.7,
+        "score": 48.8,
         "label": "Moderate planning load",
         "jan_tmin_f": 20.5,
         "annual_prcp_in": 38.3,
         "annual_snow_in": 0,
         "freeze_months": 4,
-        "rate_cents": 21.55,
-        "session_cost_9kw": 3.4,
-        "annual_cost_3x_week": 530
+        "rate_cents": 21.73,
+        "session_cost_9kw": 3.42,
+        "annual_cost_3x_week": 534
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00362574 \u2014 EMSWORTH L/D OHIO RVR (6.8 mi from city reference point)",
       "recent": {
-        "avg_f": 71.9,
-        "delta_f": -1.0,
-        "days": 23,
-        "through": "2026-08-22"
+        "avg_f": 71.8,
+        "delta_f": -1.1,
+        "days": 27,
+        "through": "2026-08-29"
       },
       "rank": 18
     },
@@ -2401,275 +2401,26 @@
         }
       ],
       "metrics": {
-        "score": 48.4,
+        "score": 48.7,
         "label": "Moderate planning load",
         "jan_tmin_f": 14.4,
         "annual_prcp_in": 15.4,
         "annual_snow_in": 35.0,
         "freeze_months": 5,
-        "rate_cents": 14.67,
-        "session_cost_9kw": 2.38,
-        "annual_cost_3x_week": 371
+        "rate_cents": 15.14,
+        "session_cost_9kw": 2.45,
+        "annual_cost_3x_week": 382
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00240802 \u2014 BILLINGS WTP (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 75.3,
-        "delta_f": 5.7,
+        "avg_f": 73.7,
+        "delta_f": 4.1,
         "days": 32,
-        "through": "2026-08-22"
+        "through": "2026-08-29"
       },
       "rank": 19
-    },
-    {
-      "city": "Detroit",
-      "state": "MI",
-      "state_name": "Michigan",
-      "lat": 42.33,
-      "lon": -83.05,
-      "slug": "detroit-mi",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 19.8,
-          "tmax_f": 32.4,
-          "tavg_f": 26.1,
-          "prcp_in": 1.45,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 21.0,
-          "tmax_f": 35.0,
-          "tavg_f": 28.0,
-          "prcp_in": 1.41,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 28.4,
-          "tmax_f": 44.9,
-          "tavg_f": 36.6,
-          "prcp_in": 2.02,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 38.6,
-          "tmax_f": 57.6,
-          "tavg_f": 48.1,
-          "prcp_in": 2.82,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 49.8,
-          "tmax_f": 69.5,
-          "tavg_f": 59.7,
-          "prcp_in": 3.49,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 60.2,
-          "tmax_f": 79.2,
-          "tavg_f": 69.7,
-          "prcp_in": 3.1,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 64.9,
-          "tmax_f": 83.5,
-          "tavg_f": 74.2,
-          "prcp_in": 3.22,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 63.7,
-          "tmax_f": 81.4,
-          "tavg_f": 72.5,
-          "prcp_in": 3.1,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 55.8,
-          "tmax_f": 74.3,
-          "tavg_f": 65.1,
-          "prcp_in": 3.09,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 44.7,
-          "tmax_f": 61.4,
-          "tavg_f": 53.0,
-          "prcp_in": 2.3,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 34.4,
-          "tmax_f": 48.2,
-          "tavg_f": 41.3,
-          "prcp_in": 2.16,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 25.8,
-          "tmax_f": 37.2,
-          "tavg_f": 31.5,
-          "prcp_in": 1.73,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 48.4,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 19.8,
-        "annual_prcp_in": 29.9,
-        "annual_snow_in": 0,
-        "freeze_months": 4,
-        "rate_cents": 22.01,
-        "session_cost_9kw": 3.48,
-        "annual_cost_3x_week": 543
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00014822 \u2014 DETROIT CITY AP (5.7 mi from city reference point)",
-      "recent": {
-        "avg_f": 74.6,
-        "delta_f": 2.1,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 20
-    },
-    {
-      "city": "Indianapolis",
-      "state": "IN",
-      "state_name": "Indiana",
-      "lat": 39.77,
-      "lon": -86.16,
-      "slug": "indianapolis-in",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 18.9,
-          "tmax_f": 34.2,
-          "tavg_f": 26.6,
-          "prcp_in": 3.08,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 21.7,
-          "tmax_f": 39.1,
-          "tavg_f": 30.4,
-          "prcp_in": 2.34,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 30.5,
-          "tmax_f": 49.7,
-          "tavg_f": 40.1,
-          "prcp_in": 3.71,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 41.3,
-          "tmax_f": 61.9,
-          "tavg_f": 51.6,
-          "prcp_in": 4.46,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 52.4,
-          "tmax_f": 72.3,
-          "tavg_f": 62.3,
-          "prcp_in": 4.99,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 61.6,
-          "tmax_f": 80.9,
-          "tavg_f": 71.2,
-          "prcp_in": 5.42,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 64.4,
-          "tmax_f": 83.7,
-          "tavg_f": 74.0,
-          "prcp_in": 3.87,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 62.6,
-          "tmax_f": 82.6,
-          "tavg_f": 72.6,
-          "prcp_in": 3.56,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 55.1,
-          "tmax_f": 76.8,
-          "tavg_f": 65.9,
-          "prcp_in": 3.21,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 43.5,
-          "tmax_f": 64.6,
-          "tavg_f": 54.1,
-          "prcp_in": 3.23,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 32.7,
-          "tmax_f": 50.6,
-          "tavg_f": 41.7,
-          "prcp_in": 3.44,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 24.2,
-          "tmax_f": 39.2,
-          "tavg_f": 31.7,
-          "prcp_in": 3.27,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 48.2,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 18.9,
-        "annual_prcp_in": 44.6,
-        "annual_snow_in": 0,
-        "freeze_months": 4,
-        "rate_cents": 18.15,
-        "session_cost_9kw": 2.88,
-        "annual_cost_3x_week": 449
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00124272 \u2014 INDIANAPOLIS SE SIDE (6.1 mi from city reference point)",
-      "recent": null,
-      "rank": 21
     },
     {
       "city": "Cheyenne",
@@ -2777,25 +2528,274 @@
         }
       ],
       "metrics": {
-        "score": 48.1,
+        "score": 48.5,
         "label": "Moderate planning load",
         "jan_tmin_f": 18.4,
         "annual_prcp_in": 15.4,
         "annual_snow_in": 62.9,
         "freeze_months": 6,
-        "rate_cents": 14.8,
-        "session_cost_9kw": 2.35,
-        "annual_cost_3x_week": 367
+        "rate_cents": 15.24,
+        "session_cost_9kw": 2.42,
+        "annual_cost_3x_week": 378
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024018 \u2014 CHEYENNE (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 73.1,
-        "delta_f": 5.0,
-        "days": 29,
-        "through": "2026-08-22"
+        "avg_f": 71.6,
+        "delta_f": 3.5,
+        "days": 31,
+        "through": "2026-08-29"
       },
+      "rank": 20
+    },
+    {
+      "city": "Chicago",
+      "state": "IL",
+      "state_name": "Illinois",
+      "lat": 41.88,
+      "lon": -87.63,
+      "slug": "chicago-il",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 19.4,
+          "tmax_f": 32.7,
+          "tavg_f": 26.0,
+          "prcp_in": 1.48,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 22.6,
+          "tmax_f": 36.8,
+          "tavg_f": 29.7,
+          "prcp_in": 1.46,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 31.7,
+          "tmax_f": 47.6,
+          "tavg_f": 39.6,
+          "prcp_in": 1.88,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 41.4,
+          "tmax_f": 59.9,
+          "tavg_f": 50.6,
+          "prcp_in": 3.57,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 52.0,
+          "tmax_f": 71.1,
+          "tavg_f": 61.5,
+          "prcp_in": 4.09,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 62.3,
+          "tmax_f": 80.9,
+          "tavg_f": 71.6,
+          "prcp_in": 4.01,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 67.7,
+          "tmax_f": 85.0,
+          "tavg_f": 76.3,
+          "prcp_in": 3.55,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 66.4,
+          "tmax_f": 82.7,
+          "tavg_f": 74.5,
+          "prcp_in": 3.99,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 58.8,
+          "tmax_f": 76.3,
+          "tavg_f": 67.5,
+          "prcp_in": 2.77,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 46.5,
+          "tmax_f": 63.4,
+          "tavg_f": 54.9,
+          "prcp_in": 3.48,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 35.0,
+          "tmax_f": 49.1,
+          "tavg_f": 42.0,
+          "prcp_in": 2.35,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 25.0,
+          "tmax_f": 37.6,
+          "tavg_f": 31.3,
+          "prcp_in": 1.79,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 47.7,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 19.4,
+        "annual_prcp_in": 34.4,
+        "annual_snow_in": 0,
+        "freeze_months": 4,
+        "rate_cents": 19.89,
+        "session_cost_9kw": 3.15,
+        "annual_cost_3x_week": 491
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00014819 \u2014 CHICAGO MIDWAY AP (9.2 mi from city reference point)",
+      "recent": {
+        "avg_f": 74.2,
+        "delta_f": -0.3,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 21
+    },
+    {
+      "city": "Indianapolis",
+      "state": "IN",
+      "state_name": "Indiana",
+      "lat": 39.77,
+      "lon": -86.16,
+      "slug": "indianapolis-in",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 18.9,
+          "tmax_f": 34.2,
+          "tavg_f": 26.6,
+          "prcp_in": 3.08,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 21.7,
+          "tmax_f": 39.1,
+          "tavg_f": 30.4,
+          "prcp_in": 2.34,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 30.5,
+          "tmax_f": 49.7,
+          "tavg_f": 40.1,
+          "prcp_in": 3.71,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 41.3,
+          "tmax_f": 61.9,
+          "tavg_f": 51.6,
+          "prcp_in": 4.46,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 52.4,
+          "tmax_f": 72.3,
+          "tavg_f": 62.3,
+          "prcp_in": 4.99,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 61.6,
+          "tmax_f": 80.9,
+          "tavg_f": 71.2,
+          "prcp_in": 5.42,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 64.4,
+          "tmax_f": 83.7,
+          "tavg_f": 74.0,
+          "prcp_in": 3.87,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 62.6,
+          "tmax_f": 82.6,
+          "tavg_f": 72.6,
+          "prcp_in": 3.56,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 55.1,
+          "tmax_f": 76.8,
+          "tavg_f": 65.9,
+          "prcp_in": 3.21,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 43.5,
+          "tmax_f": 64.6,
+          "tavg_f": 54.1,
+          "prcp_in": 3.23,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 32.7,
+          "tmax_f": 50.6,
+          "tavg_f": 41.7,
+          "prcp_in": 3.44,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 24.2,
+          "tmax_f": 39.2,
+          "tavg_f": 31.7,
+          "prcp_in": 3.27,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 47.7,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 18.9,
+        "annual_prcp_in": 44.6,
+        "annual_snow_in": 0,
+        "freeze_months": 4,
+        "rate_cents": 17.51,
+        "session_cost_9kw": 2.78,
+        "annual_cost_3x_week": 434
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00124272 \u2014 INDIANAPOLIS SE SIDE (6.1 mi from city reference point)",
+      "recent": null,
       "rank": 22
     },
     {
@@ -2904,24 +2904,24 @@
         }
       ],
       "metrics": {
-        "score": 47.6,
+        "score": 47.3,
         "label": "Moderate planning load",
         "jan_tmin_f": 20.9,
         "annual_prcp_in": 44.7,
         "annual_snow_in": 0,
         "freeze_months": 4,
-        "rate_cents": 19.52,
-        "session_cost_9kw": 3.07,
-        "annual_cost_3x_week": 479
+        "rate_cents": 19.19,
+        "session_cost_9kw": 3.02,
+        "annual_cost_3x_week": 471
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00331785 \u2014 COLUMBUS WCMH (4.7 mi from city reference point)",
       "recent": {
-        "avg_f": 74.3,
-        "delta_f": 1.0,
-        "days": 19,
-        "through": "2026-08-22"
+        "avg_f": 74.8,
+        "delta_f": 1.5,
+        "days": 20,
+        "through": "2026-08-29"
       },
       "rank": 23
     },
@@ -3031,24 +3031,24 @@
         }
       ],
       "metrics": {
-        "score": 46.0,
+        "score": 46.8,
         "label": "Moderate planning load",
         "jan_tmin_f": 18.5,
         "annual_prcp_in": 15.9,
         "annual_snow_in": 32.5,
         "freeze_months": 5,
-        "rate_cents": 16.16,
-        "session_cost_9kw": 2.57,
-        "annual_cost_3x_week": 401
+        "rate_cents": 17.13,
+        "session_cost_9kw": 2.72,
+        "annual_cost_3x_week": 424
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093037 \u2014 COLORADO SPRINGS MUNI AP (7.2 mi from city reference point)",
       "recent": {
-        "avg_f": 75.5,
-        "delta_f": 5.4,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 74.1,
+        "delta_f": 4.0,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 24
     },
@@ -3158,280 +3158,26 @@
         }
       ],
       "metrics": {
-        "score": 44.8,
+        "score": 46.1,
         "label": "Moderate planning load",
         "jan_tmin_f": 24.9,
         "annual_prcp_in": 50.4,
         "annual_snow_in": 28.2,
         "freeze_months": 3,
-        "rate_cents": 23.27,
-        "session_cost_9kw": 3.59,
-        "annual_cost_3x_week": 560
+        "rate_cents": 24.95,
+        "session_cost_9kw": 3.85,
+        "annual_cost_3x_week": 601
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00283704 \u2014 HARRISON (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 78.2,
-        "delta_f": 2.5,
-        "days": 32,
-        "through": "2026-08-22"
+        "avg_f": 77.8,
+        "delta_f": 2.0,
+        "days": 33,
+        "through": "2026-08-29"
       },
       "rank": 25
-    },
-    {
-      "city": "New York",
-      "state": "NY",
-      "state_name": "New York",
-      "lat": 40.71,
-      "lon": -74.01,
-      "slug": "new-york-ny",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 27.9,
-          "tmax_f": 39.5,
-          "tavg_f": 33.7,
-          "prcp_in": 3.64,
-          "snow_in": 8.8
-        },
-        {
-          "month": 2,
-          "tmin_f": 29.5,
-          "tmax_f": 42.2,
-          "tavg_f": 35.9,
-          "prcp_in": 3.19,
-          "snow_in": 10.1
-        },
-        {
-          "month": 3,
-          "tmin_f": 35.8,
-          "tmax_f": 49.9,
-          "tavg_f": 42.8,
-          "prcp_in": 4.29,
-          "snow_in": 5.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 45.5,
-          "tmax_f": 61.8,
-          "tavg_f": 53.7,
-          "prcp_in": 4.09,
-          "snow_in": 0.4
-        },
-        {
-          "month": 5,
-          "tmin_f": 55.0,
-          "tmax_f": 71.4,
-          "tavg_f": 63.2,
-          "prcp_in": 3.96,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 64.4,
-          "tmax_f": 79.7,
-          "tavg_f": 72.0,
-          "prcp_in": 4.54,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 70.1,
-          "tmax_f": 84.9,
-          "tavg_f": 77.5,
-          "prcp_in": 4.6,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 68.9,
-          "tmax_f": 83.3,
-          "tavg_f": 76.1,
-          "prcp_in": 4.56,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 62.3,
-          "tmax_f": 76.2,
-          "tavg_f": 69.2,
-          "prcp_in": 4.31,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 51.4,
-          "tmax_f": 64.5,
-          "tavg_f": 57.9,
-          "prcp_in": 4.38,
-          "snow_in": 0.1
-        },
-        {
-          "month": 11,
-          "tmin_f": 42.0,
-          "tmax_f": 54.0,
-          "tavg_f": 48.0,
-          "prcp_in": 3.58,
-          "snow_in": 0.5
-        },
-        {
-          "month": 12,
-          "tmin_f": 33.8,
-          "tmax_f": 44.3,
-          "tavg_f": 39.1,
-          "prcp_in": 4.38,
-          "snow_in": 4.9
-        }
-      ],
-      "metrics": {
-        "score": 44.2,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 27.9,
-        "annual_prcp_in": 49.5,
-        "annual_snow_in": 29.8,
-        "freeze_months": 2,
-        "rate_cents": 29.93,
-        "session_cost_9kw": 4.55,
-        "annual_cost_3x_week": 710
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00094728 \u2014 NY CITY CNTRL PARK (5.2 mi from city reference point)",
-      "recent": {
-        "avg_f": 76.4,
-        "delta_f": 0.3,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 26
-    },
-    {
-      "city": "Cleveland",
-      "state": "OH",
-      "state_name": "Ohio",
-      "lat": 41.5,
-      "lon": -81.69,
-      "slug": "cleveland-oh",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 23.5,
-          "tmax_f": 35.3,
-          "tavg_f": 29.4,
-          "prcp_in": 1.76,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 24.5,
-          "tmax_f": 37.3,
-          "tavg_f": 30.9,
-          "prcp_in": 1.53,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 31.2,
-          "tmax_f": 44.9,
-          "tavg_f": 38.0,
-          "prcp_in": 2.35,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 41.3,
-          "tmax_f": 57.1,
-          "tavg_f": 49.2,
-          "prcp_in": 3.1,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 53.1,
-          "tmax_f": 67.9,
-          "tavg_f": 60.5,
-          "prcp_in": 3.51,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 63.3,
-          "tmax_f": 76.7,
-          "tavg_f": 70.0,
-          "prcp_in": 2.84,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 67.9,
-          "tmax_f": 80.7,
-          "tavg_f": 74.3,
-          "prcp_in": 3.66,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 67.0,
-          "tmax_f": 79.7,
-          "tavg_f": 73.3,
-          "prcp_in": 3.45,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 60.1,
-          "tmax_f": 73.5,
-          "tavg_f": 66.8,
-          "prcp_in": 2.94,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 49.2,
-          "tmax_f": 62.5,
-          "tavg_f": 55.9,
-          "prcp_in": 3.24,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 38.4,
-          "tmax_f": 50.5,
-          "tavg_f": 44.5,
-          "prcp_in": 2.92,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 29.8,
-          "tmax_f": 40.1,
-          "tavg_f": 35.0,
-          "prcp_in": 2.04,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 43.7,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 23.5,
-        "annual_prcp_in": 33.3,
-        "annual_snow_in": 0,
-        "freeze_months": 4,
-        "rate_cents": 19.52,
-        "session_cost_9kw": 3.03,
-        "annual_cost_3x_week": 473
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00004853 \u2014 CLEVELAND BURKE LAKEFRONT AP (2.1 mi from city reference point)",
-      "recent": {
-        "avg_f": 73.9,
-        "delta_f": 0.6,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 27
     },
     {
       "city": "Denver",
@@ -3539,24 +3285,278 @@
         }
       ],
       "metrics": {
-        "score": 43.6,
+        "score": 44.4,
         "label": "Moderate planning load",
         "jan_tmin_f": 21.3,
         "annual_prcp_in": 15.8,
         "annual_snow_in": 40.7,
         "freeze_months": 5,
-        "rate_cents": 16.16,
-        "session_cost_9kw": 2.54,
-        "annual_cost_3x_week": 396
+        "rate_cents": 17.13,
+        "session_cost_9kw": 2.69,
+        "annual_cost_3x_week": 420
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00052223 \u2014 DENVER WATER DEPT (1.2 mi from city reference point)",
       "recent": {
-        "avg_f": 79.6,
-        "delta_f": 4.8,
-        "days": 28,
-        "through": "2026-08-22"
+        "avg_f": 78.3,
+        "delta_f": 3.5,
+        "days": 29,
+        "through": "2026-08-29"
+      },
+      "rank": 26
+    },
+    {
+      "city": "New York",
+      "state": "NY",
+      "state_name": "New York",
+      "lat": 40.71,
+      "lon": -74.01,
+      "slug": "new-york-ny",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 27.9,
+          "tmax_f": 39.5,
+          "tavg_f": 33.7,
+          "prcp_in": 3.64,
+          "snow_in": 8.8
+        },
+        {
+          "month": 2,
+          "tmin_f": 29.5,
+          "tmax_f": 42.2,
+          "tavg_f": 35.9,
+          "prcp_in": 3.19,
+          "snow_in": 10.1
+        },
+        {
+          "month": 3,
+          "tmin_f": 35.8,
+          "tmax_f": 49.9,
+          "tavg_f": 42.8,
+          "prcp_in": 4.29,
+          "snow_in": 5.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 45.5,
+          "tmax_f": 61.8,
+          "tavg_f": 53.7,
+          "prcp_in": 4.09,
+          "snow_in": 0.4
+        },
+        {
+          "month": 5,
+          "tmin_f": 55.0,
+          "tmax_f": 71.4,
+          "tavg_f": 63.2,
+          "prcp_in": 3.96,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 64.4,
+          "tmax_f": 79.7,
+          "tavg_f": 72.0,
+          "prcp_in": 4.54,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 70.1,
+          "tmax_f": 84.9,
+          "tavg_f": 77.5,
+          "prcp_in": 4.6,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 68.9,
+          "tmax_f": 83.3,
+          "tavg_f": 76.1,
+          "prcp_in": 4.56,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 62.3,
+          "tmax_f": 76.2,
+          "tavg_f": 69.2,
+          "prcp_in": 4.31,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 51.4,
+          "tmax_f": 64.5,
+          "tavg_f": 57.9,
+          "prcp_in": 4.38,
+          "snow_in": 0.1
+        },
+        {
+          "month": 11,
+          "tmin_f": 42.0,
+          "tmax_f": 54.0,
+          "tavg_f": 48.0,
+          "prcp_in": 3.58,
+          "snow_in": 0.5
+        },
+        {
+          "month": 12,
+          "tmin_f": 33.8,
+          "tmax_f": 44.3,
+          "tavg_f": 39.1,
+          "prcp_in": 4.38,
+          "snow_in": 4.9
+        }
+      ],
+      "metrics": {
+        "score": 43.9,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 27.9,
+        "annual_prcp_in": 49.5,
+        "annual_snow_in": 29.8,
+        "freeze_months": 2,
+        "rate_cents": 29.49,
+        "session_cost_9kw": 4.49,
+        "annual_cost_3x_week": 700
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00094728 \u2014 NY CITY CNTRL PARK (5.2 mi from city reference point)",
+      "recent": {
+        "avg_f": 75.8,
+        "delta_f": -0.3,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 27
+    },
+    {
+      "city": "Cleveland",
+      "state": "OH",
+      "state_name": "Ohio",
+      "lat": 41.5,
+      "lon": -81.69,
+      "slug": "cleveland-oh",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 23.5,
+          "tmax_f": 35.3,
+          "tavg_f": 29.4,
+          "prcp_in": 1.76,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 24.5,
+          "tmax_f": 37.3,
+          "tavg_f": 30.9,
+          "prcp_in": 1.53,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 31.2,
+          "tmax_f": 44.9,
+          "tavg_f": 38.0,
+          "prcp_in": 2.35,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 41.3,
+          "tmax_f": 57.1,
+          "tavg_f": 49.2,
+          "prcp_in": 3.1,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 53.1,
+          "tmax_f": 67.9,
+          "tavg_f": 60.5,
+          "prcp_in": 3.51,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 63.3,
+          "tmax_f": 76.7,
+          "tavg_f": 70.0,
+          "prcp_in": 2.84,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 67.9,
+          "tmax_f": 80.7,
+          "tavg_f": 74.3,
+          "prcp_in": 3.66,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 67.0,
+          "tmax_f": 79.7,
+          "tavg_f": 73.3,
+          "prcp_in": 3.45,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 60.1,
+          "tmax_f": 73.5,
+          "tavg_f": 66.8,
+          "prcp_in": 2.94,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 49.2,
+          "tmax_f": 62.5,
+          "tavg_f": 55.9,
+          "prcp_in": 3.24,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 38.4,
+          "tmax_f": 50.5,
+          "tavg_f": 44.5,
+          "prcp_in": 2.92,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 29.8,
+          "tmax_f": 40.1,
+          "tavg_f": 35.0,
+          "prcp_in": 2.04,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 43.4,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 23.5,
+        "annual_prcp_in": 33.3,
+        "annual_snow_in": 0,
+        "freeze_months": 4,
+        "rate_cents": 19.19,
+        "session_cost_9kw": 2.98,
+        "annual_cost_3x_week": 465
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00004853 \u2014 CLEVELAND BURKE LAKEFRONT AP (2.1 mi from city reference point)",
+      "recent": {
+        "avg_f": 73.3,
+        "delta_f": -0.0,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 28
     },
@@ -3666,18 +3666,18 @@
         }
       ],
       "metrics": {
-        "score": 43.3,
+        "score": 42.5,
         "label": "Moderate planning load",
         "jan_tmin_f": 27.8,
         "annual_prcp_in": 45.6,
         "annual_snow_in": 9.7,
         "freeze_months": 3,
-        "rate_cents": 25.4,
-        "session_cost_9kw": 3.87,
-        "annual_cost_3x_week": 604
+        "rate_cents": 24.39,
+        "session_cost_9kw": 3.71,
+        "annual_cost_3x_week": 579
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00186350 \u2014 NATL ARBORETUM DC (3.8 mi from city reference point)",
       "recent": null,
       "rank": 29
@@ -3788,18 +3788,18 @@
         }
       ],
       "metrics": {
-        "score": 42.6,
+        "score": 42.5,
         "label": "Moderate planning load",
         "jan_tmin_f": 23.8,
         "annual_prcp_in": 50.3,
         "annual_snow_in": 12.0,
         "freeze_months": 3,
-        "rate_cents": 19.38,
-        "session_cost_9kw": 3.01,
-        "annual_cost_3x_week": 470
+        "rate_cents": 19.29,
+        "session_cost_9kw": 2.99,
+        "annual_cost_3x_week": 466
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00079605 \u2014 WILMINGTON PORTER RSCH (2.4 mi from city reference point)",
       "recent": null,
       "rank": 30
@@ -3916,401 +3916,20 @@
         "annual_prcp_in": 16.4,
         "annual_snow_in": 45.4,
         "freeze_months": 5,
-        "rate_cents": 14.95,
-        "session_cost_9kw": 2.31,
-        "annual_cost_3x_week": 360
+        "rate_cents": 14.91,
+        "session_cost_9kw": 2.3,
+        "annual_cost_3x_week": 359
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024157 \u2014 SPOKANE INTL AP (5.3 mi from city reference point)",
       "recent": {
-        "avg_f": 73.6,
-        "delta_f": 3.3,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 72.8,
+        "delta_f": 2.5,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 31
-    },
-    {
-      "city": "Wichita",
-      "state": "KS",
-      "state_name": "Kansas",
-      "lat": 37.69,
-      "lon": -97.34,
-      "slug": "wichita-ks",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 22.2,
-          "tmax_f": 43.6,
-          "tavg_f": 32.9,
-          "prcp_in": 0.8,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 25.7,
-          "tmax_f": 48.5,
-          "tavg_f": 37.1,
-          "prcp_in": 1.16,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 35.2,
-          "tmax_f": 59.0,
-          "tavg_f": 47.1,
-          "prcp_in": 2.2,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 44.7,
-          "tmax_f": 68.2,
-          "tavg_f": 56.4,
-          "prcp_in": 2.98,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 54.5,
-          "tmax_f": 77.3,
-          "tavg_f": 65.9,
-          "prcp_in": 5.21,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 64.7,
-          "tmax_f": 87.5,
-          "tavg_f": 76.1,
-          "prcp_in": 5.2,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 69.5,
-          "tmax_f": 92.1,
-          "tavg_f": 80.8,
-          "prcp_in": 3.87,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 67.5,
-          "tmax_f": 90.7,
-          "tavg_f": 79.1,
-          "prcp_in": 4.25,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 58.9,
-          "tmax_f": 82.8,
-          "tavg_f": 70.9,
-          "prcp_in": 3.11,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 46.5,
-          "tmax_f": 70.3,
-          "tavg_f": 58.4,
-          "prcp_in": 2.77,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 34.0,
-          "tmax_f": 57.0,
-          "tavg_f": 45.5,
-          "prcp_in": 1.57,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 25.1,
-          "tmax_f": 45.0,
-          "tavg_f": 35.1,
-          "prcp_in": 1.29,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 38.3,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 22.2,
-        "annual_prcp_in": 34.4,
-        "annual_snow_in": 0,
-        "freeze_months": 3,
-        "rate_cents": 15.13,
-        "session_cost_9kw": 2.36,
-        "annual_cost_3x_week": 368
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00148847 \u2014 WICHITA WX (6.1 mi from city reference point)",
-      "recent": {
-        "avg_f": 85.9,
-        "delta_f": 6.8,
-        "days": 28,
-        "through": "2026-08-22"
-      },
-      "rank": 32
-    },
-    {
-      "city": "Charleston",
-      "state": "WV",
-      "state_name": "West Virginia",
-      "lat": 38.35,
-      "lon": -81.63,
-      "slug": "charleston-wv",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 26.1,
-          "tmax_f": 43.9,
-          "tavg_f": 35.0,
-          "prcp_in": 3.27,
-          "snow_in": 10.3
-        },
-        {
-          "month": 2,
-          "tmin_f": 28.6,
-          "tmax_f": 47.8,
-          "tavg_f": 38.2,
-          "prcp_in": 3.36,
-          "snow_in": 7.7
-        },
-        {
-          "month": 3,
-          "tmin_f": 35.1,
-          "tmax_f": 56.8,
-          "tavg_f": 46.0,
-          "prcp_in": 4.14,
-          "snow_in": 5.9
-        },
-        {
-          "month": 4,
-          "tmin_f": 44.5,
-          "tmax_f": 69.4,
-          "tavg_f": 56.9,
-          "prcp_in": 3.56,
-          "snow_in": 0.5
-        },
-        {
-          "month": 5,
-          "tmin_f": 53.2,
-          "tmax_f": 76.2,
-          "tavg_f": 64.7,
-          "prcp_in": 4.93,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 61.5,
-          "tmax_f": 83.1,
-          "tavg_f": 72.3,
-          "prcp_in": 4.72,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 65.5,
-          "tmax_f": 86.0,
-          "tavg_f": 75.8,
-          "prcp_in": 5.38,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 64.1,
-          "tmax_f": 85.2,
-          "tavg_f": 74.6,
-          "prcp_in": 3.75,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 57.1,
-          "tmax_f": 79.5,
-          "tavg_f": 68.3,
-          "prcp_in": 3.46,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 45.3,
-          "tmax_f": 68.7,
-          "tavg_f": 57.0,
-          "prcp_in": 2.91,
-          "snow_in": 0.6
-        },
-        {
-          "month": 11,
-          "tmin_f": 35.6,
-          "tmax_f": 57.3,
-          "tavg_f": 46.4,
-          "prcp_in": 3.2,
-          "snow_in": 1.5
-        },
-        {
-          "month": 12,
-          "tmin_f": 29.9,
-          "tmax_f": 47.5,
-          "tavg_f": 38.7,
-          "prcp_in": 3.56,
-          "snow_in": 5.0
-        }
-      ],
-      "metrics": {
-        "score": 38.0,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 26.1,
-        "annual_prcp_in": 46.2,
-        "annual_snow_in": 31.5,
-        "freeze_months": 3,
-        "rate_cents": 16.8,
-        "session_cost_9kw": 2.58,
-        "annual_cost_3x_week": 402
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00013866 \u2014 CHARLESTON - YEAGER AP (2.9 mi from city reference point)",
-      "recent": {
-        "avg_f": 76.1,
-        "delta_f": 1.5,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 33
-    },
-    {
-      "city": "Philadelphia",
-      "state": "PA",
-      "state_name": "Pennsylvania",
-      "lat": 39.95,
-      "lon": -75.17,
-      "slug": "philadelphia-pa",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 27.8,
-          "tmax_f": 41.6,
-          "tavg_f": 34.7,
-          "prcp_in": 3.61,
-          "snow_in": 6.4
-        },
-        {
-          "month": 2,
-          "tmin_f": 29.6,
-          "tmax_f": 44.9,
-          "tavg_f": 37.2,
-          "prcp_in": 3.34,
-          "snow_in": 4.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 36.4,
-          "tmax_f": 53.5,
-          "tavg_f": 44.9,
-          "prcp_in": 4.54,
-          "snow_in": 2.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 46.3,
-          "tmax_f": 65.9,
-          "tavg_f": 56.1,
-          "prcp_in": 4.0,
-          "snow_in": 0.1
-        },
-        {
-          "month": 5,
-          "tmin_f": 56.3,
-          "tmax_f": 75.7,
-          "tavg_f": 66.0,
-          "prcp_in": 4.06,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 65.9,
-          "tmax_f": 84.9,
-          "tavg_f": 75.4,
-          "prcp_in": 4.77,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 71.4,
-          "tmax_f": 89.3,
-          "tavg_f": 80.4,
-          "prcp_in": 4.75,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 69.5,
-          "tmax_f": 87.2,
-          "tavg_f": 78.3,
-          "prcp_in": 4.95,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 62.7,
-          "tmax_f": 80.3,
-          "tavg_f": 71.5,
-          "prcp_in": 4.88,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 51.1,
-          "tmax_f": 68.1,
-          "tavg_f": 59.6,
-          "prcp_in": 4.15,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 41.3,
-          "tmax_f": 56.4,
-          "tavg_f": 48.9,
-          "prcp_in": 3.37,
-          "snow_in": 0.1
-        },
-        {
-          "month": 12,
-          "tmin_f": 33.2,
-          "tmax_f": 46.5,
-          "tavg_f": 39.9,
-          "prcp_in": 4.27,
-          "snow_in": 3.5
-        }
-      ],
-      "metrics": {
-        "score": 37.8,
-        "label": "Moderate planning load",
-        "jan_tmin_f": 27.8,
-        "annual_prcp_in": 50.7,
-        "annual_snow_in": 16.1,
-        "freeze_months": 2,
-        "rate_cents": 21.55,
-        "session_cost_9kw": 3.28,
-        "annual_cost_3x_week": 512
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00366886 \u2014 PHILA FRANKLIN INST (0.6 mi from city reference point)",
-      "recent": {
-        "avg_f": 78.0,
-        "delta_f": -0.3,
-        "days": 11,
-        "through": "2026-08-22"
-      },
-      "rank": 34
     },
     {
       "city": "Kansas City",
@@ -4418,153 +4037,153 @@
         }
       ],
       "metrics": {
-        "score": 37.7,
+        "score": 39.7,
         "label": "Moderate planning load",
         "jan_tmin_f": 22.2,
         "annual_prcp_in": 38.1,
         "annual_snow_in": 11.0,
         "freeze_months": 3,
-        "rate_cents": 13.68,
-        "session_cost_9kw": 2.14,
-        "annual_cost_3x_week": 334
+        "rate_cents": 16.22,
+        "session_cost_9kw": 2.54,
+        "annual_cost_3x_week": 396
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013988 \u2014 KANSAS CITY DWTN AP (2.0 mi from city reference point)",
       "recent": {
-        "avg_f": 81.9,
-        "delta_f": 2.7,
-        "days": 30,
-        "through": "2026-08-22"
+        "avg_f": 80.8,
+        "delta_f": 1.6,
+        "days": 31,
+        "through": "2026-08-29"
       },
-      "rank": 35
+      "rank": 32
     },
     {
-      "city": "Louisville",
-      "state": "KY",
-      "state_name": "Kentucky",
-      "lat": 38.25,
-      "lon": -85.76,
-      "slug": "louisville-ky",
+      "city": "Wichita",
+      "state": "KS",
+      "state_name": "Kansas",
+      "lat": 37.69,
+      "lon": -97.34,
+      "slug": "wichita-ks",
       "monthly": [
         {
           "month": 1,
-          "tmin_f": 25.9,
-          "tmax_f": 43.3,
-          "tavg_f": 34.6,
-          "prcp_in": 3.48,
-          "snow_in": 2.3
+          "tmin_f": 22.2,
+          "tmax_f": 43.6,
+          "tavg_f": 32.9,
+          "prcp_in": 0.8,
+          "snow_in": 0.0
         },
         {
           "month": 2,
-          "tmin_f": 29.2,
-          "tmax_f": 47.6,
-          "tavg_f": 38.4,
-          "prcp_in": 3.49,
-          "snow_in": 0.3
+          "tmin_f": 25.7,
+          "tmax_f": 48.5,
+          "tavg_f": 37.1,
+          "prcp_in": 1.16,
+          "snow_in": 0.0
         },
         {
           "month": 3,
-          "tmin_f": 36.6,
-          "tmax_f": 56.6,
-          "tavg_f": 46.6,
-          "prcp_in": 4.54,
-          "snow_in": 0.3
+          "tmin_f": 35.2,
+          "tmax_f": 59.0,
+          "tavg_f": 47.1,
+          "prcp_in": 2.2,
+          "snow_in": 0.0
         },
         {
           "month": 4,
-          "tmin_f": 47.2,
-          "tmax_f": 68.9,
-          "tavg_f": 58.1,
-          "prcp_in": 4.79,
+          "tmin_f": 44.7,
+          "tmax_f": 68.2,
+          "tavg_f": 56.4,
+          "prcp_in": 2.98,
           "snow_in": 0.0
         },
         {
           "month": 5,
-          "tmin_f": 58.4,
-          "tmax_f": 76.9,
-          "tavg_f": 67.6,
-          "prcp_in": 4.81,
+          "tmin_f": 54.5,
+          "tmax_f": 77.3,
+          "tavg_f": 65.9,
+          "prcp_in": 5.21,
           "snow_in": 0.0
         },
         {
           "month": 6,
-          "tmin_f": 65.8,
-          "tmax_f": 85.4,
-          "tavg_f": 75.6,
-          "prcp_in": 4.43,
+          "tmin_f": 64.7,
+          "tmax_f": 87.5,
+          "tavg_f": 76.1,
+          "prcp_in": 5.2,
           "snow_in": 0.0
         },
         {
           "month": 7,
-          "tmin_f": 69.7,
-          "tmax_f": 88.9,
-          "tavg_f": 79.3,
-          "prcp_in": 3.53,
+          "tmin_f": 69.5,
+          "tmax_f": 92.1,
+          "tavg_f": 80.8,
+          "prcp_in": 3.87,
           "snow_in": 0.0
         },
         {
           "month": 8,
-          "tmin_f": 68.8,
-          "tmax_f": 88.0,
-          "tavg_f": 78.4,
-          "prcp_in": 3.27,
+          "tmin_f": 67.5,
+          "tmax_f": 90.7,
+          "tavg_f": 79.1,
+          "prcp_in": 4.25,
           "snow_in": 0.0
         },
         {
           "month": 9,
-          "tmin_f": 61.5,
-          "tmax_f": 81.8,
-          "tavg_f": 71.6,
-          "prcp_in": 3.93,
+          "tmin_f": 58.9,
+          "tmax_f": 82.8,
+          "tavg_f": 70.9,
+          "prcp_in": 3.11,
           "snow_in": 0.0
         },
         {
           "month": 10,
-          "tmin_f": 49.7,
+          "tmin_f": 46.5,
           "tmax_f": 70.3,
-          "tavg_f": 60.0,
-          "prcp_in": 3.49,
+          "tavg_f": 58.4,
+          "prcp_in": 2.77,
           "snow_in": 0.0
         },
         {
           "month": 11,
-          "tmin_f": 38.0,
-          "tmax_f": 56.8,
-          "tavg_f": 47.4,
-          "prcp_in": 3.75,
+          "tmin_f": 34.0,
+          "tmax_f": 57.0,
+          "tavg_f": 45.5,
+          "prcp_in": 1.57,
           "snow_in": 0.0
         },
         {
           "month": 12,
-          "tmin_f": 30.8,
-          "tmax_f": 47.1,
-          "tavg_f": 38.9,
-          "prcp_in": 4.48,
-          "snow_in": 1.4
+          "tmin_f": 25.1,
+          "tmax_f": 45.0,
+          "tavg_f": 35.1,
+          "prcp_in": 1.29,
+          "snow_in": 0.0
         }
       ],
       "metrics": {
-        "score": 36.9,
+        "score": 38.8,
         "label": "Moderate planning load",
-        "jan_tmin_f": 25.9,
-        "annual_prcp_in": 48.0,
-        "annual_snow_in": 4.3,
+        "jan_tmin_f": 22.2,
+        "annual_prcp_in": 34.4,
+        "annual_snow_in": 0,
         "freeze_months": 3,
-        "rate_cents": 14.98,
-        "session_cost_9kw": 2.3,
-        "annual_cost_3x_week": 359
+        "rate_cents": 15.71,
+        "session_cost_9kw": 2.46,
+        "annual_cost_3x_week": 384
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00154955 \u2014 LOUISVILLE MCALPINE (2.6 mi from city reference point)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00148847 \u2014 WICHITA WX (6.1 mi from city reference point)",
       "recent": {
-        "avg_f": 78.3,
-        "delta_f": -0.1,
-        "days": 32,
-        "through": "2026-08-22"
+        "avg_f": 85.0,
+        "delta_f": 5.9,
+        "days": 30,
+        "through": "2026-08-29"
       },
-      "rank": 36
+      "rank": 33
     },
     {
       "city": "St. Louis",
@@ -4672,20 +4291,396 @@
         }
       ],
       "metrics": {
-        "score": 36.4,
+        "score": 38.5,
         "label": "Moderate planning load",
         "jan_tmin_f": 24.6,
         "annual_prcp_in": 43.9,
         "annual_snow_in": 0,
         "freeze_months": 3,
-        "rate_cents": 13.68,
-        "session_cost_9kw": 2.11,
-        "annual_cost_3x_week": 329
+        "rate_cents": 16.22,
+        "session_cost_9kw": 2.51,
+        "annual_cost_3x_week": 392
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00237452 \u2014 ST LOUIS SCI CTR (3.8 mi from city reference point)",
       "recent": null,
+      "rank": 34
+    },
+    {
+      "city": "Philadelphia",
+      "state": "PA",
+      "state_name": "Pennsylvania",
+      "lat": 39.95,
+      "lon": -75.17,
+      "slug": "philadelphia-pa",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 27.8,
+          "tmax_f": 41.6,
+          "tavg_f": 34.7,
+          "prcp_in": 3.61,
+          "snow_in": 6.4
+        },
+        {
+          "month": 2,
+          "tmin_f": 29.6,
+          "tmax_f": 44.9,
+          "tavg_f": 37.2,
+          "prcp_in": 3.34,
+          "snow_in": 4.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 36.4,
+          "tmax_f": 53.5,
+          "tavg_f": 44.9,
+          "prcp_in": 4.54,
+          "snow_in": 2.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 46.3,
+          "tmax_f": 65.9,
+          "tavg_f": 56.1,
+          "prcp_in": 4.0,
+          "snow_in": 0.1
+        },
+        {
+          "month": 5,
+          "tmin_f": 56.3,
+          "tmax_f": 75.7,
+          "tavg_f": 66.0,
+          "prcp_in": 4.06,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 65.9,
+          "tmax_f": 84.9,
+          "tavg_f": 75.4,
+          "prcp_in": 4.77,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 71.4,
+          "tmax_f": 89.3,
+          "tavg_f": 80.4,
+          "prcp_in": 4.75,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 69.5,
+          "tmax_f": 87.2,
+          "tavg_f": 78.3,
+          "prcp_in": 4.95,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 62.7,
+          "tmax_f": 80.3,
+          "tavg_f": 71.5,
+          "prcp_in": 4.88,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 51.1,
+          "tmax_f": 68.1,
+          "tavg_f": 59.6,
+          "prcp_in": 4.15,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 41.3,
+          "tmax_f": 56.4,
+          "tavg_f": 48.9,
+          "prcp_in": 3.37,
+          "snow_in": 0.1
+        },
+        {
+          "month": 12,
+          "tmin_f": 33.2,
+          "tmax_f": 46.5,
+          "tavg_f": 39.9,
+          "prcp_in": 4.27,
+          "snow_in": 3.5
+        }
+      ],
+      "metrics": {
+        "score": 37.9,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 27.8,
+        "annual_prcp_in": 50.7,
+        "annual_snow_in": 16.1,
+        "freeze_months": 2,
+        "rate_cents": 21.73,
+        "session_cost_9kw": 3.31,
+        "annual_cost_3x_week": 516
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00366886 \u2014 PHILA FRANKLIN INST (0.6 mi from city reference point)",
+      "recent": null,
+      "rank": 35
+    },
+    {
+      "city": "Charleston",
+      "state": "WV",
+      "state_name": "West Virginia",
+      "lat": 38.35,
+      "lon": -81.63,
+      "slug": "charleston-wv",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 26.1,
+          "tmax_f": 43.9,
+          "tavg_f": 35.0,
+          "prcp_in": 3.27,
+          "snow_in": 10.3
+        },
+        {
+          "month": 2,
+          "tmin_f": 28.6,
+          "tmax_f": 47.8,
+          "tavg_f": 38.2,
+          "prcp_in": 3.36,
+          "snow_in": 7.7
+        },
+        {
+          "month": 3,
+          "tmin_f": 35.1,
+          "tmax_f": 56.8,
+          "tavg_f": 46.0,
+          "prcp_in": 4.14,
+          "snow_in": 5.9
+        },
+        {
+          "month": 4,
+          "tmin_f": 44.5,
+          "tmax_f": 69.4,
+          "tavg_f": 56.9,
+          "prcp_in": 3.56,
+          "snow_in": 0.5
+        },
+        {
+          "month": 5,
+          "tmin_f": 53.2,
+          "tmax_f": 76.2,
+          "tavg_f": 64.7,
+          "prcp_in": 4.93,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 61.5,
+          "tmax_f": 83.1,
+          "tavg_f": 72.3,
+          "prcp_in": 4.72,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 65.5,
+          "tmax_f": 86.0,
+          "tavg_f": 75.8,
+          "prcp_in": 5.38,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 64.1,
+          "tmax_f": 85.2,
+          "tavg_f": 74.6,
+          "prcp_in": 3.75,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 57.1,
+          "tmax_f": 79.5,
+          "tavg_f": 68.3,
+          "prcp_in": 3.46,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 45.3,
+          "tmax_f": 68.7,
+          "tavg_f": 57.0,
+          "prcp_in": 2.91,
+          "snow_in": 0.6
+        },
+        {
+          "month": 11,
+          "tmin_f": 35.6,
+          "tmax_f": 57.3,
+          "tavg_f": 46.4,
+          "prcp_in": 3.2,
+          "snow_in": 1.5
+        },
+        {
+          "month": 12,
+          "tmin_f": 29.9,
+          "tmax_f": 47.5,
+          "tavg_f": 38.7,
+          "prcp_in": 3.56,
+          "snow_in": 5.0
+        }
+      ],
+      "metrics": {
+        "score": 36.9,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 26.1,
+        "annual_prcp_in": 46.2,
+        "annual_snow_in": 31.5,
+        "freeze_months": 3,
+        "rate_cents": 15.45,
+        "session_cost_9kw": 2.37,
+        "annual_cost_3x_week": 370
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00013866 \u2014 CHARLESTON - YEAGER AP (2.9 mi from city reference point)",
+      "recent": {
+        "avg_f": 75.4,
+        "delta_f": 0.8,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 36
+    },
+    {
+      "city": "Louisville",
+      "state": "KY",
+      "state_name": "Kentucky",
+      "lat": 38.25,
+      "lon": -85.76,
+      "slug": "louisville-ky",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 25.9,
+          "tmax_f": 43.3,
+          "tavg_f": 34.6,
+          "prcp_in": 3.48,
+          "snow_in": 2.3
+        },
+        {
+          "month": 2,
+          "tmin_f": 29.2,
+          "tmax_f": 47.6,
+          "tavg_f": 38.4,
+          "prcp_in": 3.49,
+          "snow_in": 0.3
+        },
+        {
+          "month": 3,
+          "tmin_f": 36.6,
+          "tmax_f": 56.6,
+          "tavg_f": 46.6,
+          "prcp_in": 4.54,
+          "snow_in": 0.3
+        },
+        {
+          "month": 4,
+          "tmin_f": 47.2,
+          "tmax_f": 68.9,
+          "tavg_f": 58.1,
+          "prcp_in": 4.79,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 58.4,
+          "tmax_f": 76.9,
+          "tavg_f": 67.6,
+          "prcp_in": 4.81,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 65.8,
+          "tmax_f": 85.4,
+          "tavg_f": 75.6,
+          "prcp_in": 4.43,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 69.7,
+          "tmax_f": 88.9,
+          "tavg_f": 79.3,
+          "prcp_in": 3.53,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 68.8,
+          "tmax_f": 88.0,
+          "tavg_f": 78.4,
+          "prcp_in": 3.27,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 61.5,
+          "tmax_f": 81.8,
+          "tavg_f": 71.6,
+          "prcp_in": 3.93,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 49.7,
+          "tmax_f": 70.3,
+          "tavg_f": 60.0,
+          "prcp_in": 3.49,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 38.0,
+          "tmax_f": 56.8,
+          "tavg_f": 47.4,
+          "prcp_in": 3.75,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 30.8,
+          "tmax_f": 47.1,
+          "tavg_f": 38.9,
+          "prcp_in": 4.48,
+          "snow_in": 1.4
+        }
+      ],
+      "metrics": {
+        "score": 36.4,
+        "label": "Moderate planning load",
+        "jan_tmin_f": 25.9,
+        "annual_prcp_in": 48.0,
+        "annual_snow_in": 4.3,
+        "freeze_months": 3,
+        "rate_cents": 14.26,
+        "session_cost_9kw": 2.19,
+        "annual_cost_3x_week": 342
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00154955 \u2014 LOUISVILLE MCALPINE (2.6 mi from city reference point)",
+      "recent": {
+        "avg_f": 78.1,
+        "delta_f": -0.3,
+        "days": 31,
+        "through": "2026-08-29"
+      },
       "rank": 37
     },
     {
@@ -4794,18 +4789,18 @@
         }
       ],
       "metrics": {
-        "score": 35.9,
+        "score": 35.6,
         "label": "Moderate planning load",
         "jan_tmin_f": 27.5,
         "annual_prcp_in": 53.2,
         "annual_snow_in": 0,
         "freeze_months": 3,
-        "rate_cents": 14.47,
-        "session_cost_9kw": 2.21,
-        "annual_cost_3x_week": 345
+        "rate_cents": 14.07,
+        "session_cost_9kw": 2.14,
+        "annual_cost_3x_week": 334
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00408238 \u2014 SHELBY BOTTOMS NATURE CTR (3.1 mi from city reference point)",
       "recent": null,
       "rank": 38
@@ -4916,24 +4911,24 @@
         }
       ],
       "metrics": {
-        "score": 35.0,
+        "score": 35.1,
         "label": "Moderate planning load",
         "jan_tmin_f": 30.0,
         "annual_prcp_in": 43.7,
         "annual_snow_in": 0,
         "freeze_months": 2,
-        "rate_cents": 21.77,
-        "session_cost_9kw": 3.28,
-        "annual_cost_3x_week": 512
+        "rate_cents": 21.84,
+        "session_cost_9kw": 3.29,
+        "annual_cost_3x_week": 513
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093784 \u2014 MARYLAND SCI CTR (0.6 mi from city reference point)",
       "recent": {
-        "avg_f": 80.2,
-        "delta_f": 1.1,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 79.8,
+        "delta_f": 0.7,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 39
     },
@@ -5043,280 +5038,26 @@
         }
       ],
       "metrics": {
-        "score": 33.1,
+        "score": 34.7,
         "label": "Mild planning load",
         "jan_tmin_f": 25.5,
         "annual_prcp_in": 11.5,
         "annual_snow_in": 17.6,
         "freeze_months": 4,
-        "rate_cents": 12.35,
-        "session_cost_9kw": 1.9,
-        "annual_cost_3x_week": 296
+        "rate_cents": 14.37,
+        "session_cost_9kw": 2.21,
+        "annual_cost_3x_week": 345
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024131 \u2014 BOISE AIR TERMINAL (4.2 mi from city reference point)",
       "recent": {
         "avg_f": 79.9,
         "delta_f": 4.1,
-        "days": 31,
-        "through": "2026-08-22"
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 40
-    },
-    {
-      "city": "Reno",
-      "state": "NV",
-      "state_name": "Nevada",
-      "lat": 39.53,
-      "lon": -119.81,
-      "slug": "reno-nv",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 26.1,
-          "tmax_f": 47.7,
-          "tavg_f": 36.9,
-          "prcp_in": 1.25,
-          "snow_in": 5.2
-        },
-        {
-          "month": 2,
-          "tmin_f": 29.0,
-          "tmax_f": 52.1,
-          "tavg_f": 40.6,
-          "prcp_in": 1.03,
-          "snow_in": 5.2
-        },
-        {
-          "month": 3,
-          "tmin_f": 34.0,
-          "tmax_f": 59.2,
-          "tavg_f": 46.6,
-          "prcp_in": 0.8,
-          "snow_in": 2.9
-        },
-        {
-          "month": 4,
-          "tmin_f": 38.5,
-          "tmax_f": 64.7,
-          "tavg_f": 51.6,
-          "prcp_in": 0.44,
-          "snow_in": 0.4
-        },
-        {
-          "month": 5,
-          "tmin_f": 46.6,
-          "tmax_f": 74.1,
-          "tavg_f": 60.3,
-          "prcp_in": 0.55,
-          "snow_in": 0.1
-        },
-        {
-          "month": 6,
-          "tmin_f": 53.8,
-          "tmax_f": 84.6,
-          "tavg_f": 69.2,
-          "prcp_in": 0.41,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 60.4,
-          "tmax_f": 93.9,
-          "tavg_f": 77.2,
-          "prcp_in": 0.2,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 58.1,
-          "tmax_f": 92.1,
-          "tavg_f": 75.1,
-          "prcp_in": 0.24,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 50.3,
-          "tmax_f": 83.8,
-          "tavg_f": 67.0,
-          "prcp_in": 0.21,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 39.7,
-          "tmax_f": 70.4,
-          "tavg_f": 55.1,
-          "prcp_in": 0.5,
-          "snow_in": 0.1
-        },
-        {
-          "month": 11,
-          "tmin_f": 31.0,
-          "tmax_f": 56.7,
-          "tavg_f": 43.8,
-          "prcp_in": 0.62,
-          "snow_in": 1.8
-        },
-        {
-          "month": 12,
-          "tmin_f": 25.7,
-          "tmax_f": 46.7,
-          "tavg_f": 36.2,
-          "prcp_in": 1.1,
-          "snow_in": 5.2
-        }
-      ],
-      "metrics": {
-        "score": 33.0,
-        "label": "Mild planning load",
-        "jan_tmin_f": 26.1,
-        "annual_prcp_in": 7.4,
-        "annual_snow_in": 20.9,
-        "freeze_months": 4,
-        "rate_cents": 13.6,
-        "session_cost_9kw": 2.09,
-        "annual_cost_3x_week": 326
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00023185 \u2014 RENO AP (2.7 mi from city reference point)",
-      "recent": {
-        "avg_f": 80.0,
-        "delta_f": 4.9,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 41
-    },
-    {
-      "city": "Richmond",
-      "state": "VA",
-      "state_name": "Virginia",
-      "lat": 37.54,
-      "lon": -77.44,
-      "slug": "richmond-va",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 28.8,
-          "tmax_f": 47.8,
-          "tavg_f": 38.3,
-          "prcp_in": 3.23,
-          "snow_in": 3.7
-        },
-        {
-          "month": 2,
-          "tmin_f": 30.4,
-          "tmax_f": 51.6,
-          "tavg_f": 41.0,
-          "prcp_in": 2.61,
-          "snow_in": 2.2
-        },
-        {
-          "month": 3,
-          "tmin_f": 37.2,
-          "tmax_f": 59.6,
-          "tavg_f": 48.4,
-          "prcp_in": 4.0,
-          "snow_in": 1.1
-        },
-        {
-          "month": 4,
-          "tmin_f": 46.4,
-          "tmax_f": 70.4,
-          "tavg_f": 58.4,
-          "prcp_in": 3.18,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 55.7,
-          "tmax_f": 77.8,
-          "tavg_f": 66.7,
-          "prcp_in": 4.0,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 64.5,
-          "tmax_f": 85.6,
-          "tavg_f": 75.0,
-          "prcp_in": 4.64,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 69.2,
-          "tmax_f": 89.5,
-          "tavg_f": 79.4,
-          "prcp_in": 4.37,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 67.6,
-          "tmax_f": 87.5,
-          "tavg_f": 77.5,
-          "prcp_in": 4.9,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 61.1,
-          "tmax_f": 81.2,
-          "tavg_f": 71.2,
-          "prcp_in": 4.61,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 49.0,
-          "tmax_f": 70.9,
-          "tavg_f": 60.0,
-          "prcp_in": 3.39,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 38.8,
-          "tmax_f": 60.4,
-          "tavg_f": 49.6,
-          "prcp_in": 3.06,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 32.1,
-          "tmax_f": 51.5,
-          "tavg_f": 41.8,
-          "prcp_in": 3.51,
-          "snow_in": 1.8
-        }
-      ],
-      "metrics": {
-        "score": 33.0,
-        "label": "Mild planning load",
-        "jan_tmin_f": 28.8,
-        "annual_prcp_in": 45.5,
-        "annual_snow_in": 8.8,
-        "freeze_months": 2,
-        "rate_cents": 17.61,
-        "session_cost_9kw": 2.67,
-        "annual_cost_3x_week": 417
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00013740 \u2014 RICHMOND INTL AP (6.7 mi from city reference point)",
-      "recent": {
-        "avg_f": 79.7,
-        "delta_f": 2.2,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 42
     },
     {
       "city": "Oklahoma City",
@@ -5424,26 +5165,26 @@
         }
       ],
       "metrics": {
-        "score": 33.0,
+        "score": 33.8,
         "label": "Mild planning load",
         "jan_tmin_f": 27.0,
         "annual_prcp_in": 36.4,
         "annual_snow_in": 6.7,
         "freeze_months": 3,
-        "rate_cents": 13.38,
-        "session_cost_9kw": 2.04,
-        "annual_cost_3x_week": 318
+        "rate_cents": 14.33,
+        "session_cost_9kw": 2.19,
+        "annual_cost_3x_week": 342
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013967 \u2014 OKLAHOMA CY WILL ROGERS WORLD (7.2 mi from city reference point)",
       "recent": {
-        "avg_f": 87.8,
-        "delta_f": 7.1,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 88.2,
+        "delta_f": 7.5,
+        "days": 32,
+        "through": "2026-08-29"
       },
-      "rank": 43
+      "rank": 41
     },
     {
       "city": "Tulsa",
@@ -5551,24 +5292,278 @@
         }
       ],
       "metrics": {
-        "score": 32.8,
+        "score": 33.6,
         "label": "Mild planning load",
         "jan_tmin_f": 28.0,
         "annual_prcp_in": 41.0,
         "annual_snow_in": 8.7,
         "freeze_months": 3,
-        "rate_cents": 13.38,
-        "session_cost_9kw": 2.03,
-        "annual_cost_3x_week": 317
+        "rate_cents": 14.33,
+        "session_cost_9kw": 2.18,
+        "annual_cost_3x_week": 340
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013968 \u2014 TULSA INTL AP (7.1 mi from city reference point)",
       "recent": {
-        "avg_f": 88.5,
-        "delta_f": 6.3,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 87.8,
+        "delta_f": 5.6,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 42
+    },
+    {
+      "city": "Richmond",
+      "state": "VA",
+      "state_name": "Virginia",
+      "lat": 37.54,
+      "lon": -77.44,
+      "slug": "richmond-va",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 28.8,
+          "tmax_f": 47.8,
+          "tavg_f": 38.3,
+          "prcp_in": 3.23,
+          "snow_in": 3.7
+        },
+        {
+          "month": 2,
+          "tmin_f": 30.4,
+          "tmax_f": 51.6,
+          "tavg_f": 41.0,
+          "prcp_in": 2.61,
+          "snow_in": 2.2
+        },
+        {
+          "month": 3,
+          "tmin_f": 37.2,
+          "tmax_f": 59.6,
+          "tavg_f": 48.4,
+          "prcp_in": 4.0,
+          "snow_in": 1.1
+        },
+        {
+          "month": 4,
+          "tmin_f": 46.4,
+          "tmax_f": 70.4,
+          "tavg_f": 58.4,
+          "prcp_in": 3.18,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 55.7,
+          "tmax_f": 77.8,
+          "tavg_f": 66.7,
+          "prcp_in": 4.0,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 64.5,
+          "tmax_f": 85.6,
+          "tavg_f": 75.0,
+          "prcp_in": 4.64,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 69.2,
+          "tmax_f": 89.5,
+          "tavg_f": 79.4,
+          "prcp_in": 4.37,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 67.6,
+          "tmax_f": 87.5,
+          "tavg_f": 77.5,
+          "prcp_in": 4.9,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 61.1,
+          "tmax_f": 81.2,
+          "tavg_f": 71.2,
+          "prcp_in": 4.61,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 49.0,
+          "tmax_f": 70.9,
+          "tavg_f": 60.0,
+          "prcp_in": 3.39,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 38.8,
+          "tmax_f": 60.4,
+          "tavg_f": 49.6,
+          "prcp_in": 3.06,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 32.1,
+          "tmax_f": 51.5,
+          "tavg_f": 41.8,
+          "prcp_in": 3.51,
+          "snow_in": 1.8
+        }
+      ],
+      "metrics": {
+        "score": 32.7,
+        "label": "Mild planning load",
+        "jan_tmin_f": 28.8,
+        "annual_prcp_in": 45.5,
+        "annual_snow_in": 8.8,
+        "freeze_months": 2,
+        "rate_cents": 17.22,
+        "session_cost_9kw": 2.61,
+        "annual_cost_3x_week": 407
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00013740 \u2014 RICHMOND INTL AP (6.7 mi from city reference point)",
+      "recent": {
+        "avg_f": 79.6,
+        "delta_f": 2.1,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 43
+    },
+    {
+      "city": "Reno",
+      "state": "NV",
+      "state_name": "Nevada",
+      "lat": 39.53,
+      "lon": -119.81,
+      "slug": "reno-nv",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 26.1,
+          "tmax_f": 47.7,
+          "tavg_f": 36.9,
+          "prcp_in": 1.25,
+          "snow_in": 5.2
+        },
+        {
+          "month": 2,
+          "tmin_f": 29.0,
+          "tmax_f": 52.1,
+          "tavg_f": 40.6,
+          "prcp_in": 1.03,
+          "snow_in": 5.2
+        },
+        {
+          "month": 3,
+          "tmin_f": 34.0,
+          "tmax_f": 59.2,
+          "tavg_f": 46.6,
+          "prcp_in": 0.8,
+          "snow_in": 2.9
+        },
+        {
+          "month": 4,
+          "tmin_f": 38.5,
+          "tmax_f": 64.7,
+          "tavg_f": 51.6,
+          "prcp_in": 0.44,
+          "snow_in": 0.4
+        },
+        {
+          "month": 5,
+          "tmin_f": 46.6,
+          "tmax_f": 74.1,
+          "tavg_f": 60.3,
+          "prcp_in": 0.55,
+          "snow_in": 0.1
+        },
+        {
+          "month": 6,
+          "tmin_f": 53.8,
+          "tmax_f": 84.6,
+          "tavg_f": 69.2,
+          "prcp_in": 0.41,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 60.4,
+          "tmax_f": 93.9,
+          "tavg_f": 77.2,
+          "prcp_in": 0.2,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 58.1,
+          "tmax_f": 92.1,
+          "tavg_f": 75.1,
+          "prcp_in": 0.24,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 50.3,
+          "tmax_f": 83.8,
+          "tavg_f": 67.0,
+          "prcp_in": 0.21,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 39.7,
+          "tmax_f": 70.4,
+          "tavg_f": 55.1,
+          "prcp_in": 0.5,
+          "snow_in": 0.1
+        },
+        {
+          "month": 11,
+          "tmin_f": 31.0,
+          "tmax_f": 56.7,
+          "tavg_f": 43.8,
+          "prcp_in": 0.62,
+          "snow_in": 1.8
+        },
+        {
+          "month": 12,
+          "tmin_f": 25.7,
+          "tmax_f": 46.7,
+          "tavg_f": 36.2,
+          "prcp_in": 1.1,
+          "snow_in": 5.2
+        }
+      ],
+      "metrics": {
+        "score": 32.6,
+        "label": "Mild planning load",
+        "jan_tmin_f": 26.1,
+        "annual_prcp_in": 7.4,
+        "annual_snow_in": 20.9,
+        "freeze_months": 4,
+        "rate_cents": 13.11,
+        "session_cost_9kw": 2.01,
+        "annual_cost_3x_week": 314
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00023185 \u2014 RENO AP (2.7 mi from city reference point)",
+      "recent": {
+        "avg_f": 79.5,
+        "delta_f": 4.4,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 44
     },
@@ -5678,24 +5673,24 @@
         }
       ],
       "metrics": {
-        "score": 30.2,
+        "score": 31.0,
         "label": "Mild planning load",
         "jan_tmin_f": 26.4,
         "annual_prcp_in": 8.8,
         "annual_snow_in": 7.9,
         "freeze_months": 3,
-        "rate_cents": 14.12,
-        "session_cost_9kw": 2.16,
-        "annual_cost_3x_week": 337
+        "rate_cents": 15.06,
+        "session_cost_9kw": 2.31,
+        "annual_cost_3x_week": 360
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023050 \u2014 ALBUQUERQUE INTL AP (3.3 mi from city reference point)",
       "recent": {
-        "avg_f": 83.3,
-        "delta_f": 6.4,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 83.2,
+        "delta_f": 6.3,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 45
     },
@@ -5805,18 +5800,18 @@
         }
       ],
       "metrics": {
-        "score": 29.5,
+        "score": 29.8,
         "label": "Mild planning load",
         "jan_tmin_f": 27.6,
         "annual_prcp_in": 17.7,
         "annual_snow_in": 49.0,
         "freeze_months": 3,
-        "rate_cents": 12.96,
-        "session_cost_9kw": 1.97,
-        "annual_cost_3x_week": 307
+        "rate_cents": 13.37,
+        "session_cost_9kw": 2.04,
+        "annual_cost_3x_week": 318
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00427606 \u2014 SALT LAKE TRIAD CTR (0.8 mi from city reference point)",
       "recent": null,
       "rank": 46
@@ -5927,24 +5922,24 @@
         }
       ],
       "metrics": {
-        "score": 27.6,
+        "score": 27.3,
         "label": "Mild planning load",
         "jan_tmin_f": 31.6,
         "annual_prcp_in": 46.6,
         "annual_snow_in": 3.4,
         "freeze_months": 1,
-        "rate_cents": 17.61,
-        "session_cost_9kw": 2.63,
-        "annual_cost_3x_week": 410
+        "rate_cents": 17.22,
+        "session_cost_9kw": 2.57,
+        "annual_cost_3x_week": 401
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013769 \u2014 OCEANA NAS (3.7 mi from city reference point)",
       "recent": {
-        "avg_f": 80.4,
-        "delta_f": 3.2,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 80.7,
+        "delta_f": 3.5,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 47
     },
@@ -6054,275 +6049,26 @@
         }
       ],
       "metrics": {
-        "score": 26.1,
+        "score": 25.9,
         "label": "Mild planning load",
         "jan_tmin_f": 30.9,
         "annual_prcp_in": 50.4,
         "annual_snow_in": 3.8,
         "freeze_months": 1,
-        "rate_cents": 14.36,
-        "session_cost_9kw": 2.15,
-        "annual_cost_3x_week": 335
+        "rate_cents": 14.12,
+        "session_cost_9kw": 2.12,
+        "annual_cost_3x_week": 331
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013963 \u2014 LITTLE ROCK AP ADAMS FLD (3.5 mi from city reference point)",
       "recent": {
-        "avg_f": 87.6,
-        "delta_f": 6.8,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 86.9,
+        "delta_f": 6.1,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 48
-    },
-    {
-      "city": "Raleigh",
-      "state": "NC",
-      "state_name": "North Carolina",
-      "lat": 35.78,
-      "lon": -78.64,
-      "slug": "raleigh-nc",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 31.6,
-          "tmax_f": 51.7,
-          "tavg_f": 41.7,
-          "prcp_in": 3.65,
-          "snow_in": 2.5
-        },
-        {
-          "month": 2,
-          "tmin_f": 33.2,
-          "tmax_f": 55.2,
-          "tavg_f": 44.2,
-          "prcp_in": 2.88,
-          "snow_in": 0.8
-        },
-        {
-          "month": 3,
-          "tmin_f": 40.1,
-          "tmax_f": 62.6,
-          "tavg_f": 51.3,
-          "prcp_in": 4.17,
-          "snow_in": 0.1
-        },
-        {
-          "month": 4,
-          "tmin_f": 48.8,
-          "tmax_f": 72.3,
-          "tavg_f": 60.6,
-          "prcp_in": 3.63,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 57.9,
-          "tmax_f": 80.2,
-          "tavg_f": 69.0,
-          "prcp_in": 3.99,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 66.1,
-          "tmax_f": 87.2,
-          "tavg_f": 76.6,
-          "prcp_in": 4.87,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 70.3,
-          "tmax_f": 90.6,
-          "tavg_f": 80.4,
-          "prcp_in": 4.65,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 68.8,
-          "tmax_f": 88.7,
-          "tavg_f": 78.7,
-          "prcp_in": 4.71,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 62.9,
-          "tmax_f": 82.4,
-          "tavg_f": 72.7,
-          "prcp_in": 5.72,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 50.9,
-          "tmax_f": 72.5,
-          "tavg_f": 61.7,
-          "prcp_in": 3.9,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 40.9,
-          "tmax_f": 62.1,
-          "tavg_f": 51.5,
-          "prcp_in": 3.51,
-          "snow_in": 0.1
-        },
-        {
-          "month": 12,
-          "tmin_f": 34.9,
-          "tmax_f": 54.7,
-          "tavg_f": 44.8,
-          "prcp_in": 3.68,
-          "snow_in": 1.0
-        }
-      ],
-      "metrics": {
-        "score": 26.0,
-        "label": "Mild planning load",
-        "jan_tmin_f": 31.6,
-        "annual_prcp_in": 49.4,
-        "annual_snow_in": 4.5,
-        "freeze_months": 1,
-        "rate_cents": 15.09,
-        "session_cost_9kw": 2.25,
-        "annual_cost_3x_week": 351
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USC00317079 \u2014 RALEIGH STATE UNIV (3.4 mi from city reference point)",
-      "recent": null,
-      "rank": 49
-    },
-    {
-      "city": "Charlotte",
-      "state": "NC",
-      "state_name": "North Carolina",
-      "lat": 35.23,
-      "lon": -80.84,
-      "slug": "charlotte-nc",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 31.8,
-          "tmax_f": 52.3,
-          "tavg_f": 42.1,
-          "prcp_in": 3.49,
-          "snow_in": 1.6
-        },
-        {
-          "month": 2,
-          "tmin_f": 34.9,
-          "tmax_f": 56.6,
-          "tavg_f": 45.7,
-          "prcp_in": 3.13,
-          "snow_in": 1.1
-        },
-        {
-          "month": 3,
-          "tmin_f": 41.2,
-          "tmax_f": 64.2,
-          "tavg_f": 52.7,
-          "prcp_in": 3.95,
-          "snow_in": 0.3
-        },
-        {
-          "month": 4,
-          "tmin_f": 49.1,
-          "tmax_f": 73.2,
-          "tavg_f": 61.1,
-          "prcp_in": 3.84,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 58.0,
-          "tmax_f": 80.1,
-          "tavg_f": 69.0,
-          "prcp_in": 3.36,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 66.2,
-          "tmax_f": 86.9,
-          "tavg_f": 76.6,
-          "prcp_in": 3.99,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 69.9,
-          "tmax_f": 90.3,
-          "tavg_f": 80.1,
-          "prcp_in": 3.74,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 68.7,
-          "tmax_f": 88.6,
-          "tavg_f": 78.6,
-          "prcp_in": 4.35,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 62.6,
-          "tmax_f": 82.8,
-          "tavg_f": 72.7,
-          "prcp_in": 3.71,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 50.4,
-          "tmax_f": 73.3,
-          "tavg_f": 61.9,
-          "prcp_in": 3.16,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 39.8,
-          "tmax_f": 62.9,
-          "tavg_f": 51.4,
-          "prcp_in": 3.31,
-          "snow_in": 0.1
-        },
-        {
-          "month": 12,
-          "tmin_f": 34.5,
-          "tmax_f": 54.9,
-          "tavg_f": 44.7,
-          "prcp_in": 3.57,
-          "snow_in": 0.4
-        }
-      ],
-      "metrics": {
-        "score": 25.0,
-        "label": "Mild planning load",
-        "jan_tmin_f": 31.8,
-        "annual_prcp_in": 43.6,
-        "annual_snow_in": 3.5,
-        "freeze_months": 1,
-        "rate_cents": 15.09,
-        "session_cost_9kw": 2.25,
-        "annual_cost_3x_week": 351
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00013881 \u2014 CHARLOTTE DOUGLAS AP (6.5 mi from city reference point)",
-      "recent": {
-        "avg_f": 81.0,
-        "delta_f": 2.4,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 50
     },
     {
       "city": "Sacramento",
@@ -6430,21 +6176,397 @@
         }
       ],
       "metrics": {
-        "score": 24.7,
+        "score": 25.9,
         "label": "Mild planning load",
         "jan_tmin_f": 41.1,
         "annual_prcp_in": 19.2,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 33.25,
-        "session_cost_9kw": 4.73,
-        "annual_cost_3x_week": 738
+        "rate_cents": 34.74,
+        "session_cost_9kw": 4.95,
+        "annual_cost_3x_week": 772
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023271 \u2014 SACRAMENTO 5 ESE (4.2 mi from city reference point)",
       "recent": null,
+      "rank": 49
+    },
+    {
+      "city": "Raleigh",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "lat": 35.78,
+      "lon": -78.64,
+      "slug": "raleigh-nc",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 31.6,
+          "tmax_f": 51.7,
+          "tavg_f": 41.7,
+          "prcp_in": 3.65,
+          "snow_in": 2.5
+        },
+        {
+          "month": 2,
+          "tmin_f": 33.2,
+          "tmax_f": 55.2,
+          "tavg_f": 44.2,
+          "prcp_in": 2.88,
+          "snow_in": 0.8
+        },
+        {
+          "month": 3,
+          "tmin_f": 40.1,
+          "tmax_f": 62.6,
+          "tavg_f": 51.3,
+          "prcp_in": 4.17,
+          "snow_in": 0.1
+        },
+        {
+          "month": 4,
+          "tmin_f": 48.8,
+          "tmax_f": 72.3,
+          "tavg_f": 60.6,
+          "prcp_in": 3.63,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 57.9,
+          "tmax_f": 80.2,
+          "tavg_f": 69.0,
+          "prcp_in": 3.99,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 66.1,
+          "tmax_f": 87.2,
+          "tavg_f": 76.6,
+          "prcp_in": 4.87,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 70.3,
+          "tmax_f": 90.6,
+          "tavg_f": 80.4,
+          "prcp_in": 4.65,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 68.8,
+          "tmax_f": 88.7,
+          "tavg_f": 78.7,
+          "prcp_in": 4.71,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 62.9,
+          "tmax_f": 82.4,
+          "tavg_f": 72.7,
+          "prcp_in": 5.72,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 50.9,
+          "tmax_f": 72.5,
+          "tavg_f": 61.7,
+          "prcp_in": 3.9,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 40.9,
+          "tmax_f": 62.1,
+          "tavg_f": 51.5,
+          "prcp_in": 3.51,
+          "snow_in": 0.1
+        },
+        {
+          "month": 12,
+          "tmin_f": 34.9,
+          "tmax_f": 54.7,
+          "tavg_f": 44.8,
+          "prcp_in": 3.68,
+          "snow_in": 1.0
+        }
+      ],
+      "metrics": {
+        "score": 25.7,
+        "label": "Mild planning load",
+        "jan_tmin_f": 31.6,
+        "annual_prcp_in": 49.4,
+        "annual_snow_in": 4.5,
+        "freeze_months": 1,
+        "rate_cents": 14.74,
+        "session_cost_9kw": 2.2,
+        "annual_cost_3x_week": 343
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USC00317079 \u2014 RALEIGH STATE UNIV (3.4 mi from city reference point)",
+      "recent": null,
+      "rank": 50
+    },
+    {
+      "city": "Charlotte",
+      "state": "NC",
+      "state_name": "North Carolina",
+      "lat": 35.23,
+      "lon": -80.84,
+      "slug": "charlotte-nc",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 31.8,
+          "tmax_f": 52.3,
+          "tavg_f": 42.1,
+          "prcp_in": 3.49,
+          "snow_in": 1.6
+        },
+        {
+          "month": 2,
+          "tmin_f": 34.9,
+          "tmax_f": 56.6,
+          "tavg_f": 45.7,
+          "prcp_in": 3.13,
+          "snow_in": 1.1
+        },
+        {
+          "month": 3,
+          "tmin_f": 41.2,
+          "tmax_f": 64.2,
+          "tavg_f": 52.7,
+          "prcp_in": 3.95,
+          "snow_in": 0.3
+        },
+        {
+          "month": 4,
+          "tmin_f": 49.1,
+          "tmax_f": 73.2,
+          "tavg_f": 61.1,
+          "prcp_in": 3.84,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 58.0,
+          "tmax_f": 80.1,
+          "tavg_f": 69.0,
+          "prcp_in": 3.36,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 66.2,
+          "tmax_f": 86.9,
+          "tavg_f": 76.6,
+          "prcp_in": 3.99,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 69.9,
+          "tmax_f": 90.3,
+          "tavg_f": 80.1,
+          "prcp_in": 3.74,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 68.7,
+          "tmax_f": 88.6,
+          "tavg_f": 78.6,
+          "prcp_in": 4.35,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 62.6,
+          "tmax_f": 82.8,
+          "tavg_f": 72.7,
+          "prcp_in": 3.71,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 50.4,
+          "tmax_f": 73.3,
+          "tavg_f": 61.9,
+          "prcp_in": 3.16,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 39.8,
+          "tmax_f": 62.9,
+          "tavg_f": 51.4,
+          "prcp_in": 3.31,
+          "snow_in": 0.1
+        },
+        {
+          "month": 12,
+          "tmin_f": 34.5,
+          "tmax_f": 54.9,
+          "tavg_f": 44.7,
+          "prcp_in": 3.57,
+          "snow_in": 0.4
+        }
+      ],
+      "metrics": {
+        "score": 24.7,
+        "label": "Mild planning load",
+        "jan_tmin_f": 31.8,
+        "annual_prcp_in": 43.6,
+        "annual_snow_in": 3.5,
+        "freeze_months": 1,
+        "rate_cents": 14.74,
+        "session_cost_9kw": 2.2,
+        "annual_cost_3x_week": 343
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00013881 \u2014 CHARLOTTE DOUGLAS AP (6.5 mi from city reference point)",
+      "recent": {
+        "avg_f": 80.8,
+        "delta_f": 2.2,
+        "days": 32,
+        "through": "2026-08-29"
+      },
       "rank": 51
+    },
+    {
+      "city": "San Francisco",
+      "state": "CA",
+      "state_name": "California",
+      "lat": 37.77,
+      "lon": -122.42,
+      "slug": "san-francisco-ca",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 46.6,
+          "tmax_f": 57.8,
+          "tavg_f": 52.2,
+          "prcp_in": 4.4,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 47.9,
+          "tmax_f": 60.4,
+          "tavg_f": 54.2,
+          "prcp_in": 4.37,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 48.9,
+          "tmax_f": 62.1,
+          "tavg_f": 55.5,
+          "prcp_in": 3.15,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 49.7,
+          "tmax_f": 63.0,
+          "tavg_f": 56.4,
+          "prcp_in": 1.6,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 51.4,
+          "tmax_f": 64.1,
+          "tavg_f": 57.8,
+          "prcp_in": 0.7,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 53.0,
+          "tmax_f": 66.5,
+          "tavg_f": 59.7,
+          "prcp_in": 0.2,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 54.4,
+          "tmax_f": 66.3,
+          "tavg_f": 60.3,
+          "prcp_in": 0.01,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 55.5,
+          "tmax_f": 67.9,
+          "tavg_f": 61.7,
+          "prcp_in": 0.06,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 55.6,
+          "tmax_f": 70.2,
+          "tavg_f": 62.9,
+          "prcp_in": 0.1,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 54.4,
+          "tmax_f": 69.8,
+          "tavg_f": 62.1,
+          "prcp_in": 0.94,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 50.7,
+          "tmax_f": 63.7,
+          "tavg_f": 57.2,
+          "prcp_in": 2.6,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 47.0,
+          "tmax_f": 57.9,
+          "tavg_f": 52.5,
+          "prcp_in": 4.76,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 23.1,
+        "label": "Mild planning load",
+        "jan_tmin_f": 46.6,
+        "annual_prcp_in": 22.9,
+        "annual_snow_in": 0,
+        "freeze_months": 0,
+        "rate_cents": 34.74,
+        "session_cost_9kw": 4.85,
+        "annual_cost_3x_week": 757
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00023272 \u2014 SAN FRANCISCO DWTN (0.4 mi from city reference point)",
+      "recent": {
+        "avg_f": 62.2,
+        "delta_f": 0.5,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 52
     },
     {
       "city": "Honolulu",
@@ -6558,15 +6680,15 @@
         "annual_prcp_in": 20.6,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 52.0,
-        "session_cost_9kw": 7.25,
-        "annual_cost_3x_week": 1131
+        "rate_cents": 52.72,
+        "session_cost_9kw": 7.35,
+        "annual_cost_3x_week": 1147
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00519397 \u2014 WAIKIKI 717.2 (3.8 mi from city reference point)",
       "recent": null,
-      "rank": 52
+      "rank": 53
     },
     {
       "city": "Birmingham",
@@ -6674,151 +6796,24 @@
         }
       ],
       "metrics": {
-        "score": 22.3,
+        "score": 22.0,
         "label": "Mild planning load",
         "jan_tmin_f": 34.9,
         "annual_prcp_in": 56.6,
         "annual_snow_in": 1.4,
         "freeze_months": 0,
-        "rate_cents": 16.77,
-        "session_cost_9kw": 2.46,
-        "annual_cost_3x_week": 384
+        "rate_cents": 16.4,
+        "session_cost_9kw": 2.41,
+        "annual_cost_3x_week": 376
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013876 \u2014 BIRMINGHAM AP (4.5 mi from city reference point)",
       "recent": {
-        "avg_f": 83.3,
-        "delta_f": 2.4,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 53
-    },
-    {
-      "city": "San Francisco",
-      "state": "CA",
-      "state_name": "California",
-      "lat": 37.77,
-      "lon": -122.42,
-      "slug": "san-francisco-ca",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 46.6,
-          "tmax_f": 57.8,
-          "tavg_f": 52.2,
-          "prcp_in": 4.4,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 47.9,
-          "tmax_f": 60.4,
-          "tavg_f": 54.2,
-          "prcp_in": 4.37,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 48.9,
-          "tmax_f": 62.1,
-          "tavg_f": 55.5,
-          "prcp_in": 3.15,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 49.7,
-          "tmax_f": 63.0,
-          "tavg_f": 56.4,
-          "prcp_in": 1.6,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 51.4,
-          "tmax_f": 64.1,
-          "tavg_f": 57.8,
-          "prcp_in": 0.7,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 53.0,
-          "tmax_f": 66.5,
-          "tavg_f": 59.7,
-          "prcp_in": 0.2,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 54.4,
-          "tmax_f": 66.3,
-          "tavg_f": 60.3,
-          "prcp_in": 0.01,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 55.5,
-          "tmax_f": 67.9,
-          "tavg_f": 61.7,
-          "prcp_in": 0.06,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 55.6,
-          "tmax_f": 70.2,
-          "tavg_f": 62.9,
-          "prcp_in": 0.1,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 54.4,
-          "tmax_f": 69.8,
-          "tavg_f": 62.1,
-          "prcp_in": 0.94,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 50.7,
-          "tmax_f": 63.7,
-          "tavg_f": 57.2,
-          "prcp_in": 2.6,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 47.0,
-          "tmax_f": 57.9,
-          "tavg_f": 52.5,
-          "prcp_in": 4.76,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 21.9,
-        "label": "Mild planning load",
-        "jan_tmin_f": 46.6,
-        "annual_prcp_in": 22.9,
-        "annual_snow_in": 0,
-        "freeze_months": 0,
-        "rate_cents": 33.25,
-        "session_cost_9kw": 4.64,
-        "annual_cost_3x_week": 724
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00023272 \u2014 SAN FRANCISCO DWTN (0.4 mi from city reference point)",
-      "recent": {
-        "avg_f": 62.3,
-        "delta_f": 0.6,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 83.0,
+        "delta_f": 2.1,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 54
     },
@@ -6928,153 +6923,26 @@
         }
       ],
       "metrics": {
-        "score": 21.6,
+        "score": 22.0,
         "label": "Mild planning load",
         "jan_tmin_f": 33.5,
         "annual_prcp_in": 48.1,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.84,
-        "session_cost_9kw": 2.34,
-        "annual_cost_3x_week": 365
+        "rate_cents": 16.36,
+        "session_cost_9kw": 2.42,
+        "annual_cost_3x_week": 378
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00003888 \u2014 ATLANTA FULTON CO AP (8.0 mi from city reference point)",
       "recent": {
-        "avg_f": 81.0,
-        "delta_f": 1.7,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 80.8,
+        "delta_f": 1.5,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 55
-    },
-    {
-      "city": "Memphis",
-      "state": "TN",
-      "state_name": "Tennessee",
-      "lat": 35.15,
-      "lon": -90.05,
-      "slug": "memphis-tn",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 33.3,
-          "tmax_f": 50.9,
-          "tavg_f": 42.1,
-          "prcp_in": 4.14,
-          "snow_in": 0.9
-        },
-        {
-          "month": 2,
-          "tmin_f": 36.7,
-          "tmax_f": 55.5,
-          "tavg_f": 46.1,
-          "prcp_in": 4.55,
-          "snow_in": 1.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 44.3,
-          "tmax_f": 64.2,
-          "tavg_f": 54.2,
-          "prcp_in": 5.74,
-          "snow_in": 0.5
-        },
-        {
-          "month": 4,
-          "tmin_f": 53.0,
-          "tmax_f": 73.4,
-          "tavg_f": 63.2,
-          "prcp_in": 5.87,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 62.4,
-          "tmax_f": 81.7,
-          "tavg_f": 72.1,
-          "prcp_in": 5.27,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 70.4,
-          "tmax_f": 89.4,
-          "tavg_f": 79.9,
-          "prcp_in": 3.99,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 73.6,
-          "tmax_f": 91.9,
-          "tavg_f": 82.8,
-          "prcp_in": 4.82,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 72.6,
-          "tmax_f": 91.5,
-          "tavg_f": 82.1,
-          "prcp_in": 3.37,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 65.9,
-          "tmax_f": 86.0,
-          "tavg_f": 76.0,
-          "prcp_in": 3.03,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 54.0,
-          "tmax_f": 75.1,
-          "tavg_f": 64.6,
-          "prcp_in": 3.98,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 42.9,
-          "tmax_f": 62.6,
-          "tavg_f": 52.7,
-          "prcp_in": 4.69,
-          "snow_in": 0.1
-        },
-        {
-          "month": 12,
-          "tmin_f": 36.2,
-          "tmax_f": 53.4,
-          "tavg_f": 44.8,
-          "prcp_in": 5.49,
-          "snow_in": 0.2
-        }
-      ],
-      "metrics": {
-        "score": 21.6,
-        "label": "Mild planning load",
-        "jan_tmin_f": 33.3,
-        "annual_prcp_in": 54.9,
-        "annual_snow_in": 2.7,
-        "freeze_months": 0,
-        "rate_cents": 14.47,
-        "session_cost_9kw": 2.14,
-        "annual_cost_3x_week": 334
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00013893 \u2014 MEMPHIS INTL AP (7.4 mi from city reference point)",
-      "recent": {
-        "avg_f": 85.3,
-        "delta_f": 3.2,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 56
     },
     {
       "city": "Los Angeles",
@@ -7182,24 +7050,151 @@
         }
       ],
       "metrics": {
-        "score": 20.6,
+        "score": 21.8,
         "label": "Mild planning load",
         "jan_tmin_f": 48.9,
         "annual_prcp_in": 14.2,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 33.25,
-        "session_cost_9kw": 4.64,
-        "annual_cost_3x_week": 724
+        "rate_cents": 34.74,
+        "session_cost_9kw": 4.85,
+        "annual_cost_3x_week": 757
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093134 \u2014 LOS ANGELES DOWNTOWN/USC (3.4 mi from city reference point)",
       "recent": {
-        "avg_f": 78.3,
-        "delta_f": 3.6,
+        "avg_f": 79.5,
+        "delta_f": 4.8,
+        "days": 32,
+        "through": "2026-08-29"
+      },
+      "rank": 56
+    },
+    {
+      "city": "Memphis",
+      "state": "TN",
+      "state_name": "Tennessee",
+      "lat": 35.15,
+      "lon": -90.05,
+      "slug": "memphis-tn",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 33.3,
+          "tmax_f": 50.9,
+          "tavg_f": 42.1,
+          "prcp_in": 4.14,
+          "snow_in": 0.9
+        },
+        {
+          "month": 2,
+          "tmin_f": 36.7,
+          "tmax_f": 55.5,
+          "tavg_f": 46.1,
+          "prcp_in": 4.55,
+          "snow_in": 1.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 44.3,
+          "tmax_f": 64.2,
+          "tavg_f": 54.2,
+          "prcp_in": 5.74,
+          "snow_in": 0.5
+        },
+        {
+          "month": 4,
+          "tmin_f": 53.0,
+          "tmax_f": 73.4,
+          "tavg_f": 63.2,
+          "prcp_in": 5.87,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 62.4,
+          "tmax_f": 81.7,
+          "tavg_f": 72.1,
+          "prcp_in": 5.27,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 70.4,
+          "tmax_f": 89.4,
+          "tavg_f": 79.9,
+          "prcp_in": 3.99,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 73.6,
+          "tmax_f": 91.9,
+          "tavg_f": 82.8,
+          "prcp_in": 4.82,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 72.6,
+          "tmax_f": 91.5,
+          "tavg_f": 82.1,
+          "prcp_in": 3.37,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 65.9,
+          "tmax_f": 86.0,
+          "tavg_f": 76.0,
+          "prcp_in": 3.03,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 54.0,
+          "tmax_f": 75.1,
+          "tavg_f": 64.6,
+          "prcp_in": 3.98,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 42.9,
+          "tmax_f": 62.6,
+          "tavg_f": 52.7,
+          "prcp_in": 4.69,
+          "snow_in": 0.1
+        },
+        {
+          "month": 12,
+          "tmin_f": 36.2,
+          "tmax_f": 53.4,
+          "tavg_f": 44.8,
+          "prcp_in": 5.49,
+          "snow_in": 0.2
+        }
+      ],
+      "metrics": {
+        "score": 21.3,
+        "label": "Mild planning load",
+        "jan_tmin_f": 33.3,
+        "annual_prcp_in": 54.9,
+        "annual_snow_in": 2.7,
+        "freeze_months": 0,
+        "rate_cents": 14.07,
+        "session_cost_9kw": 2.08,
+        "annual_cost_3x_week": 324
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00013893 \u2014 MEMPHIS INTL AP (7.4 mi from city reference point)",
+      "recent": {
+        "avg_f": 85.3,
+        "delta_f": 3.2,
         "days": 31,
-        "through": "2026-08-22"
+        "through": "2026-08-29"
       },
       "rank": 57
     },
@@ -7309,153 +7304,26 @@
         }
       ],
       "metrics": {
-        "score": 20.0,
+        "score": 21.2,
         "label": "Mild planning load",
         "jan_tmin_f": 50.3,
         "annual_prcp_in": 9.8,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 33.25,
-        "session_cost_9kw": 4.64,
-        "annual_cost_3x_week": 724
+        "rate_cents": 34.74,
+        "session_cost_9kw": 4.85,
+        "annual_cost_3x_week": 757
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023188 \u2014 SAN DIEGO INTL AP (1.6 mi from city reference point)",
       "recent": {
-        "avg_f": 74.6,
-        "delta_f": 2.2,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 75.3,
+        "delta_f": 2.9,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 58
-    },
-    {
-      "city": "Jackson",
-      "state": "MS",
-      "state_name": "Mississippi",
-      "lat": 32.3,
-      "lon": -90.18,
-      "slug": "jackson-ms",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 37.5,
-          "tmax_f": 57.4,
-          "tavg_f": 47.4,
-          "prcp_in": 5.09,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 40.8,
-          "tmax_f": 62.0,
-          "tavg_f": 51.4,
-          "prcp_in": 4.36,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 47.8,
-          "tmax_f": 69.7,
-          "tavg_f": 58.7,
-          "prcp_in": 4.83,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 54.6,
-          "tmax_f": 76.6,
-          "tavg_f": 65.6,
-          "prcp_in": 5.28,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 63.3,
-          "tmax_f": 83.9,
-          "tavg_f": 73.6,
-          "prcp_in": 3.94,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 70.6,
-          "tmax_f": 90.0,
-          "tavg_f": 80.3,
-          "prcp_in": 3.92,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 73.0,
-          "tmax_f": 92.1,
-          "tavg_f": 82.6,
-          "prcp_in": 4.65,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 72.6,
-          "tmax_f": 92.4,
-          "tavg_f": 82.5,
-          "prcp_in": 3.44,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 67.6,
-          "tmax_f": 87.7,
-          "tavg_f": 77.7,
-          "prcp_in": 3.34,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 55.6,
-          "tmax_f": 78.5,
-          "tavg_f": 67.0,
-          "prcp_in": 3.57,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 44.5,
-          "tmax_f": 67.2,
-          "tavg_f": 55.9,
-          "prcp_in": 4.2,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 39.5,
-          "tmax_f": 59.5,
-          "tavg_f": 49.5,
-          "prcp_in": 4.71,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 18.8,
-        "label": "Mild planning load",
-        "jan_tmin_f": 37.5,
-        "annual_prcp_in": 51.3,
-        "annual_snow_in": 0,
-        "freeze_months": 0,
-        "rate_cents": 16.16,
-        "session_cost_9kw": 2.34,
-        "annual_cost_3x_week": 365
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00013927 \u2014 JACKSON HAWKINS FLD (3.5 mi from city reference point)",
-      "recent": {
-        "avg_f": 85.4,
-        "delta_f": 2.9,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 59
     },
     {
       "city": "Portland",
@@ -7563,20 +7431,152 @@
         }
       ],
       "metrics": {
-        "score": 18.0,
+        "score": 18.1,
         "label": "Mild planning load",
         "jan_tmin_f": 37.3,
         "annual_prcp_in": 44.1,
         "annual_snow_in": 3.6,
         "freeze_months": 0,
-        "rate_cents": 16.27,
-        "session_cost_9kw": 2.36,
-        "annual_cost_3x_week": 368
+        "rate_cents": 16.32,
+        "session_cost_9kw": 2.37,
+        "annual_cost_3x_week": 370
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00356749 \u2014 PORTLAND KGW-TV (0.5 mi from city reference point)",
-      "recent": null,
+      "recent": {
+        "avg_f": 71.6,
+        "delta_f": 2.0,
+        "days": 21,
+        "through": "2026-08-29"
+      },
+      "rank": 59
+    },
+    {
+      "city": "Jackson",
+      "state": "MS",
+      "state_name": "Mississippi",
+      "lat": 32.3,
+      "lon": -90.18,
+      "slug": "jackson-ms",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 37.5,
+          "tmax_f": 57.4,
+          "tavg_f": 47.4,
+          "prcp_in": 5.09,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 40.8,
+          "tmax_f": 62.0,
+          "tavg_f": 51.4,
+          "prcp_in": 4.36,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 47.8,
+          "tmax_f": 69.7,
+          "tavg_f": 58.7,
+          "prcp_in": 4.83,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 54.6,
+          "tmax_f": 76.6,
+          "tavg_f": 65.6,
+          "prcp_in": 5.28,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 63.3,
+          "tmax_f": 83.9,
+          "tavg_f": 73.6,
+          "prcp_in": 3.94,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 70.6,
+          "tmax_f": 90.0,
+          "tavg_f": 80.3,
+          "prcp_in": 3.92,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 73.0,
+          "tmax_f": 92.1,
+          "tavg_f": 82.6,
+          "prcp_in": 4.65,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 72.6,
+          "tmax_f": 92.4,
+          "tavg_f": 82.5,
+          "prcp_in": 3.44,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 67.6,
+          "tmax_f": 87.7,
+          "tavg_f": 77.7,
+          "prcp_in": 3.34,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 55.6,
+          "tmax_f": 78.5,
+          "tavg_f": 67.0,
+          "prcp_in": 3.57,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 44.5,
+          "tmax_f": 67.2,
+          "tavg_f": 55.9,
+          "prcp_in": 4.2,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 39.5,
+          "tmax_f": 59.5,
+          "tavg_f": 49.5,
+          "prcp_in": 4.71,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 17.8,
+        "label": "Mild planning load",
+        "jan_tmin_f": 37.5,
+        "annual_prcp_in": 51.3,
+        "annual_snow_in": 0,
+        "freeze_months": 0,
+        "rate_cents": 14.88,
+        "session_cost_9kw": 2.16,
+        "annual_cost_3x_week": 337
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00013927 \u2014 JACKSON HAWKINS FLD (3.5 mi from city reference point)",
+      "recent": {
+        "avg_f": 84.9,
+        "delta_f": 2.4,
+        "days": 31,
+        "through": "2026-08-29"
+      },
       "rank": 60
     },
     {
@@ -7685,24 +7685,24 @@
         }
       ],
       "metrics": {
-        "score": 16.8,
+        "score": 16.4,
         "label": "Mild planning load",
         "jan_tmin_f": 37.9,
         "annual_prcp_in": 38.3,
         "annual_snow_in": 1.7,
         "freeze_months": 0,
-        "rate_cents": 16.44,
-        "session_cost_9kw": 2.38,
-        "annual_cost_3x_week": 371
+        "rate_cents": 15.94,
+        "session_cost_9kw": 2.31,
+        "annual_cost_3x_week": 360
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013960 \u2014 DALLAS FAA AP (4.5 mi from city reference point)",
       "recent": {
-        "avg_f": 91.3,
-        "delta_f": 4.0,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 91.6,
+        "delta_f": 4.3,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 61
     },
@@ -7818,18 +7818,18 @@
         "annual_prcp_in": 36.5,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 14.95,
-        "session_cost_9kw": 2.18,
-        "annual_cost_3x_week": 340
+        "rate_cents": 14.91,
+        "session_cost_9kw": 2.17,
+        "annual_cost_3x_week": 339
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024234 \u2014 SEATTLE BOEING FLD (4.5 mi from city reference point)",
       "recent": {
-        "avg_f": 69.3,
-        "delta_f": 1.5,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 68.8,
+        "delta_f": 1.0,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 62
     },
@@ -7939,24 +7939,24 @@
         }
       ],
       "metrics": {
-        "score": 15.6,
+        "score": 15.2,
         "label": "Mild planning load",
         "jan_tmin_f": 34.5,
         "annual_prcp_in": 8.8,
         "annual_snow_in": 2.8,
         "freeze_months": 0,
-        "rate_cents": 16.44,
-        "session_cost_9kw": 2.42,
-        "annual_cost_3x_week": 378
+        "rate_cents": 15.94,
+        "session_cost_9kw": 2.35,
+        "annual_cost_3x_week": 367
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023044 \u2014 EL PASO INTL AP (7.5 mi from city reference point)",
       "recent": {
-        "avg_f": 87.4,
-        "delta_f": 4.5,
-        "days": 29,
-        "through": "2026-08-22"
+        "avg_f": 87.5,
+        "delta_f": 4.6,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 63
     },
@@ -8066,18 +8066,18 @@
         }
       ],
       "metrics": {
-        "score": 14.2,
+        "score": 13.8,
         "label": "Mild planning load",
         "jan_tmin_f": 40.2,
         "annual_prcp_in": 34.0,
         "annual_snow_in": 0.1,
         "freeze_months": 0,
-        "rate_cents": 16.44,
-        "session_cost_9kw": 2.35,
-        "annual_cost_3x_week": 367
+        "rate_cents": 15.94,
+        "session_cost_9kw": 2.28,
+        "annual_cost_3x_week": 356
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00417947 \u2014 SAN ANTONIO INCARNATE WORD (3.6 mi from city reference point)",
       "recent": null,
       "rank": 64
@@ -8188,18 +8188,18 @@
         }
       ],
       "metrics": {
-        "score": 13.5,
+        "score": 13.1,
         "label": "Mild planning load",
         "jan_tmin_f": 44.3,
         "annual_prcp_in": 54.1,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 16.44,
-        "session_cost_9kw": 2.3,
-        "annual_cost_3x_week": 359
+        "rate_cents": 15.94,
+        "session_cost_9kw": 2.23,
+        "annual_cost_3x_week": 348
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00414326 \u2014 HOUSTON-PORT (5.5 mi from city reference point)",
       "recent": null,
       "rank": 65
@@ -8310,24 +8310,24 @@
         }
       ],
       "metrics": {
-        "score": 13.1,
+        "score": 12.7,
         "label": "Mild planning load",
         "jan_tmin_f": 41.8,
         "annual_prcp_in": 36.2,
         "annual_snow_in": 0.2,
         "freeze_months": 0,
-        "rate_cents": 16.44,
-        "session_cost_9kw": 2.33,
-        "annual_cost_3x_week": 363
+        "rate_cents": 15.94,
+        "session_cost_9kw": 2.26,
+        "annual_cost_3x_week": 353
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013958 \u2014 AUSTIN-CAMP MABRY (3.7 mi from city reference point)",
       "recent": {
-        "avg_f": 88.6,
-        "delta_f": 2.1,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 89.4,
+        "delta_f": 2.9,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 66
     },
@@ -8437,148 +8437,21 @@
         }
       ],
       "metrics": {
-        "score": 12.7,
+        "score": 12.2,
         "label": "Mild planning load",
         "jan_tmin_f": 45.0,
         "annual_prcp_in": 65.9,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 14.15,
-        "session_cost_9kw": 1.97,
-        "annual_cost_3x_week": 307
+        "rate_cents": 13.49,
+        "session_cost_9kw": 1.88,
+        "annual_cost_3x_week": 293
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00168941 \u2014 TERRYTOWN 3S (3.5 mi from city reference point)",
       "recent": null,
       "rank": 67
-    },
-    {
-      "city": "Charleston",
-      "state": "SC",
-      "state_name": "South Carolina",
-      "lat": 32.78,
-      "lon": -79.93,
-      "slug": "charleston-sc",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 43.6,
-          "tmax_f": 58.0,
-          "tavg_f": 50.8,
-          "prcp_in": 2.56,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 46.1,
-          "tmax_f": 60.3,
-          "tavg_f": 53.2,
-          "prcp_in": 2.56,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 52.0,
-          "tmax_f": 65.6,
-          "tavg_f": 58.8,
-          "prcp_in": 3.03,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 59.7,
-          "tmax_f": 72.3,
-          "tavg_f": 66.0,
-          "prcp_in": 2.96,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 68.0,
-          "tmax_f": 79.0,
-          "tavg_f": 73.5,
-          "prcp_in": 2.58,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 74.2,
-          "tmax_f": 84.3,
-          "tavg_f": 79.2,
-          "prcp_in": 4.85,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 77.1,
-          "tmax_f": 87.5,
-          "tavg_f": 82.3,
-          "prcp_in": 5.08,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 76.5,
-          "tmax_f": 86.4,
-          "tavg_f": 81.4,
-          "prcp_in": 6.11,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 72.5,
-          "tmax_f": 82.6,
-          "tavg_f": 77.6,
-          "prcp_in": 5.25,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 63.2,
-          "tmax_f": 75.6,
-          "tavg_f": 69.4,
-          "prcp_in": 4.07,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 53.1,
-          "tmax_f": 67.1,
-          "tavg_f": 60.1,
-          "prcp_in": 2.3,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 46.8,
-          "tmax_f": 60.9,
-          "tavg_f": 53.8,
-          "prcp_in": 2.91,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 12.5,
-        "label": "Mild planning load",
-        "jan_tmin_f": 43.6,
-        "annual_prcp_in": 44.3,
-        "annual_snow_in": 0,
-        "freeze_months": 0,
-        "rate_cents": 16.18,
-        "session_cost_9kw": 2.27,
-        "annual_cost_3x_week": 354
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00013782 \u2014 DWTN CHARLESTON (0.5 mi from city reference point)",
-      "recent": {
-        "avg_f": 84.6,
-        "delta_f": 3.2,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 68
     },
     {
       "city": "Miami",
@@ -8686,20 +8559,147 @@
         }
       ],
       "metrics": {
-        "score": 12.3,
+        "score": 12.2,
         "label": "Mild planning load",
         "jan_tmin_f": 61.2,
         "annual_prcp_in": 57.2,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.17,
-        "session_cost_9kw": 2.12,
-        "annual_cost_3x_week": 331
+        "rate_cents": 15.1,
+        "session_cost_9kw": 2.11,
+        "annual_cost_3x_week": 329
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00092811 \u2014 MIAMI BEACH (4.8 mi from city reference point)",
       "recent": null,
+      "rank": 68
+    },
+    {
+      "city": "Charleston",
+      "state": "SC",
+      "state_name": "South Carolina",
+      "lat": 32.78,
+      "lon": -79.93,
+      "slug": "charleston-sc",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 43.6,
+          "tmax_f": 58.0,
+          "tavg_f": 50.8,
+          "prcp_in": 2.56,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 46.1,
+          "tmax_f": 60.3,
+          "tavg_f": 53.2,
+          "prcp_in": 2.56,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 52.0,
+          "tmax_f": 65.6,
+          "tavg_f": 58.8,
+          "prcp_in": 3.03,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 59.7,
+          "tmax_f": 72.3,
+          "tavg_f": 66.0,
+          "prcp_in": 2.96,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 68.0,
+          "tmax_f": 79.0,
+          "tavg_f": 73.5,
+          "prcp_in": 2.58,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 74.2,
+          "tmax_f": 84.3,
+          "tavg_f": 79.2,
+          "prcp_in": 4.85,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 77.1,
+          "tmax_f": 87.5,
+          "tavg_f": 82.3,
+          "prcp_in": 5.08,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 76.5,
+          "tmax_f": 86.4,
+          "tavg_f": 81.4,
+          "prcp_in": 6.11,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 72.5,
+          "tmax_f": 82.6,
+          "tavg_f": 77.6,
+          "prcp_in": 5.25,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 63.2,
+          "tmax_f": 75.6,
+          "tavg_f": 69.4,
+          "prcp_in": 4.07,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 53.1,
+          "tmax_f": 67.1,
+          "tavg_f": 60.1,
+          "prcp_in": 2.3,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 46.8,
+          "tmax_f": 60.9,
+          "tavg_f": 53.8,
+          "prcp_in": 2.91,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 12.0,
+        "label": "Mild planning load",
+        "jan_tmin_f": 43.6,
+        "annual_prcp_in": 44.3,
+        "annual_snow_in": 0,
+        "freeze_months": 0,
+        "rate_cents": 15.55,
+        "session_cost_9kw": 2.19,
+        "annual_cost_3x_week": 342
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00013782 \u2014 DWTN CHARLESTON (0.5 mi from city reference point)",
+      "recent": {
+        "avg_f": 84.2,
+        "delta_f": 2.8,
+        "days": 32,
+        "through": "2026-08-29"
+      },
       "rank": 69
     },
     {
@@ -8808,24 +8808,24 @@
         }
       ],
       "metrics": {
-        "score": 11.5,
+        "score": 11.4,
         "label": "Mild planning load",
         "jan_tmin_f": 51.8,
         "annual_prcp_in": 51.5,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.17,
-        "session_cost_9kw": 2.12,
-        "annual_cost_3x_week": 331
+        "rate_cents": 15.1,
+        "session_cost_9kw": 2.11,
+        "annual_cost_3x_week": 329
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00012841 \u2014 ORLANDO EXECUTIVE AP (2.7 mi from city reference point)",
       "recent": {
-        "avg_f": 85.5,
-        "delta_f": 1.9,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 85.0,
+        "delta_f": 1.4,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 70
     },
@@ -8935,24 +8935,24 @@
         }
       ],
       "metrics": {
-        "score": 11.2,
+        "score": 11.1,
         "label": "Mild planning load",
         "jan_tmin_f": 52.8,
         "annual_prcp_in": 49.5,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.17,
-        "session_cost_9kw": 2.12,
-        "annual_cost_3x_week": 331
+        "rate_cents": 15.1,
+        "session_cost_9kw": 2.11,
+        "annual_cost_3x_week": 329
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00012842 \u2014 TAMPA INTL AP (5.0 mi from city reference point)",
       "recent": {
-        "avg_f": 84.5,
-        "delta_f": 0.5,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 84.1,
+        "delta_f": 0.1,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 71
     },
@@ -9068,147 +9068,20 @@
         "annual_prcp_in": 47.6,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.17,
-        "session_cost_9kw": 2.12,
-        "annual_cost_3x_week": 331
+        "rate_cents": 15.1,
+        "session_cost_9kw": 2.11,
+        "annual_cost_3x_week": 329
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093837 \u2014 JACKSONVILLE NAS (6.7 mi from city reference point)",
       "recent": {
-        "avg_f": 85.2,
-        "delta_f": 1.5,
-        "days": 29,
-        "through": "2026-08-22"
+        "avg_f": 84.2,
+        "delta_f": 0.5,
+        "days": 30,
+        "through": "2026-08-29"
       },
       "rank": 72
-    },
-    {
-      "city": "Las Vegas",
-      "state": "NV",
-      "state_name": "Nevada",
-      "lat": 36.17,
-      "lon": -115.14,
-      "slug": "las-vegas-nv",
-      "monthly": [
-        {
-          "month": 1,
-          "tmin_f": 39.4,
-          "tmax_f": 58.0,
-          "tavg_f": 48.7,
-          "prcp_in": 0.67,
-          "snow_in": 0.0
-        },
-        {
-          "month": 2,
-          "tmin_f": 42.7,
-          "tmax_f": 62.4,
-          "tavg_f": 52.5,
-          "prcp_in": 0.82,
-          "snow_in": 0.0
-        },
-        {
-          "month": 3,
-          "tmin_f": 48.5,
-          "tmax_f": 70.5,
-          "tavg_f": 59.5,
-          "prcp_in": 0.51,
-          "snow_in": 0.0
-        },
-        {
-          "month": 4,
-          "tmin_f": 55.0,
-          "tmax_f": 77.9,
-          "tavg_f": 66.4,
-          "prcp_in": 0.23,
-          "snow_in": 0.0
-        },
-        {
-          "month": 5,
-          "tmin_f": 64.2,
-          "tmax_f": 87.8,
-          "tavg_f": 76.0,
-          "prcp_in": 0.08,
-          "snow_in": 0.0
-        },
-        {
-          "month": 6,
-          "tmin_f": 73.7,
-          "tmax_f": 98.6,
-          "tavg_f": 86.1,
-          "prcp_in": 0.01,
-          "snow_in": 0.0
-        },
-        {
-          "month": 7,
-          "tmin_f": 79.8,
-          "tmax_f": 103.8,
-          "tavg_f": 91.8,
-          "prcp_in": 0.13,
-          "snow_in": 0.0
-        },
-        {
-          "month": 8,
-          "tmin_f": 77.5,
-          "tmax_f": 102.1,
-          "tavg_f": 89.8,
-          "prcp_in": 0.22,
-          "snow_in": 0.0
-        },
-        {
-          "month": 9,
-          "tmin_f": 70.2,
-          "tmax_f": 94.2,
-          "tavg_f": 82.2,
-          "prcp_in": 0.24,
-          "snow_in": 0.0
-        },
-        {
-          "month": 10,
-          "tmin_f": 57.5,
-          "tmax_f": 80.5,
-          "tavg_f": 69.0,
-          "prcp_in": 0.35,
-          "snow_in": 0.0
-        },
-        {
-          "month": 11,
-          "tmin_f": 45.5,
-          "tmax_f": 66.8,
-          "tavg_f": 56.2,
-          "prcp_in": 0.29,
-          "snow_in": 0.0
-        },
-        {
-          "month": 12,
-          "tmin_f": 38.0,
-          "tmax_f": 56.3,
-          "tavg_f": 47.2,
-          "prcp_in": 0.44,
-          "snow_in": 0.0
-        }
-      ],
-      "metrics": {
-        "score": 8.3,
-        "label": "Mild planning load",
-        "jan_tmin_f": 39.4,
-        "annual_prcp_in": 4.0,
-        "annual_snow_in": 0,
-        "freeze_months": 0,
-        "rate_cents": 13.6,
-        "session_cost_9kw": 1.95,
-        "annual_cost_3x_week": 304
-      },
-      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
-      "station": "USW00053123 \u2014 LAS VEGAS AIR TERMINAL (4.2 mi from city reference point)",
-      "recent": {
-        "avg_f": 95.5,
-        "delta_f": 5.7,
-        "days": 31,
-        "through": "2026-08-22"
-      },
-      "rank": 73
     },
     {
       "city": "Tucson",
@@ -9322,14 +9195,141 @@
         "annual_prcp_in": 11.6,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.23,
+        "rate_cents": 15.18,
         "session_cost_9kw": 2.15,
         "annual_cost_3x_week": 335
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00028815 \u2014 TUCSON WFO (1.2 mi from city reference point)",
       "recent": null,
+      "rank": 73
+    },
+    {
+      "city": "Las Vegas",
+      "state": "NV",
+      "state_name": "Nevada",
+      "lat": 36.17,
+      "lon": -115.14,
+      "slug": "las-vegas-nv",
+      "monthly": [
+        {
+          "month": 1,
+          "tmin_f": 39.4,
+          "tmax_f": 58.0,
+          "tavg_f": 48.7,
+          "prcp_in": 0.67,
+          "snow_in": 0.0
+        },
+        {
+          "month": 2,
+          "tmin_f": 42.7,
+          "tmax_f": 62.4,
+          "tavg_f": 52.5,
+          "prcp_in": 0.82,
+          "snow_in": 0.0
+        },
+        {
+          "month": 3,
+          "tmin_f": 48.5,
+          "tmax_f": 70.5,
+          "tavg_f": 59.5,
+          "prcp_in": 0.51,
+          "snow_in": 0.0
+        },
+        {
+          "month": 4,
+          "tmin_f": 55.0,
+          "tmax_f": 77.9,
+          "tavg_f": 66.4,
+          "prcp_in": 0.23,
+          "snow_in": 0.0
+        },
+        {
+          "month": 5,
+          "tmin_f": 64.2,
+          "tmax_f": 87.8,
+          "tavg_f": 76.0,
+          "prcp_in": 0.08,
+          "snow_in": 0.0
+        },
+        {
+          "month": 6,
+          "tmin_f": 73.7,
+          "tmax_f": 98.6,
+          "tavg_f": 86.1,
+          "prcp_in": 0.01,
+          "snow_in": 0.0
+        },
+        {
+          "month": 7,
+          "tmin_f": 79.8,
+          "tmax_f": 103.8,
+          "tavg_f": 91.8,
+          "prcp_in": 0.13,
+          "snow_in": 0.0
+        },
+        {
+          "month": 8,
+          "tmin_f": 77.5,
+          "tmax_f": 102.1,
+          "tavg_f": 89.8,
+          "prcp_in": 0.22,
+          "snow_in": 0.0
+        },
+        {
+          "month": 9,
+          "tmin_f": 70.2,
+          "tmax_f": 94.2,
+          "tavg_f": 82.2,
+          "prcp_in": 0.24,
+          "snow_in": 0.0
+        },
+        {
+          "month": 10,
+          "tmin_f": 57.5,
+          "tmax_f": 80.5,
+          "tavg_f": 69.0,
+          "prcp_in": 0.35,
+          "snow_in": 0.0
+        },
+        {
+          "month": 11,
+          "tmin_f": 45.5,
+          "tmax_f": 66.8,
+          "tavg_f": 56.2,
+          "prcp_in": 0.29,
+          "snow_in": 0.0
+        },
+        {
+          "month": 12,
+          "tmin_f": 38.0,
+          "tmax_f": 56.3,
+          "tavg_f": 47.2,
+          "prcp_in": 0.44,
+          "snow_in": 0.0
+        }
+      ],
+      "metrics": {
+        "score": 7.9,
+        "label": "Mild planning load",
+        "jan_tmin_f": 39.4,
+        "annual_prcp_in": 4.0,
+        "annual_snow_in": 0,
+        "freeze_months": 0,
+        "rate_cents": 13.11,
+        "session_cost_9kw": 1.88,
+        "annual_cost_3x_week": 293
+      },
+      "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
+      "station": "USW00053123 \u2014 LAS VEGAS AIR TERMINAL (4.2 mi from city reference point)",
+      "recent": {
+        "avg_f": 94.9,
+        "delta_f": 5.1,
+        "days": 31,
+        "through": "2026-08-29"
+      },
       "rank": 74
     },
     {
@@ -9444,18 +9444,18 @@
         "annual_prcp_in": 7.2,
         "annual_snow_in": 0,
         "freeze_months": 0,
-        "rate_cents": 15.23,
+        "rate_cents": 15.18,
         "session_cost_9kw": 2.12,
         "annual_cost_3x_week": 331
       },
       "climate_source": "NOAA/NCEI U.S. Monthly Climate Normals 1991\u20132020 (direct by-station archive)",
-      "electricity_source": "EIA residential retail electricity price (2026-05)",
+      "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023183 \u2014 PHOENIX AP (4.1 mi from city reference point)",
       "recent": {
-        "avg_f": 99.1,
-        "delta_f": 4.7,
-        "days": 31,
-        "through": "2026-08-22"
+        "avg_f": 99.4,
+        "delta_f": 5.0,
+        "days": 32,
+        "through": "2026-08-29"
       },
       "rank": 75
     }
