@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-31",
+    "generated": "2026-09-07",
     "live_noaa_cities": 75,
     "live_eia_states": 52,
     "starter": false,
@@ -129,10 +129,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00026409 \u2014 ANCHORAGE MERRILL FLD (1.4 mi from city reference point)",
       "recent": {
-        "avg_f": 59.0,
-        "delta_f": 0.5,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 57.2,
+        "delta_f": 7.4,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 1
     },
@@ -256,10 +256,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014914 \u2014 FARGO HECTOR INTL AP (3.2 mi from city reference point)",
       "recent": {
-        "avg_f": 71.6,
-        "delta_f": 2.8,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 70.8,
+        "delta_f": 10.8,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 2
     },
@@ -383,10 +383,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014764 \u2014 PORTLAND JETPORT (2.5 mi from city reference point)",
       "recent": {
-        "avg_f": 70.6,
-        "delta_f": 1.4,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 69.7,
+        "delta_f": 8.1,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 3
     },
@@ -510,10 +510,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00275211 \u2014 MASSABESIC LAKE (3.4 mi from city reference point)",
       "recent": {
-        "avg_f": 71.3,
-        "delta_f": 1.9,
-        "days": 33,
-        "through": "2026-08-29"
+        "avg_f": 70.0,
+        "delta_f": 7.8,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 4
     },
@@ -638,9 +638,9 @@
       "station": "USC00214884 \u2014 LOWER ST ANTHONY FALLS (1.1 mi from city reference point)",
       "recent": {
         "avg_f": 73.0,
-        "delta_f": 2.0,
+        "delta_f": 10.2,
         "days": 30,
-        "through": "2026-08-29"
+        "through": "2026-09-05"
       },
       "rank": 5
     },
@@ -764,10 +764,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00470273 \u2014 UW ARBORETUM - MADISON (2.5 mi from city reference point)",
       "recent": {
-        "avg_f": 69.5,
-        "delta_f": -0.5,
-        "days": 28,
-        "through": "2026-08-29"
+        "avg_f": 70.3,
+        "delta_f": 8.0,
+        "days": 26,
+        "through": "2026-09-05"
       },
       "rank": 6
     },
@@ -891,10 +891,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014742 \u2014 BURLINGTON INTL AP (3.1 mi from city reference point)",
       "recent": {
-        "avg_f": 71.1,
-        "delta_f": 0.4,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 70.1,
+        "delta_f": 7.4,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 7
     },
@@ -1018,10 +1018,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00397666 \u2014 SIOUX FALLS WFO AP (2.6 mi from city reference point)",
       "recent": {
-        "avg_f": 73.4,
-        "delta_f": 1.9,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 73.9,
+        "delta_f": 10.6,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 8
     },
@@ -1145,10 +1145,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014733 \u2014 BUFFALO (7.9 mi from city reference point)",
       "recent": {
-        "avg_f": 71.2,
-        "delta_f": 0.8,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 71.0,
+        "delta_f": 7.6,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 9
     },
@@ -1272,10 +1272,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00202375 \u2014 E GRAND RAPIDS (3.3 mi from city reference point)",
       "recent": {
-        "avg_f": 70.1,
-        "delta_f": 0.7,
-        "days": 33,
-        "through": "2026-08-29"
+        "avg_f": 71.0,
+        "delta_f": 8.9,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 10
     },
@@ -1399,10 +1399,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014765 \u2014 PROVIDENCE (6.8 mi from city reference point)",
       "recent": {
-        "avg_f": 74.0,
-        "delta_f": 1.0,
+        "avg_f": 73.5,
+        "delta_f": 7.9,
         "days": 31,
-        "through": "2026-08-29"
+        "through": "2026-09-05"
       },
       "rank": 11
     },
@@ -1526,10 +1526,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014739 \u2014 BOSTON (2.6 mi from city reference point)",
       "recent": {
-        "avg_f": 75.0,
-        "delta_f": 2.3,
+        "avg_f": 74.3,
+        "delta_f": 8.7,
         "days": 31,
-        "through": "2026-08-29"
+        "through": "2026-09-05"
       },
       "rank": 12
     },
@@ -1653,10 +1653,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014933 \u2014 DES MOINES INTL AP (4.2 mi from city reference point)",
       "recent": {
-        "avg_f": 75.0,
-        "delta_f": 1.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 76.3,
+        "delta_f": 10.1,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 13
     },
@@ -1780,10 +1780,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014752 \u2014 HARTFORD BRAINARD FLD (2.0 mi from city reference point)",
       "recent": {
-        "avg_f": 74.2,
-        "delta_f": 0.6,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 73.4,
+        "delta_f": 7.6,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 14
     },
@@ -1907,10 +1907,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014839 \u2014 MILWAUKEE MITCHELL AP (5.9 mi from city reference point)",
       "recent": {
-        "avg_f": 71.3,
-        "delta_f": -1.0,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 72.7,
+        "delta_f": 7.7,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 15
     },
@@ -2034,10 +2034,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014822 \u2014 DETROIT CITY AP (5.7 mi from city reference point)",
       "recent": {
-        "avg_f": 73.9,
-        "delta_f": 1.4,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 74.3,
+        "delta_f": 9.2,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 16
     },
@@ -2161,10 +2161,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014942 \u2014 OMAHA EPPLEY AIRFIELD (4.1 mi from city reference point)",
       "recent": {
-        "avg_f": 76.4,
-        "delta_f": 0.7,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 77.1,
+        "delta_f": 9.5,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 17
     },
@@ -2288,10 +2288,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00362574 \u2014 EMSWORTH L/D OHIO RVR (6.8 mi from city reference point)",
       "recent": {
-        "avg_f": 71.8,
-        "delta_f": -1.1,
-        "days": 27,
-        "through": "2026-08-29"
+        "avg_f": 72.3,
+        "delta_f": 5.9,
+        "days": 26,
+        "through": "2026-09-05"
       },
       "rank": 18
     },
@@ -2415,10 +2415,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00240802 \u2014 BILLINGS WTP (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 73.7,
-        "delta_f": 4.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 71.1,
+        "delta_f": 11.0,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 19
     },
@@ -2542,10 +2542,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024018 \u2014 CHEYENNE (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 71.6,
-        "delta_f": 3.5,
-        "days": 31,
-        "through": "2026-08-29"
+        "avg_f": 70.6,
+        "delta_f": 11.0,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 20
     },
@@ -2669,10 +2669,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00014819 \u2014 CHICAGO MIDWAY AP (9.2 mi from city reference point)",
       "recent": {
-        "avg_f": 74.2,
-        "delta_f": -0.3,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 75.8,
+        "delta_f": 8.3,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 21
     },
@@ -2918,10 +2918,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00331785 \u2014 COLUMBUS WCMH (4.7 mi from city reference point)",
       "recent": {
-        "avg_f": 74.8,
-        "delta_f": 1.5,
+        "avg_f": 76.5,
+        "delta_f": 10.0,
         "days": 20,
-        "through": "2026-08-29"
+        "through": "2026-09-05"
       },
       "rank": 23
     },
@@ -3045,10 +3045,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093037 \u2014 COLORADO SPRINGS MUNI AP (7.2 mi from city reference point)",
       "recent": {
-        "avg_f": 74.1,
-        "delta_f": 4.0,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 73.4,
+        "delta_f": 10.4,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 24
     },
@@ -3172,10 +3172,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00283704 \u2014 HARRISON (1.1 mi from city reference point)",
       "recent": {
-        "avg_f": 77.8,
-        "delta_f": 2.0,
-        "days": 33,
-        "through": "2026-08-29"
+        "avg_f": 77.2,
+        "delta_f": 8.4,
+        "days": 32,
+        "through": "2026-09-05"
       },
       "rank": 25
     },
@@ -3299,10 +3299,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00052223 \u2014 DENVER WATER DEPT (1.2 mi from city reference point)",
       "recent": {
-        "avg_f": 78.3,
-        "delta_f": 3.5,
+        "avg_f": 76.9,
+        "delta_f": 10.7,
         "days": 29,
-        "through": "2026-08-29"
+        "through": "2026-09-05"
       },
       "rank": 26
     },
@@ -3426,10 +3426,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00094728 \u2014 NY CITY CNTRL PARK (5.2 mi from city reference point)",
       "recent": {
-        "avg_f": 75.8,
-        "delta_f": -0.3,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 75.2,
+        "delta_f": 6.0,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 27
     },
@@ -3553,10 +3553,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00004853 \u2014 CLEVELAND BURKE LAKEFRONT AP (2.1 mi from city reference point)",
       "recent": {
-        "avg_f": 73.3,
-        "delta_f": -0.0,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 73.7,
+        "delta_f": 6.9,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 28
     },
@@ -3924,10 +3924,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024157 \u2014 SPOKANE INTL AP (5.3 mi from city reference point)",
       "recent": {
-        "avg_f": 72.8,
-        "delta_f": 2.5,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 71.5,
+        "delta_f": 10.4,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 31
     },
@@ -4051,10 +4051,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013988 \u2014 KANSAS CITY DWTN AP (2.0 mi from city reference point)",
       "recent": {
-        "avg_f": 80.8,
-        "delta_f": 1.6,
-        "days": 31,
-        "through": "2026-08-29"
+        "avg_f": 82.5,
+        "delta_f": 11.8,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 32
     },
@@ -4178,10 +4178,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00148847 \u2014 WICHITA WX (6.1 mi from city reference point)",
       "recent": {
-        "avg_f": 85.0,
-        "delta_f": 5.9,
-        "days": 30,
-        "through": "2026-08-29"
+        "avg_f": 85.2,
+        "delta_f": 14.3,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 33
     },
@@ -4549,10 +4549,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013866 \u2014 CHARLESTON - YEAGER AP (2.9 mi from city reference point)",
       "recent": {
-        "avg_f": 75.4,
-        "delta_f": 0.8,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 76.5,
+        "delta_f": 8.2,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 36
     },
@@ -4676,10 +4676,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00154955 \u2014 LOUISVILLE MCALPINE (2.6 mi from city reference point)",
       "recent": {
-        "avg_f": 78.1,
-        "delta_f": -0.3,
-        "days": 31,
-        "through": "2026-08-29"
+        "avg_f": 79.6,
+        "delta_f": 8.0,
+        "days": 28,
+        "through": "2026-09-05"
       },
       "rank": 37
     },
@@ -4925,10 +4925,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093784 \u2014 MARYLAND SCI CTR (0.6 mi from city reference point)",
       "recent": {
-        "avg_f": 79.8,
-        "delta_f": 0.7,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 80.0,
+        "delta_f": 7.5,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 39
     },
@@ -5052,10 +5052,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024131 \u2014 BOISE AIR TERMINAL (4.2 mi from city reference point)",
       "recent": {
-        "avg_f": 79.9,
-        "delta_f": 4.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 78.1,
+        "delta_f": 11.8,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 40
     },
@@ -5179,10 +5179,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013967 \u2014 OKLAHOMA CY WILL ROGERS WORLD (7.2 mi from city reference point)",
       "recent": {
-        "avg_f": 88.2,
-        "delta_f": 7.5,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 88.4,
+        "delta_f": 15.7,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 41
     },
@@ -5306,10 +5306,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013968 \u2014 TULSA INTL AP (7.1 mi from city reference point)",
       "recent": {
-        "avg_f": 87.8,
-        "delta_f": 5.6,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 88.5,
+        "delta_f": 14.7,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 42
     },
@@ -5433,10 +5433,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013740 \u2014 RICHMOND INTL AP (6.7 mi from city reference point)",
       "recent": {
-        "avg_f": 79.6,
-        "delta_f": 2.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 80.2,
+        "delta_f": 9.0,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 43
     },
@@ -5560,10 +5560,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023185 \u2014 RENO AP (2.7 mi from city reference point)",
       "recent": {
-        "avg_f": 79.5,
-        "delta_f": 4.4,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 77.4,
+        "delta_f": 10.4,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 44
     },
@@ -5687,10 +5687,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023050 \u2014 ALBUQUERQUE INTL AP (3.3 mi from city reference point)",
       "recent": {
-        "avg_f": 83.2,
-        "delta_f": 6.3,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 81.8,
+        "delta_f": 11.5,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 45
     },
@@ -5936,10 +5936,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013769 \u2014 OCEANA NAS (3.7 mi from city reference point)",
       "recent": {
-        "avg_f": 80.7,
-        "delta_f": 3.5,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 80.8,
+        "delta_f": 8.9,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 47
     },
@@ -6063,10 +6063,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013963 \u2014 LITTLE ROCK AP ADAMS FLD (3.5 mi from city reference point)",
       "recent": {
-        "avg_f": 86.9,
-        "delta_f": 6.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 86.7,
+        "delta_f": 12.7,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 48
     },
@@ -6434,10 +6434,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013881 \u2014 CHARLOTTE DOUGLAS AP (6.5 mi from city reference point)",
       "recent": {
-        "avg_f": 80.8,
-        "delta_f": 2.2,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 81.5,
+        "delta_f": 8.8,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 51
     },
@@ -6561,10 +6561,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023272 \u2014 SAN FRANCISCO DWTN (0.4 mi from city reference point)",
       "recent": {
-        "avg_f": 62.2,
-        "delta_f": 0.5,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 62.0,
+        "delta_f": -0.9,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 52
     },
@@ -6810,10 +6810,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013876 \u2014 BIRMINGHAM AP (4.5 mi from city reference point)",
       "recent": {
-        "avg_f": 83.0,
-        "delta_f": 2.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 83.5,
+        "delta_f": 7.9,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 54
     },
@@ -6937,10 +6937,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00003888 \u2014 ATLANTA FULTON CO AP (8.0 mi from city reference point)",
       "recent": {
-        "avg_f": 80.8,
-        "delta_f": 1.5,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 81.3,
+        "delta_f": 7.8,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 55
     },
@@ -7064,10 +7064,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00093134 \u2014 LOS ANGELES DOWNTOWN/USC (3.4 mi from city reference point)",
       "recent": {
-        "avg_f": 79.5,
-        "delta_f": 4.8,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 79.1,
+        "delta_f": 5.5,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 56
     },
@@ -7191,10 +7191,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013893 \u2014 MEMPHIS INTL AP (7.4 mi from city reference point)",
       "recent": {
-        "avg_f": 85.3,
-        "delta_f": 3.2,
-        "days": 31,
-        "through": "2026-08-29"
+        "avg_f": 86.2,
+        "delta_f": 10.2,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 57
     },
@@ -7318,10 +7318,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023188 \u2014 SAN DIEGO INTL AP (1.6 mi from city reference point)",
       "recent": {
-        "avg_f": 75.3,
-        "delta_f": 2.9,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 75.4,
+        "delta_f": 3.7,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 58
     },
@@ -7445,10 +7445,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USC00356749 \u2014 PORTLAND KGW-TV (0.5 mi from city reference point)",
       "recent": {
-        "avg_f": 71.6,
-        "delta_f": 2.0,
-        "days": 21,
-        "through": "2026-08-29"
+        "avg_f": 69.7,
+        "delta_f": 4.7,
+        "days": 23,
+        "through": "2026-09-05"
       },
       "rank": 59
     },
@@ -7572,10 +7572,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013927 \u2014 JACKSON HAWKINS FLD (3.5 mi from city reference point)",
       "recent": {
-        "avg_f": 84.9,
-        "delta_f": 2.4,
-        "days": 31,
-        "through": "2026-08-29"
+        "avg_f": 85.0,
+        "delta_f": 7.3,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 60
     },
@@ -7699,10 +7699,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013960 \u2014 DALLAS FAA AP (4.5 mi from city reference point)",
       "recent": {
-        "avg_f": 91.6,
-        "delta_f": 4.3,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 91.7,
+        "delta_f": 11.6,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 61
     },
@@ -7826,10 +7826,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00024234 \u2014 SEATTLE BOEING FLD (4.5 mi from city reference point)",
       "recent": {
-        "avg_f": 68.8,
-        "delta_f": 1.0,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 68.3,
+        "delta_f": 5.5,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 62
     },
@@ -7953,10 +7953,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023044 \u2014 EL PASO INTL AP (7.5 mi from city reference point)",
       "recent": {
-        "avg_f": 87.5,
-        "delta_f": 4.6,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 86.9,
+        "delta_f": 10.0,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 63
     },
@@ -8324,10 +8324,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013958 \u2014 AUSTIN-CAMP MABRY (3.7 mi from city reference point)",
       "recent": {
-        "avg_f": 89.4,
-        "delta_f": 2.9,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 89.6,
+        "delta_f": 8.8,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 66
     },
@@ -8695,10 +8695,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00013782 \u2014 DWTN CHARLESTON (0.5 mi from city reference point)",
       "recent": {
-        "avg_f": 84.2,
-        "delta_f": 2.8,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 83.8,
+        "delta_f": 6.2,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 69
     },
@@ -8822,10 +8822,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00012841 \u2014 ORLANDO EXECUTIVE AP (2.7 mi from city reference point)",
       "recent": {
-        "avg_f": 85.0,
-        "delta_f": 1.4,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 84.8,
+        "delta_f": 3.1,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 70
     },
@@ -8949,10 +8949,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00012842 \u2014 TAMPA INTL AP (5.0 mi from city reference point)",
       "recent": {
-        "avg_f": 84.1,
-        "delta_f": 0.1,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 84.5,
+        "delta_f": 1.8,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 71
     },
@@ -9077,9 +9077,9 @@
       "station": "USW00093837 \u2014 JACKSONVILLE NAS (6.7 mi from city reference point)",
       "recent": {
         "avg_f": 84.2,
-        "delta_f": 0.5,
-        "days": 30,
-        "through": "2026-08-29"
+        "delta_f": 3.3,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 72
     },
@@ -9325,10 +9325,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00053123 \u2014 LAS VEGAS AIR TERMINAL (4.2 mi from city reference point)",
       "recent": {
-        "avg_f": 94.9,
-        "delta_f": 5.1,
-        "days": 31,
-        "through": "2026-08-29"
+        "avg_f": 92.8,
+        "delta_f": 10.6,
+        "days": 30,
+        "through": "2026-09-05"
       },
       "rank": 74
     },
@@ -9452,10 +9452,10 @@
       "electricity_source": "EIA residential retail electricity price (2026-06)",
       "station": "USW00023183 \u2014 PHOENIX AP (4.1 mi from city reference point)",
       "recent": {
-        "avg_f": 99.4,
-        "delta_f": 5.0,
-        "days": 32,
-        "through": "2026-08-29"
+        "avg_f": 97.4,
+        "delta_f": 8.2,
+        "days": 31,
+        "through": "2026-09-05"
       },
       "rank": 75
     }
