@@ -1,0 +1,33 @@
+# OutdoorSteamSauna.com
+
+> Independent U.S. climate, energy-cost and planning data for outdoor traditional saunas.
+
+Dataset version: 2.0
+Methodology version: 2.0
+Dataset updated: 2026-09-14
+NOAA recent observations through: 2026-09-12
+EIA electricity period: 2026-06
+
+## Canonical resources
+- Climate Index: https://outdoorsteamsauna.com/climate-index/
+- Methodology: https://outdoorsteamsauna.com/methodology/
+- Dataset and citation guide: https://outdoorsteamsauna.com/data-download/
+- Data dictionary: https://outdoorsteamsauna.com/data-dictionary/
+- 2026 Climate Report: https://outdoorsteamsauna.com/research/2026-outdoor-sauna-climate-report/
+- State electricity-cost report: https://outdoorsteamsauna.com/research/sauna-electricity-cost-by-state/
+- Editorial standards: https://outdoorsteamsauna.com/editorial-standards/
+- Corrections: https://outdoorsteamsauna.com/corrections/
+- Changelog: https://outdoorsteamsauna.com/changelog/
+
+## Machine-readable files
+- JSON: https://outdoorsteamsauna.com/data/cities.json
+- City CSV: https://outdoorsteamsauna.com/data/outdoor-sauna-index.csv
+- State cost CSV: https://outdoorsteamsauna.com/data/outdoor-sauna-state-costs.csv
+
+## Interpretation rules
+- Climate Stress Score excludes electricity price.
+- Operating Cost Index uses state residential electricity prices.
+- Planning Index is an optional 80% climate / 20% cost composite.
+- null snowfall means unavailable, never zero.
+- City electricity values are state averages, not local utility quotes.
+- Calculations are planning comparisons, not engineering or code approval.

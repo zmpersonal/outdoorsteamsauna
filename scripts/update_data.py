@@ -1,6 +1,6 @@
 from pathlib import Path
 import os, json, re, math, csv, io, time
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -200,8 +200,10 @@ def fetch_station_normals(station):
                 'tmin_f': round(d['tmin_f'], 1),
                 'tmax_f': round(d['tmax_f'], 1),
                 'tavg_f': round(d['tavg_f'], 1),
-                'prcp_in': round(d.get('prcp_in', 0.0), 2),
-                'snow_in': round(d.get('snow_in', 0.0), 1)
+                'prcp_in': round(d['prcp_in'], 2) if d.get('prcp_in') is not None else None,
+                # Missing snowfall is deliberately null. It must never be
+                # converted to zero or admitted to snow-based rankings.
+                'snow_in': round(d['snow_in'], 1) if d.get('snow_in') is not None else None
             })
 
         # Require complete temperature normals and useful precipitation coverage.
@@ -242,13 +244,36 @@ def fetch_city_normals(city, stations):
 
     # 35 nearby official stations is plenty for major metros and gives us
     # fallback if the nearest station has precipitation-only or incomplete normals.
+    chosen = None
     for _, actual_distance, st in candidates[:35]:
         normal = fetch_station_normals(st)
         if normal:
             normal['distance_miles'] = round(actual_distance, 1)
-            return normal
+            chosen = normal
+            break
 
-    return None
+    if not chosen:
+        return None
+
+    # Temperature/precipitation and snowfall normals are not always available
+    # from the same nearby station. Retain the temperature station but, when
+    # needed, look for a separate official station with usable snowfall data.
+    snow_months = [x.get('snow_in') for x in chosen['monthly']]
+    if sum(v is not None for v in snow_months) < 10:
+        for _, actual_distance, st in candidates[:80]:
+            candidate = fetch_station_normals(st)
+            if not candidate:
+                continue
+            candidate_snow = [x.get('snow_in') for x in candidate['monthly']]
+            if sum(v is not None for v in candidate_snow) >= 10:
+                for month, snow in zip(chosen['monthly'], candidate_snow):
+                    month['snow_in'] = snow
+                chosen['snow_station'] = st['id']
+                chosen['snow_station_name'] = st['name']
+                chosen['snow_distance_miles'] = round(actual_distance, 1)
+                break
+
+    return chosen
 
 
 def fetch_recent(station, monthly):
@@ -284,19 +309,32 @@ def fetch_recent(station, monthly):
                 lo = num(x.get('TMIN'))
                 hi = num(x.get('TMAX'))
                 v = (lo + hi) / 2 if lo is not None and hi is not None else None
-            if v is not None:
-                vals.append(v)
+            raw_date = str(x.get('DATE', ''))[:10]
+            try:
+                observed_date = datetime.strptime(raw_date, '%Y-%m-%d').date()
+            except ValueError:
+                observed_date = None
+            if v is not None and observed_date:
+                vals.append((observed_date, v))
 
         if len(vals) < 10:
             return None
 
-        avg = sum(vals) / len(vals)
-        normal = monthly[end.month - 1]['tavg_f']
+        avg = sum(v for _, v in vals) / len(vals)
+        # Match every observed day to the normal for that same calendar month.
+        # This avoids comparing a multi-month observation window with the
+        # ending month's normal, which materially overstated anomalies.
+        normal = sum(monthly[d.month - 1]['tavg_f'] for d, _ in vals) / len(vals)
+        first_day = min(d for d, _ in vals)
+        last_day = max(d for d, _ in vals)
         return {
             'avg_f': round(avg, 1),
+            'normal_f': round(normal, 1),
             'delta_f': round(avg - normal, 1),
             'days': len(vals),
-            'through': end.isoformat()
+            'from': first_day.isoformat(),
+            'through': last_day.isoformat(),
+            'comparison': 'month-matched 1991–2020 normal'
         }
     except Exception:
         return None
@@ -304,33 +342,43 @@ def fetch_recent(station, monthly):
 
 def metrics(monthly, rate):
     jan = monthly[0]['tmin_f']
-    annual_prcp = sum(x.get('prcp_in') or 0 for x in monthly)
-    annual_snow = sum(x.get('snow_in') or 0 for x in monthly)
+    prcp_values = [x.get('prcp_in') for x in monthly if x.get('prcp_in') is not None]
+    snow_values = [x.get('snow_in') for x in monthly if x.get('snow_in') is not None]
+    annual_prcp = sum(prcp_values) if len(prcp_values) >= 10 else None
+    annual_snow = sum(snow_values) if len(snow_values) >= 10 else None
     freeze_months = sum(1 for x in monthly if x['tmin_f'] < 32)
 
     cold = clamp((45 - jan) / 55, 0, 1)
     freeze = clamp(freeze_months / 7, 0, 1)
-    wet = clamp(annual_prcp / 70, 0, 1)
+    wet = clamp((annual_prcp or 0) / 70, 0, 1)
     energy = clamp((rate - 10) / 25, 0, 1)
 
-    score = round(100 * (.48 * cold + .22 * freeze + .10 * wet + .20 * energy), 1)
+    climate_score = round(100 * (.60 * cold + .275 * freeze + .125 * wet), 1)
+    cost_index = round(100 * energy, 1)
+    planning_score = round(.80 * climate_score + .20 * cost_index, 1)
     warm = .95 + .45 * cold
     kwh = 9 * (warm + .60)
     cost = round(kwh * rate / 100, 2)
 
     label = (
-        'Severe planning load' if score >= 75 else
-        'High planning load' if score >= 55 else
-        'Moderate planning load' if score >= 35 else
-        'Mild planning load'
+        'Severe climate load' if climate_score >= 75 else
+        'High climate load' if climate_score >= 55 else
+        'Moderate climate load' if climate_score >= 35 else
+        'Mild climate load'
     )
 
     return {
-        'score': score,
+        # `score` remains as a backwards-compatible alias for the planning
+        # score. New consumers should use the three explicitly named fields.
+        'score': planning_score,
+        'climate_score': climate_score,
+        'cost_index': cost_index,
+        'planning_score': planning_score,
         'label': label,
         'jan_tmin_f': round(jan, 1),
-        'annual_prcp_in': round(annual_prcp, 1),
-        'annual_snow_in': round(annual_snow, 1),
+        'annual_prcp_in': round(annual_prcp, 1) if annual_prcp is not None else None,
+        'annual_snow_in': round(annual_snow, 1) if annual_snow is not None else None,
+        'snow_data_status': 'available' if annual_snow is not None else 'unavailable',
         'freeze_months': freeze_months,
         'rate_cents': round(rate, 2),
         'session_cost_9kw': cost,
@@ -372,6 +420,13 @@ def main():
                 f"{n['station']} — {n['station_name']} "
                 f"({n['distance_miles']} mi from city reference point)"
             )
+            if n.get('snow_station'):
+                c['snow_station'] = (
+                    f"{n['snow_station']} — {n['snow_station_name']} "
+                    f"({n['snow_distance_miles']} mi from city reference point)"
+                )
+            else:
+                c.pop('snow_station', None)
             c['climate_source'] = (
                 'NOAA/NCEI U.S. Monthly Climate Normals 1991–2020 '
                 '(direct by-station archive)'
@@ -396,18 +451,32 @@ def main():
 
         c['metrics'] = metrics(c['monthly'], rate)
 
-    cities.sort(key=lambda x: x['metrics']['score'], reverse=True)
+    cities.sort(key=lambda x: x['metrics']['climate_score'], reverse=True)
     for i, c in enumerate(cities, 1):
         c['rank'] = i
+
+    for i, c in enumerate(sorted(cities, key=lambda x: x['metrics']['planning_score'], reverse=True), 1):
+        c['planning_rank'] = i
+    for i, c in enumerate(sorted(cities, key=lambda x: x['metrics']['session_cost_9kw'], reverse=True), 1):
+        c['cost_rank'] = i
 
     # Only call the site fully refreshed if most metros received real NOAA normals.
     starter = live < max(60, int(len(cities) * 0.80))
 
     obj['cities'] = cities
+    recent_through = max(
+        ((c.get('recent') or {}).get('through', '') for c in cities),
+        default=''
+    )
+    eia_period = max((x.get('period', '') for x in eia.values()), default='')
     obj['meta'] = {
         'generated': date.today().isoformat(),
+        'dataset_version': '2.0',
+        'methodology_version': '2.0',
         'live_noaa_cities': live,
         'live_eia_states': len(eia),
+        'observations_through': recent_through or None,
+        'electricity_period': eia_period or None,
         'starter': starter,
         'normal_period': '1991–2020',
         'noaa_method': (
@@ -416,8 +485,10 @@ def main():
         ),
         'notes': (
             'NOAA 1991–2020 climate normals + latest EIA residential electricity rates. '
-            'Recent NOAA observations are optional context. A city preserves its prior '
-            'record only when no complete nearby official station file can be found.'
+            'Recent NOAA observations are optional context and are compared with month-matched '
+            'normals. Missing snowfall remains null and is excluded from snowfall rankings. '
+            'A city preserves its prior record only when no complete nearby official station '
+            'file can be found.'
         )
     }
 
