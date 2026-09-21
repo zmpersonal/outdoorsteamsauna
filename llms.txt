@@ -4,8 +4,8 @@
 
 Dataset version: 2.0
 Methodology version: 2.0
-Dataset updated: 2026-09-14
-NOAA recent observations through: 2026-09-12
+Dataset updated: 2026-09-21
+NOAA recent observations through: 2026-09-19
 EIA electricity period: 2026-06
 
 ## Canonical resources
