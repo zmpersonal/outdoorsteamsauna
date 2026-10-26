@@ -4,9 +4,9 @@
 
 Dataset version: 2.0
 Methodology version: 2.0
-Dataset updated: 2026-10-19
-NOAA recent observations through: 2026-10-16
-EIA electricity period: 2026-07
+Dataset updated: 2026-10-26
+NOAA recent observations through: 2026-10-23
+EIA electricity period: 2026-08
 
 ## Canonical resources
 - Climate Index: https://outdoorsteamsauna.com/climate-index/
